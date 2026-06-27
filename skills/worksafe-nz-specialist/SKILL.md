@@ -44,7 +44,9 @@ advice** — section numbers are verify-pointers; confirm the current text.
 All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
 
 - **PCBU — primary duty of care (s 36).** Ensure, *so far as is reasonably practicable*, the H&S of
-  workers and others affected by the work. PCBU defined at **s 17**.
+  workers (s 36(1)) and that others are not put at risk (s 36(2)); specific aspects in **s 36(3)**.
+  PCBU defined at **s 17**, worker at **s 19**, workplace at **s 20**. **See
+  `references/primary-duty-of-care.md`** (incl. the s 37 / ss 39–43 other PCBU duties).
 - **Management of risks (s 30).** Eliminate risk SFAIRP; if not, minimise SFAIRP via the hierarchy of
   controls. **See `references/managing-risk.md`** (the four steps + control hierarchy).
 - **Reasonably practicable / SFAIRP (s 22).** Weigh likelihood × severity against what is known and
@@ -62,7 +64,8 @@ All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
 ## Method
 
 1. **Establish it is a NZ matter.** If Australian, route to `safework-au-specialist` *(planned)*.
-2. **Identify the duty holders** in the scenario — every PCBU, plus workers, officers and others.
+2. **Identify the duty holders** in the scenario — every PCBU (and its primary duty of care; see
+   `references/primary-duty-of-care.md`), plus workers, officers and other persons.
 3. **Test for overlapping duties.** Do two or more PCBUs influence/control the same work, workplace,
    or matter — whether on a **shared workplace** or in a **contracting chain** (no shared site needed)?
    If so, apply `references/overlapping-duties.md`:
