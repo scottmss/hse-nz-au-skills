@@ -107,7 +107,7 @@ Produce, in this order:
 - **Notifiable event** surfaced by a consequence → `worksafe-nz-specialist` (NZ) or
   `safework-au-specialist` (AU), via `hse-advisor`.
 - **High-risk-work licensing / plant competency** (crane, rigging, EWP, scaffold) →
-  `high-risk-work-specialist` *(planned)*.
+  `high-risk-work-specialist`.
 - **Turn controls into a procedure** → `sop-author` *(planned)*; **into a task-level JSA** →
   `task-analysis-author` *(planned)*.
 - **A critical control failed in a real event** → `incident-investigator`.

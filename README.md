@@ -39,10 +39,11 @@ Use them to work faster and more consistently — not to replace professional ju
 | **safework-au-specialist** | Australian WHS law: establishes **which jurisdiction and regulator** apply (model WHS states + Commonwealth, and **Victoria's separate OHS Act 2004**), then the PCBU primary duty, officer due diligence, overlapping duties (s 46), notifiable incidents, Codes of Practice, and high-risk work licensing. |
 | **incident-investigator** | Structured **Five Whys** root cause analysis for a workplace incident or near-miss — problem statement, validated why-chain, root causes, and corrective actions with owners and verification. |
 | **complex-problem-analyst** | **Fishbone (Ishikawa)** analysis for recurring, multi-causal problems — maps all contributing factor categories (6M) at once, finds the intersections, and pairs with Five Whys for depth. |
+| **high-risk-work-specialist** | What licence or competency a high-risk task needs and who may do it — **AU HRWL classes** (cranes, dogging, rigging, scaffolding, EWP, forklift) vs **NZ competency** (NZQA unit standards, Certificates of Competence, Approved Codes), plus the governing AS/NZS standards. |
 
-> **Roadmap.** Further specialists are planned — `high-risk-work-specialist`, `sop-author`,
-> `task-analysis-author`, and `prosecution-analyst`. The collection ships incrementally;
-> a small set of solid skills beats a large set of thin ones.
+> **Roadmap.** Further specialists are planned — `sop-author`, `task-analysis-author`, and
+> `prosecution-analyst`. The collection ships incrementally; a small set of solid skills beats
+> a large set of thin ones.
 
 ---
 

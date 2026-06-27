@@ -59,7 +59,7 @@ status). Return control to the user with a clear statement of which skill is doi
 | Recurring/multi-causal problem; Fishbone/Ishikawa; converging contributing factors | **complex-problem-analyst** |
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |
 | AU WHS Act/Regs, state/territory variations, **which jurisdiction & regulator**, Victoria (OHS Act 2004), PCBU/officer duties, notifiable incidents, Codes of Practice, HRWL | **safework-au-specialist** |
-| Cranes, dogging, rigging, scaffolding, EWP, high-risk work licence classes | **high-risk-work-specialist** *(planned)* |
+| Cranes, dogging, rigging, scaffolding, EWP, forklift; what licence/competency is needed; HRWL classes (AU) vs NZQA unit standards / Certificates of Competence (NZ); AS/NZS standards | **high-risk-work-specialist** |
 | Safe system of work / SOP authoring and structure | **sop-author** *(planned)* |
 | JSA / task analysis (step → hazard → control) | **task-analysis-author** *(planned)* |
 | Learning from NZ/AU HSE prosecution patterns | **prosecution-analyst** *(planned)* |
