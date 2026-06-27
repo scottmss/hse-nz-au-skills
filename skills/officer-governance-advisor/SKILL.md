@@ -36,9 +36,9 @@ model (Foundations → Principles → 5Cs → Vision).
 
 - Operational/management H&S delivery, building a bow tie, writing an SOP, investigating an event
   → those are management tasks; route via `hse-advisor` to `critical-risk-manager`,
-  `incident-investigator` *(planned)*, etc. Governance *oversees* these; it does not perform them.
+  `incident-investigator`, etc. Governance *oversees* these; it does not perform them.
 - A pure legal-duty question (is this notifiable? what penalty? overlapping duties?) →
-  `worksafe-nz-specialist` / `safework-au-specialist` *(planned)*.
+  `worksafe-nz-specialist` / `safework-au-specialist`.
 - Worker-level or HSR matters that are not board/officer governance.
 
 ## The model (load references as needed)
@@ -116,9 +116,9 @@ Every output is a **draft for the officer/board to own and validate** — see Di
 - **A critical risk / bow tie / control set the board is assuring** → `critical-risk-manager`
   (governance *oversees* the critical-risk work; that skill *builds* it).
 - **A notifiable event, overlapping-duties question, or specific legal duty/penalty question** →
-  `worksafe-nz-specialist` / `safework-au-specialist` *(planned)*, via `hse-advisor`.
-- **An incident the board is learning from** → `incident-investigator` *(planned)* /
-  `complex-problem-analyst` *(planned)*.
+  `worksafe-nz-specialist` / `safework-au-specialist`, via `hse-advisor`.
+- **An incident the board is learning from** → `incident-investigator` /
+  `complex-problem-analyst`.
 - Always route jurisdiction-setting and cross-specialist work through `hse-advisor`.
 
 ## Disclaimer

@@ -33,7 +33,7 @@ small number of controls matters more than a long generic hazard list.
 - Routine, low-consequence task hazards better served by a JSA / task analysis → hand off to
   `task-analysis-author` *(planned)*.
 - Investigating an event that has already happened → hand off to `incident-investigator`
-  *(planned)* (Five Whys) or `complex-problem-analyst` *(planned)* (Fishbone).
+  (Five Whys) or `complex-problem-analyst` (Fishbone).
 - Pure legal-duty questions (is this notifiable? what does the PCBU owe?) → route via
   `hse-advisor` to the jurisdiction specialist.
 
@@ -67,7 +67,10 @@ Load `references/bowtie-methodology.md` for the full method. In brief:
     by eye.
 
 Apply the **hierarchy of controls** throughout and challenge administrative/PPE-only lines — a
-critical risk carried only by "be careful" and a hi-vis vest is a red flag.
+critical risk carried only by "be careful" and a hi-vis vest is a red flag. Sweep the **6M
+framework** (Machine, Mother Nature, Man, Method, Material, Management — `bowtie-methodology.md`)
+across threats, barriers and consequences so no whole class of cause is missed, and pick a
+**diagram format A/B/C** up front. Worked starting templates are in `references/examples.md`.
 
 ## Jurisdiction note
 
@@ -88,7 +91,8 @@ Produce, in this order:
 1. **Header** — hazard, top event, activity/context, jurisdiction, date, "draft — requires
    competent-person review".
 2. **Bow tie table** — Threats → Preventive controls → **Top event** → Mitigating controls →
-   Consequences. (A diagram can follow, but the table is the source of truth.)
+   Consequences. (The table is the source of truth; a **Mermaid diagram** can follow —
+   `references/mermaid-template.md`.)
 3. **Critical controls list** — each flagged control, why it's critical, and its assurance
    status (in place / effective / verified — or the gap).
 4. **Escalation factors** — factor → which control it threatens → escalation-factor control.
@@ -101,12 +105,12 @@ Produce, in this order:
 ## Hand-offs
 
 - **Notifiable event** surfaced by a consequence → `worksafe-nz-specialist` (NZ) or
-  `safework-au-specialist` *(planned)* (AU), via `hse-advisor`.
+  `safework-au-specialist` (AU), via `hse-advisor`.
 - **High-risk-work licensing / plant competency** (crane, rigging, EWP, scaffold) →
   `high-risk-work-specialist` *(planned)*.
 - **Turn controls into a procedure** → `sop-author` *(planned)*; **into a task-level JSA** →
   `task-analysis-author` *(planned)*.
-- **A critical control failed in a real event** → `incident-investigator` *(planned)*.
+- **A critical control failed in a real event** → `incident-investigator`.
 
 ## Disclaimer
 

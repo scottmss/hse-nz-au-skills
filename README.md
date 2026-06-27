@@ -36,12 +36,13 @@ Use them to work faster and more consistently — not to replace professional ju
 | **critical-risk-manager** | Builds and reviews bow tie risk assessments, defines critical risks, and scores control assurance and residual risk. |
 | **officer-governance-advisor** | Officer/board H&S governance and due diligence (HSWA s 44): governance self-assessment, board reporting, officer induction, director questions, and the link to enterprise risk. Grounded in the IoD/WorkSafe NZ governance guide. |
 | **worksafe-nz-specialist** | NZ HSWA 2015 duties: who holds which duty, the primary duty of care, reasonably practicable, the four steps to managing risk, **notifiable events** (what to notify, preserve, record), and in-depth **overlapping duties** — shared workplaces, contracting chains, and the "3 Cs". |
+| **safework-au-specialist** | Australian WHS law: establishes **which jurisdiction and regulator** apply (model WHS states + Commonwealth, and **Victoria's separate OHS Act 2004**), then the PCBU primary duty, officer due diligence, overlapping duties (s 46), notifiable incidents, Codes of Practice, and high-risk work licensing. |
+| **incident-investigator** | Structured **Five Whys** root cause analysis for a workplace incident or near-miss — problem statement, validated why-chain, root causes, and corrective actions with owners and verification. |
+| **complex-problem-analyst** | **Fishbone (Ishikawa)** analysis for recurring, multi-causal problems — maps all contributing factor categories (6M) at once, finds the intersections, and pairs with Five Whys for depth. |
 
-> **Roadmap.** Further specialists are planned — `incident-investigator` (Five Whys),
-> `complex-problem-analyst` (Fishbone/Ishikawa), `safework-au-specialist`,
-> `high-risk-work-specialist`, `sop-author`, `task-analysis-author`, and
-> `prosecution-analyst`. The collection ships incrementally; a small set of solid skills
-> beats a large set of thin ones.
+> **Roadmap.** Further specialists are planned — `high-risk-work-specialist`, `sop-author`,
+> `task-analysis-author`, and `prosecution-analyst`. The collection ships incrementally;
+> a small set of solid skills beats a large set of thin ones.
 
 ---
 

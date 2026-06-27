@@ -55,10 +55,10 @@ status). Return control to the user with a clear statement of which skill is doi
 |---|---|
 | Officer/board/director **governance** or **due diligence**, governance self-assessment, board H&S report, officer induction, "what should the board ask", risk appetite at governance level | **officer-governance-advisor** |
 | Bow tie, critical risk, top event, barrier/control assurance, residual risk scoring | **critical-risk-manager** |
-| Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA | **incident-investigator** *(planned)* |
-| Recurring/multi-causal problem; Fishbone/Ishikawa; contributing factors | **complex-problem-analyst** *(planned)* |
+| Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
+| Recurring/multi-causal problem; Fishbone/Ishikawa; converging contributing factors | **complex-problem-analyst** |
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |
-| AU WHS Act/Regs, state variations, SafeWork jurisdictions, Comcare | **safework-au-specialist** *(planned)* |
+| AU WHS Act/Regs, state/territory variations, **which jurisdiction & regulator**, Victoria (OHS Act 2004), PCBU/officer duties, notifiable incidents, Codes of Practice, HRWL | **safework-au-specialist** |
 | Cranes, dogging, rigging, scaffolding, EWP, high-risk work licence classes | **high-risk-work-specialist** *(planned)* |
 | Safe system of work / SOP authoring and structure | **sop-author** *(planned)* |
 | JSA / task analysis (step → hazard → control) | **task-analysis-author** *(planned)* |

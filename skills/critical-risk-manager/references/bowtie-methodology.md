@@ -47,10 +47,17 @@ done. Tests:
 A common failure is choosing a top event too early (a threat) or too late (a consequence). See
 `critical-risk-definitions.md`.
 
+**Choose a diagram format first** (Aust & Pons 2020) and apply it consistently:
+- **Format A** — one hazard, one top event. The default; use for a single well-defined scenario.
+- **Format B** — one consistent top event, approached from multiple hazard dimensions (e.g. the
+  same top event built out separately by Man / Machine / Method angles as sub-bow ties).
+- **Format C** — one hazard, multiple top events — each a different process step or failure mode.
+
 ### 3. Identify threats (left side)
 List every **credible** way the top event could occur. Each is an independent pathway. Examples
 for "load falls from crane": rigging failure, overload, mechanical/structural failure, operator
-error, ground failure/outrigger collapse, two-blocking, contact with services.
+error, ground failure/outrigger collapse, two-blocking, contact with services. Use the **6M
+framework** (below) as a checklist so no whole class of cause is missed.
 - Keep threats as direct causes of the top event, not root causes (root causes belong to
   investigation methods, not the bow tie).
 - Aim for completeness of *credible* threats, not an exhaustive list of the implausible.
@@ -104,6 +111,39 @@ Escalation factors are where many real failures live — do not skip them on cri
 - Are any lines carried only by "be careful" (administrative) + PPE? Challenge them.
 - Have you avoided double-counting one control as if it were several?
 
+## The 6M brainstorming framework
+
+Don't brainstorm threats, controls, or consequences freestyle — sweep the **6M categories** so you
+don't systematically miss a whole class. Apply the same lens to **all three**: threats (left),
+barriers (both sides), and consequences (right).
+
+| M | Threats (left) | Barriers (both sides) | Consequences (right) |
+|---|---|---|---|
+| **Machine** — equipment/tools | Equipment or tool failure | Engineered control, interlock, guard, RCI | Equipment / asset damage |
+| **Mother Nature** — environment | Weather/site conditions trigger failure | Environmental control, site/workspace design | Environmental harm / release |
+| **Man** — human factors | Operator error, fatigue, behaviour | Competency check, human-factors training, supervision | Injury, fatality, psychological harm |
+| **Method** — process/procedure | Procedure gap, wrong sequence | Procedure, checklist, permit to work, lift plan | Process disruption, rework, delay |
+| **Material** — substances/components | Component, rigging, chemical or material failure | Material inspection, specification standard, SWL check | Product / material loss |
+| **Management** — organisation/oversight | Planning, supervision, time-pressure, system failure | Management approval, audit, toolbox talk, safety culture | Regulatory, legal, reputational harm |
+
+Notes:
+- Not every line will have barriers in all six categories — that is expected. The goal is to avoid
+  **systematically** missing a category (e.g. a bow tie that is all "training" and no engineering).
+- The 6M originated in manufacturing where the sixth M is *Measurement*; in operational/maintenance
+  H&S, **Management** is the more useful sixth M. Adapt to context — completeness over rigid labels.
+- If a threat fits two Ms, place it in the primary one and move on; don't over-categorise.
+- **Barrier modules:** where the same barrier blocks several pathways (e.g. supervision), define it
+  once as a reusable module — but remember its *effectiveness can differ* by pathway.
+- Source: Aust, J. & Pons, D. (2020), *A Systematic Methodology for Developing Bowtie in Risk
+  Assessment*, Aerospace 7(7), 86. https://doi.org/10.3390/aerospace7070086
+
+## Visualising and examples
+
+- **Mermaid diagram template** for rendering a bow tie as a left-right flowchart →
+  `mermaid-template.md`.
+- **Worked examples** (crane suspended load, bulk-fuel loss of containment, working at height) →
+  `examples.md`. Use them as adaptable starting templates, not finished assessments.
+
 ## Common pitfalls
 
 - **Top event chosen as a threat or a consequence.** The most frequent error.
@@ -111,5 +151,7 @@ Escalation factors are where many real failures live — do not skip them on cri
   verifiable barriers.
 - **Administrative/PPE reliance on a fatal risk.** A defensibility and assurance problem.
 - **Controls with no owner or no verification** — looks complete on paper, fails in reality.
+- **Only one type of barrier** — all "training" or all "procedures". Use 6M to check coverage.
 - **Confusing the bow tie with an investigation** — the bow tie is prospective (could happen);
-  Five Whys / Fishbone are retrospective (did happen).
+  Five Whys / Fishbone are retrospective (did happen) → `../../incident-investigator/`,
+  `../../complex-problem-analyst/`.

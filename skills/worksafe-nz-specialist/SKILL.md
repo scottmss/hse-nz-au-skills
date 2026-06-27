@@ -36,7 +36,7 @@ advice** — section numbers are verify-pointers; confirm the current text.
   the officer duty in depth).
 - **Building or scoring the risk controls themselves** (bow tie, control assurance) →
   `critical-risk-manager`.
-- **Australia** → `safework-au-specialist` *(planned)*. NZ and AU are close but not identical.
+- **Australia** → `safework-au-specialist`. NZ and AU are close but not identical.
 - A definitive legal position → a competent H&S lawyer.
 
 ## The NZ duty-holder map (quick reference)
@@ -63,7 +63,7 @@ All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
 
 ## Method
 
-1. **Establish it is a NZ matter.** If Australian, route to `safework-au-specialist` *(planned)*.
+1. **Establish it is a NZ matter.** If Australian, route to `safework-au-specialist`.
 2. **Identify the duty holders** in the scenario — every PCBU (and its primary duty of care; see
    `references/primary-duty-of-care.md`), plus workers, officers and other persons.
 3. **Test for overlapping duties.** Do two or more PCBUs influence/control the same work, workplace,
@@ -88,7 +88,7 @@ All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
 **New Zealand only (HSWA 2015).** Australia's model WHS law has an equivalent overlapping-duties
 concept (model WHS Act **s 46** — duty to consult, cooperate and coordinate — different numbering and
 detail; Victoria differs again). Do not transplant NZ section numbers or guidance onto an Australian
-matter — route to `safework-au-specialist` *(planned)*.
+matter — route to `safework-au-specialist`.
 
 ## Output formats
 
@@ -105,8 +105,8 @@ Every output is a **draft for a competent person to validate** against the Act a
 
 - **Officer/board governance & due diligence** → `officer-governance-advisor`.
 - **Building/scoring the controls** for an overlapping risk → `critical-risk-manager`.
-- **Investigating an event** that occurred → `incident-investigator` *(planned)*.
-- **Australia** → `safework-au-specialist` *(planned)*. Route jurisdiction/cross-skill work via
+- **Investigating an event** that occurred → `incident-investigator`.
+- **Australia** → `safework-au-specialist`. Route jurisdiction/cross-skill work via
   `hse-advisor`.
 
 ## Disclaimer
