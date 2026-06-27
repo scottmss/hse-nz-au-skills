@@ -1,0 +1,17 @@
+{
+  "name": "hse-nz-au-skills",
+  "owner": "scottmss",
+  "description": "NZ/AU workplace health & safety Claude Agent Skills",
+  "plugins": [
+    {
+      "name": "hse-core",
+      "strict": false,
+      "skills": [
+        "skills/hse-advisor",
+        "skills/critical-risk-manager",
+        "skills/officer-governance-advisor",
+        "skills/worksafe-nz-specialist"
+      ]
+    }
+  ]
+}
