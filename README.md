@@ -56,14 +56,15 @@ Use them to work faster and more consistently — not to replace professional ju
 | **electrical-energy-specialist** | The SME for **electrical safety & stored/released energy** — de-energise/isolate/prove-dead, arc flash, overhead-line approach distances (NZECP 34), hot work and pressure release, plus competency (WorkSafe Energy Safety; AU electrical Code; AS/NZS 4836). |
 | **water-safety-specialist** | The SME for **working in/on/above water** — prevent the fall in, lifejackets, safety observer, water rescue, conditions monitoring, and diving (AS 4758; AS/NZS 2299; Maritime NZ). |
 | **horticulture-specialist** | The SME for **horticulture** — orchards, vineyards, kiwifruit, packhouses & coolstores. Owns orchard **MEWPs near overhead lines**, spray-drift, packhouse machinery, **controlled-atmosphere coolstores as confined spaces**, and the **seasonal/RSE workforce**; routes specific hazards to the relevant SME. Grounded in WorkSafe NZ horticulture/MEWP/overhead-line guidance + AU state guidance. |
+| **forestry-specialist** | The SME for **forestry & harvesting** — owns the deadly core tasks (**tree felling**, **breaking out / cable logging**, the cutover and landing), foregrounds **mechanisation / winch-assist to get people off the slope**, and covers competency and remote rescue; routes generic hazards to the relevant SME. Grounded in WorkSafe NZ's 2025 forestry ACOP + Safetree + AU Safe Work Australia / state harvesting Codes. |
 | **agriculture-specialist** | The SME for **farm & agriculture safety** — the sector's fatal risks with **farm vehicles & quad bikes** as the flagship (CPD/OPD rollover protection, helmets, no-passengers, side-by-side choice), plus livestock, working alone, and child/visitor safety; routes specific hazards to the relevant SME. Grounded in WorkSafe NZ Safer Farms + the AU ACCC quad standard. |
 | **violence-aggression-specialist** | The SME for **work-related violence & aggression** — design out the opportunity, lone/in-home worker controls, de-escalation, duress/security, and post-incident support (WorkSafe Violence at work; AU violence guidance). Partners psychosocial-risk-specialist. |
 
-> **Status.** Twenty-six skills built — an orchestrator plus twenty-five specialists spanning critical-risk,
+> **Status.** Twenty-seven skills built — an orchestrator plus twenty-six specialists spanning critical-risk,
 > psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures and prosecution
 > learning, plus a full tier of **hazard subject-matter experts** covering the recurring fatal risks:
 > working at height, excavation, confined space, machinery/plant, vehicles & traffic, lifting & rigging,
-> cranes & lift planning, forklifts, hazardous substances & asbestos, electrical & stored energy, water, violence & aggression, farm/agriculture, and horticulture — each grounded in
+> cranes & lift planning, forklifts, hazardous substances & asbestos, electrical & stored energy, water, violence & aggression, farm/agriculture, horticulture, and forestry — each grounded in
 > the relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
