@@ -146,7 +146,9 @@ weather limits; exclusion zones; communications/signalling and crew roles; emerg
   attribution. Predates HSWA 2015 (under progressive review) but **remains published as good
   practice** — confirm current status.
 - **AU**: **AS 1418** (crane design) and **AS 2550** series (safe use — .1 general, .4 tower, .5 mobile
-  & vehicle-loading), **Code of Practice for Safe Use of Mobile Cranes**, plus state/territory guidance.
-  **Copyright; cited as verify-pointers only.**
+  & vehicle-loading), **Code of Practice for Safe Use of Mobile Cranes**, the model **Code _Managing
+  risks of plant_**, plus state/territory guidance. **Registrable plant** under **WHS Reg Schedule 5**:
+  tower cranes (incl. self-erecting) and mobile cranes with **SWL > 10 t** need design + item
+  registration → `../../safework-au-specialist/`. Standards **copyright; cited as verify-pointers only.**
 - HRWL crane operation classes live in `../../high-risk-work-specialist/`. Confirm the current edition
   of any standard before relying on a figure.

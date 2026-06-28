@@ -93,6 +93,8 @@ Farm child deaths are most often **vehicles and machinery**. Controls:
   **policy clarification on crush protection devices** (strongly recommends professionally designed CPDs).
   HSWA 2015 applies. Government/regulator guidance summarised with attribution.
 - **AU:** WHS framework; **ACCC mandatory quad bike safety standard** (product safety — see vehicles
-  ref); Safe Work Australia **QuadWatch** and state guidance.
+  ref); Safe Work Australia **QuadWatch** and **agriculture** guidance; the model WHS Codes for
+  **plant** and **hazardous chemicals** apply to farm machinery/agrichemicals; state farm-safety
+  programmes (e.g. SafeWork NSW). Jurisdiction variations → `../../safework-au-specialist/`.
 - Specific-hazard standards live with the relevant SME (machinery, substances, confined space, height,
   electrical). Confirm current editions/programmes before relying on any figure or rule.

@@ -159,8 +159,10 @@ General safety requirements from the Code:
 - **NZ ACOP for Load-lifting Rigging** (MBIE, 5th ed.) — Crown copyright; summarised and quoted with
   attribution. Verify the current edition/status (approved under the repealed HSE Act 1992; continues
   under HSWA 2015 transitional provisions).
-- **AU**: model WHS plant/lifting duties and any jurisdiction lifting/cranes guidance — verify per
-  state/territory via `../../safework-au-specialist/`.
-- **AS/NZS and equivalent standards** (chain/wire-rope/webbing/round slings, shackles, eyebolts,
-  lifting devices, **AS 2550 / AS 1418** cranes) — **copyright; cited as verify-pointers only.** Confirm
-  the current edition before relying on any figure.
+- **AU**: the **WHS Regulations (plant)** and the model **Code of Practice _Managing risks of plant in
+  the workplace_**, with state **dogging & rigging** guidance (e.g. SafeWork NSW); HRWL DG/RB/RI/RA and
+  the 9-jurisdiction variations (incl. Victoria's OHS Act, WA) → `../../safework-au-specialist/`.
+- **AS/NZS and equivalent standards** — **AS 3775** (chain slings), **AS 1666** (wire-rope slings),
+  **AS 4497** (synthetic round slings), **AS 2741** (shackles), and **AS 2550 / AS 1418** for crane use
+  (plus the relevant webbing-sling, eyebolt and lifting-device standards) — **copyright; cited as
+  verify-pointers only.** Confirm the current edition before relying on any figure.

@@ -115,7 +115,9 @@ people. Most forklift harm is a **tip-over** (operator crushed) or a **struck pe
   (WorkSafe NZ) — Crown copyright; summarised with attribution. Predates HSWA 2015 (HSE Act 1992) but
   **remains published as good practice** — confirm current status. Plus WorkSafe forklift guidance and
   the **NZTA class F endorsement** for road use.
-- **AU**: **AS 2359** (Powered industrial trucks — safe use), Safe Work Australia and state forklift
-  guidance, HRWL **LF/LO** classes. **Copyright; cited as verify-pointers only.**
+- **AU**: **AS 2359** (Powered industrial trucks — safe use), the model **Code _Managing risks of plant
+  in the workplace_**, Safe Work Australia's **general guide for industrial lift trucks** and state
+  forklift / **traffic-management** guidance, HRWL **LF/LO** classes. **Copyright; cited as
+  verify-pointers only.**
 - HRWL/endorsement detail lives in `../../high-risk-work-specialist/`. Confirm the current edition of any
   standard before relying on a figure.

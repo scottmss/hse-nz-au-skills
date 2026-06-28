@@ -89,9 +89,11 @@ endorsement**; refresher typically every 3 years. **AU:** the **HRWL LF** (forkl
 **NZ:** WorkSafe's **Approved Code of Practice for Training Operators and Instructors of Powered
 Industrial Lift Trucks (forklifts)** is the primary anchor — it predates HSWA 2015 (HSE Act 1992) but
 **remains published as good practice**; confirm current status via `../hse-advisor/`. **AU:** safe use
-is **AS 2359** (Powered industrial trucks) with Safe Work Australia / state forklift guidance and the
-HRWL system. AS/NZS standards are **copyright — cited as verify-pointers, not reproduced**; confirm the
-current edition.
+is **AS 2359** (Powered industrial trucks), the model **Code _Managing risks of plant in the
+workplace_** and Safe Work Australia's **general guide for industrial lift trucks** (plus state forklift
+and **traffic-management** guidance), with the **HRWL LF/LO** system. Jurisdiction variations (Victoria
+OHS Act, WA) → `../safework-au-specialist/`. AS/NZS standards are **copyright — cited as
+verify-pointers, not reproduced**; confirm the current edition.
 
 ## Output
 

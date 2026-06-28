@@ -96,8 +96,10 @@ programme; WorkSafe's **policy clarification on crush protection devices** (stro
 professionally designed/manufactured CPDs). HSWA 2015 applies — a farm is a workplace. **AU:** the WHS
 framework plus the **ACCC mandatory quad bike safety standard** (a consumer-product standard: lateral
 stability labelling from 2020, **OPD on new general-use quads from Oct 2021**) and Safe Work Australia
-**QuadWatch** / state guidance. Confirm current guidance via `../hse-advisor/`. Standards/guides change
-— treat as verify-pointers.
+**QuadWatch** / **agriculture** guidance. The model WHS Codes for **plant** and **hazardous chemicals**
+apply to farm machinery and agrichemicals, and state regulators run farm-safety programmes (e.g.
+SafeWork NSW). Jurisdiction variations (Victoria OHS Act, WA) → `../safework-au-specialist/`. Confirm
+current guidance via `../hse-advisor/`. Standards/guides change — treat as verify-pointers.
 
 ## Output
 
