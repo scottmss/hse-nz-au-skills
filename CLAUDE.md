@@ -287,7 +287,7 @@ marketplace. Minimal form, declaring skills directly (no per-skill plugin.json r
 ```json
 {
   "name": "hse-nz-au-skills",
-  "owner": "YOUR_GH_USERNAME",
+  "owner": { "name": "YOUR_GH_USERNAME", "email": "you@example.com" },
   "description": "NZ/AU workplace health & safety Claude Agent Skills",
   "plugins": [
     {
