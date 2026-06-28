@@ -20,6 +20,12 @@ Route NZ/AU health & safety requests to the correct specialist skill. This skill
 **jurisdiction** and **task type** up front so the downstream work is jurisdiction-correct,
 then hands off. It does not produce bow ties, investigations, or legal analysis itself.
 
+Each specialist below is a **subject-matter expert (SME)** for its domain. Treat them the way a good
+H&S team does: when planning critical-risk work, **consult the relevant SME(s)** — not just one. A
+single job often needs several (e.g. a crane lift → `critical-risk-manager` for the bow tie,
+`high-risk-work-specialist` for competency, `worksafe-nz-specialist`/`safework-au-specialist` for the
+duties). Sequence them rather than forcing one to cover everything.
+
 ## When to use
 
 - The opening move for almost any occupational H&S request.
