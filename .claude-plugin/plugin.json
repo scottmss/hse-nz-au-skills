@@ -1,0 +1,25 @@
+{
+  "name": "hse-core",
+  "displayName": "HSE NZ/AU Skills",
+  "version": "1.0.1",
+  "description": "NZ/AU workplace health & safety Claude Agent Skills — an orchestrator plus specialists for critical risk, governance, NZ/AU duties, high-risk work, investigation, procedures, prosecution learning, and hazard subject-matter experts.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "health-and-safety",
+    "HSWA",
+    "WHS",
+    "New Zealand",
+    "Australia",
+    "risk",
+    "bow-tie",
+    "WorkSafe",
+    "SafeWork"
+  ]
+}
