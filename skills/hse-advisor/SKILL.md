@@ -68,6 +68,9 @@ status). Return control to the user with a clear statement of which skill is doi
 | Machinery/plant safety, guarding, isolation/lockout-tagout (LOTO), rotating/moving parts, entanglement, interlocks, emergency stop, unexpected start-up, stored energy | **machinery-safety-specialist** |
 | Vehicles, mobile plant, forklifts, traffic management (TMP), vehicle-pedestrian separation, reversing/blind spots, driving/loss of control, temporary traffic management | **mobile-plant-traffic-specialist** |
 | Hazardous substances/chemicals, dangerous goods, SDS/GHS, chemical storage/segregation, fumes/dust/silica exposure, spill response, and **asbestos** (management & licensed removal) | **hazardous-substances-specialist** |
+| Electrical safety, electric shock, arc flash, live/de-energised work, overhead/underground power lines & approach distances (NZECP 34), hot work, high-pressure/stored-energy release | **electrical-energy-specialist** |
+| Working in/on/above water, drowning, hypothermia, lifejackets/PFDs, safety observer, water rescue, diving operations, lone work near water | **water-safety-specialist** |
+| Work-related violence & aggression, assault, armed offending/robbery, lone/in-home workers, de-escalation, duress alarms, security (physical harm; psychological → psychosocial) | **violence-aggression-specialist** |
 | Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
 | Recurring/multi-causal problem; Fishbone/Ishikawa; converging contributing factors | **complex-problem-analyst** |
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |

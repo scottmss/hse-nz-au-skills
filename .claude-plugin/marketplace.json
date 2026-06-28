@@ -24,7 +24,10 @@
         "skills/confined-space-specialist",
         "skills/machinery-safety-specialist",
         "skills/mobile-plant-traffic-specialist",
-        "skills/hazardous-substances-specialist"
+        "skills/hazardous-substances-specialist",
+        "skills/electrical-energy-specialist",
+        "skills/water-safety-specialist",
+        "skills/violence-aggression-specialist"
       ]
     }
   ]
