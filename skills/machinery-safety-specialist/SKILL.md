@@ -2,7 +2,7 @@
 name: machinery-safety-specialist
 description: The subject-matter expert (SME) you consult for machinery and plant safety — guarding,
   isolation and lockout/tagout (LOTO) to prevent contact with rotating/moving parts and unexpected
-  start-up or stored-energy release. Use for fixed and major plant: rotating tools, conveyors,
+  start-up or stored-energy release. Use for fixed and major plant — rotating tools, conveyors,
   presses, mixers, saws, turbines, robotics, and servicing/cleaning/unjamming machinery. Triggers on
   "machine guarding", "guarding", "machinery safety", "plant safety", "rotating plant", "entanglement",
   "crush/nip point", "isolation", "lockout tagout", "LOTO", "energy isolation", "stored energy",

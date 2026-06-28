@@ -7,7 +7,7 @@ description: Specialist in managing psychosocial risk — hazards arising from t
   isolated work, and workplace conflict, bullying, harassment or violence. Triggers on "psychosocial
   risk/hazard", "mental health at work", "work-related stress", "burnout", "workload", "job demands",
   "bullying", "harassment", "workplace conflict", "fatigue" (work-design angle), "traumatic exposure",
-  "mentally healthy work", "ISO 45003". Key split: AUSTRALIA has explicit duties (model WHS Regs
+  "mentally healthy work", "ISO 45003". Key split — AUSTRALIA has explicit duties (model WHS Regs
   55A–55D + a Code of Practice); NEW ZEALAND manages it under the general HSWA duties because "health"
   includes mental health. Not legal advice; not clinical/therapeutic advice.
 ---

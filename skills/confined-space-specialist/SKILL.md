@@ -2,7 +2,7 @@
 name: confined-space-specialist
 description: The subject-matter expert (SME) you consult for confined space entry and work — managing
   unsafe atmospheres (asphyxiation, toxicity, fire/explosion), engulfment, and the ability to rescue.
-  Use for any enclosed or partially enclosed space not designed for human occupancy: tanks, vessels,
+  Use for any enclosed or partially enclosed space not designed for human occupancy — tanks, vessels,
   silos, pits, sumps, sewers, ducts, scroll cases, drains, manholes, and deep/poorly-ventilated
   excavations. Triggers on "confined space", "confined space entry", "permit to enter", "atmospheric
   testing", "gas testing", "oxygen deficient", "purge/ventilate", "standby person", "hole watch",
