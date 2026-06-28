@@ -195,8 +195,14 @@ def validate_marketplace(disk_skills: set[str]) -> None:
 
     listed_paths: list[str] = []
     for i, plugin in enumerate(plugins):
+        label = plugin.get("name") or f"#{i}"
         if not plugin.get("name"):
             err("marketplace.json", f"plugin #{i} is missing 'name'")
+        # `source` is a required field on every plugin entry — omitting it makes
+        # `/plugin marketplace add` fail with "Failed to add marketplace".
+        if not plugin.get("source"):
+            err("marketplace.json", f"plugin '{label}' is missing required 'source' "
+                "(e.g. \"./\" when the plugin lives at the marketplace root)")
         listed_paths.extend(plugin.get("skills", []))
 
     listed = set()
