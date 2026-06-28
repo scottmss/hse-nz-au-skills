@@ -48,6 +48,17 @@ Use them to work faster and more consistently — not to replace professional ju
 > ten specialists spanning critical-risk, governance, NZ/AU duties, high-risk work, investigation,
 > procedures, and prosecution learning. Contributions and refinements welcome (see below).
 
+### Pairs with a risk register
+
+These skills are **tool-agnostic** and produce portable Markdown — the bow ties, task analyses,
+control-assurance views, and reviews they generate are drafts you keep current somewhere. They pair
+naturally with a **structured, shareable risk register** (a tool that stores risks, controls and
+reviews against a configurable likelihood × consequence matrix, and shares them with the right
+people). Use the skills as the *reasoning and drafting* layer; record and maintain the output in
+whatever register your organisation uses. Where a skill can reach a dataset over MCP — for example a
+read-only prosecutions case database — it can ground its analysis in real data (see
+`prosecution-analyst`).
+
 ---
 
 ## Install

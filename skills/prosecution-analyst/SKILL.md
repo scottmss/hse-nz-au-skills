@@ -57,6 +57,17 @@ enforcement-and-sentencing frameworks.
 6. **Frame culpability/sentencing factors** *educationally* — what aggravates and mitigates, and why
    — to motivate prevention, never to estimate a number for a real case.
 
+### Grounding the patterns in real cases (if you have a dataset)
+
+This skill works on general reasoning by default. If you have access to a **prosecutions dataset** —
+for example a read-only **MCP server** exposing public NZ/AU enforcement cases — ground the patterns
+in it rather than reasoning from memory: search by **industry / legislation / jurisdiction / year**,
+retrieve a case's detail and any attached judgment, look at summary statistics, and **cross-reference
+the recurring failures against your own highest-residual risks**. Keep using the data as a *learning*
+source (patterns and lessons), not as legal advice or case prediction, and stay within whatever the
+dataset's licence and access permit. The method is the same with or without a dataset — a dataset
+just makes the benchmarking concrete and current.
+
 ## The enforcement & sentencing frameworks (conceptual)
 
 Detail and verified penalties/bands are in `references/nz-au-prosecution-patterns.md`. In outline:
