@@ -43,10 +43,11 @@ Use them to work faster and more consistently — not to replace professional ju
 | **sop-author** | Writes or reviews a **Standard Operating Procedure** / safe system of work — purpose & scope, roles, the step-by-step method with hazards and controls integrated, competency sign-off, and document control. |
 | **task-analysis-author** | Builds a **Task Analysis (TA) / JSA** for a specific job — steps → hazards → initial risk → controls (hierarchy) → responsible → residual risk, with a worker sign-on. Reuses the critical-risk matrix and scorer. |
 | **prosecution-analyst** | Turns **NZ/AU H&S prosecution patterns** into preventive lessons and benchmarks — the enforcement/sentencing frameworks (HSWA ss 47–49 + Stumpmaster; model WHS Category 1–3 + industrial manslaughter) and the recurring duty-failure patterns. Company-agnostic and educational; not a prediction of any case. |
+| **psychosocial-risk-specialist** | Identify, assess and control **psychosocial risk** (work-design hazards that cause psychological harm) — the hazard taxonomy, source-first controls, and the NZ/AU split (AU model WHS Regs 55A–55D + Code; NZ via the general duties, since "health" includes mental health). |
 
-> **Status.** All eleven specialists in the planned roster are now built — an orchestrator plus
-> ten specialists spanning critical-risk, governance, NZ/AU duties, high-risk work, investigation,
-> procedures, and prosecution learning. Contributions and refinements welcome (see below).
+> **Status.** Twelve skills built — an orchestrator plus eleven specialists spanning critical-risk,
+> psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures, and
+> prosecution learning. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
 
@@ -111,6 +112,9 @@ Contributions are welcome. Please:
   disclaimer.
 - Remember these skills inform safety-critical work. Accuracy against the current law and
   standards matters more than breadth.
+- **Validate before you submit:** run `python3 scripts/validate-skills.py` (frontmatter,
+  cross-reference paths, no stray `(planned)` tags, disclaimer, `marketplace.json` consistency).
+  CI runs it, plus the `risk_matrix_scorer` self-test, on every push and pull request.
 
 ---
 

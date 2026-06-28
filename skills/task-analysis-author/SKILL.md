@@ -50,9 +50,9 @@ document — practical and specific to the job in front of the crew.
    Management — see `../critical-risk-manager/references/bowtie-methodology.md`) helps avoid blind
    spots.
 4. **Score the initial risk** — Likelihood × Consequence on a 5×5 matrix (the *inherent* risk before
-   controls). Use the generic matrix and the **deterministic scorer** in
-   `../critical-risk-manager/` (`references/critical-risk-definitions.md` +
-   `scripts/risk_matrix_scorer.py`) so scoring is repeatable, not by eye.
+   controls). Use the generic matrix and the **deterministic scorer** in `critical-risk-manager` —
+   `../critical-risk-manager/references/critical-risk-definitions.md` +
+   `../critical-risk-manager/scripts/risk_matrix_scorer.py` — so scoring is repeatable, not by eye.
 5. **Apply controls (hierarchy of controls)** — for each hazard, list the controls **highest-order
    first**: Eliminate → Substitute → Isolate → Engineering → Administrative → PPE. Label each control
    with its type. Prefer hard controls; challenge admin/PPE-only lines.
