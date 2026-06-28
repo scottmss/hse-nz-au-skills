@@ -94,6 +94,6 @@ should **agree who notifies** (see `overlapping-duties.md`).
 - **HSWA 2015 (ss 23–25, 55–57), latest**:
   https://www.legislation.govt.nz/act/public/2015/0070/latest/whole.html
 
-> **Hand-offs:** if the event needs investigating → `incident-investigator` *(planned)* (Five Whys)
-> or `complex-problem-analyst` *(planned)* (Fishbone). If a critical control failed →
+> **Hand-offs:** if the event needs investigating → `incident-investigator` (Five Whys)
+> or `complex-problem-analyst` (Fishbone). If a critical control failed →
 > `../../critical-risk-manager/`. For the board's role in responding → `../../officer-governance-advisor/`.

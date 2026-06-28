@@ -110,6 +110,36 @@ Escalation factors are where many real failures live — do not skip them on cri
 - Have escalation factors been considered for each critical control?
 - Are any lines carried only by "be careful" (administrative) + PPE? Challenge them.
 - Have you avoided double-counting one control as if it were several?
+- **Does any control introduce a *new* hazard?** (see below) — and is the new risk lower than the
+  one it controls?
+
+## Choosing controls — SFAIRP justification & the new-hazard check
+
+Two disciplines borrowed from formal risk-management practice that strengthen a bow tie's
+**defensibility** (the *reasonably practicable* evidence trail) and its **safety**.
+
+### Control-option analysis (the SFAIRP record)
+For each significant threat — especially critical-control lines — briefly record **what controls you
+considered and why you selected the ones you did**. This is the evidence that risk was eliminated or
+minimised *so far as is reasonably practicable*: it shows you reached up the hierarchy and either
+took the higher-order control or can say why it was not reasonably practicable.
+
+| Hazard / threat | Options considered (by hierarchy) | New hazard? | Selected | Why not higher (SFAIRP) |
+|---|---|---|---|---|
+| e.g. fall from height | Eliminate (do from ground) / Engineering (edge protection) / Admin (procedure) / PPE (harness) | … | Edge protection + harness | Elimination not reasonably practicable because … |
+
+> Cost may only be weighed where it is **grossly disproportionate** to the risk (NZ HSWA s 22 / AU
+> model WHS s 18). "Too expensive" is not, by itself, an SFAIRP justification.
+
+### The new-hazard check
+**Every control can create a new hazard.** Before accepting a control, ask: *does it introduce a new
+hazard, and is that new risk lower than the one it controls?* If the new risk is higher, reject the
+option; if it can be controlled, add that control; if it's an acceptable trade-off, document it.
+Common examples:
+- PPE → heat stress, reduced dexterity, restricted vision.
+- An interlock or cut-out that **fails dangerous** (or gets bypassed because it nuisance-trips).
+- An exclusion zone that pushes people into traffic or another hazard.
+- A guard that traps or that is removed for cleaning and not replaced.
 
 ## The 6M brainstorming framework
 

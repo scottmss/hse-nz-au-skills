@@ -55,6 +55,24 @@ use `references/jurisdiction-variations.md`:
   duties and section numbers (e.g. employer duty at OHS s 21). Do **not** apply model-WHS sections to
   a Victorian matter.
 
+```
+Where is the work / who is the duty holder?
+        │
+        ├── New Zealand ─────────────► route to worksafe-nz-specialist (HSWA)
+        │
+        ├── Victoria ───────────────► OHS Act 2004 (WorkSafe Victoria) — NOT model WHS;
+        │                             flag the limits of this skill
+        │
+        ├── Western Australia ──────► WHS Act 2020 (WorkSafe WA) — model concepts,
+        │                             but confirm WA's own enacted section numbers
+        │
+        ├── Commonwealth / national
+        │   self-insurer ───────────► Comcare (model WHS Cth) — confirm scheme coverage
+        │
+        └── NSW / QLD / SA / TAS /
+            ACT / NT ───────────────► model WHS, enacted by that state/territory's regulator
+```
+
 ## The model WHS duty map (quick reference)
 
 Model WHS Act section numbers (verify the **enacted** number per jurisdiction; **Victoria differs

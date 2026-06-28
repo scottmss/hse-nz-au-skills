@@ -31,7 +31,7 @@ small number of controls matters more than a long generic hazard list.
 ## When NOT to use
 
 - Routine, low-consequence task hazards better served by a JSA / task analysis → hand off to
-  `task-analysis-author` *(planned)*.
+  `task-analysis-author`.
 - Investigating an event that has already happened → hand off to `incident-investigator`
   (Five Whys) or `complex-problem-analyst` (Fishbone).
 - Pure legal-duty questions (is this notifiable? what does the PCBU owe?) → route via
@@ -72,6 +72,11 @@ framework** (Machine, Mother Nature, Man, Method, Material, Management — `bowt
 across threats, barriers and consequences so no whole class of cause is missed, and pick a
 **diagram format A/B/C** up front. Worked starting templates are in `references/examples.md`.
 
+**Done when:** the top event is a genuine loss-of-control; every threat and consequence line has at
+least one effective control; critical controls are flagged with their assurance status (in place /
+effective / verified) and none introduces a worse new hazard; escalation factors are addressed for
+each critical control; residual risk is scored; and gaps/recommendations are listed.
+
 ## Jurisdiction note
 
 The bow tie method is identical across NZ and AU; the **legal framing of "adequate" controls
@@ -108,8 +113,8 @@ Produce, in this order:
   `safework-au-specialist` (AU), via `hse-advisor`.
 - **High-risk-work licensing / plant competency** (crane, rigging, EWP, scaffold) →
   `high-risk-work-specialist`.
-- **Turn controls into a procedure** → `sop-author` *(planned)*; **into a task-level JSA** →
-  `task-analysis-author` *(planned)*.
+- **Turn controls into a procedure** → `sop-author`; **into a task-level JSA** →
+  `task-analysis-author`.
 - **A critical control failed in a real event** → `incident-investigator`.
 
 ## Disclaimer

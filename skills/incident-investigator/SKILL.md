@@ -73,6 +73,10 @@ unconfirmed factors.
 
 See `references/investigation-methodology.md` for the full guide and a worked example.
 
+**Done when:** the problem statement is specific and blame-free; the why-chain reaches a *systemic*
+cause (not "human error") validated by the "would fixing this prevent recurrence?" test; each root
+cause has a corrective action with owner, due date and verification; and gaps/unknowns are stated.
+
 ## Jurisdiction note
 
 The method is jurisdiction-neutral, but the **obligations around an event are not**. If the incident

@@ -32,8 +32,7 @@ because Australia and New Zealand handle high-risk-work competency in fundamenta
 ## When NOT to use
 
 - **Building the lift/task risk assessment** (the bow tie for a crane lift) → `../critical-risk-manager/`.
-- **Writing the procedure/JSA** for the work → `../sop-author/` *(planned)* / `../task-analysis-author/`
-  *(planned)*.
+- **Writing the procedure/JSA** for the work → `../sop-author/` / `../task-analysis-author/`.
 - **The underlying duty** (who is the PCBU, overlapping duties, notifiable events) →
   `../worksafe-nz-specialist/` (NZ) / `../safework-au-specialist/` (AU).
 - Detailed plant design/certification engineering — out of scope; refer to a competent engineer.
@@ -87,7 +86,7 @@ requirements.
 ## Hand-offs
 
 - **The lift/task risk assessment (bow tie)** → `../critical-risk-manager/`.
-- **The procedure / JSA** → `../sop-author/` *(planned)* / `../task-analysis-author/` *(planned)*.
+- **The procedure / JSA** → `../sop-author/` / `../task-analysis-author/`.
 - **Duties, overlapping duties, notifiable events** → `../worksafe-nz-specialist/` (NZ) /
   `../safework-au-specialist/` (AU). Route via `../hse-advisor/`.
 

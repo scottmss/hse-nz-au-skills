@@ -174,4 +174,4 @@ meeting to establish each party's duties:
 > **Hand-offs:** to build/score the controls for a shared risk → `../../critical-risk-manager/`.
 > For board/officer governance of overlapping-duty relationships → `../../officer-governance-advisor/`.
 > For Australia, the equivalent duty is model WHS Act s 46 (different numbering/detail) →
-> `safework-au-specialist` *(planned)*.
+> `safework-au-specialist`.

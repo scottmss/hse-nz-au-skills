@@ -40,10 +40,13 @@ Use them to work faster and more consistently — not to replace professional ju
 | **incident-investigator** | Structured **Five Whys** root cause analysis for a workplace incident or near-miss — problem statement, validated why-chain, root causes, and corrective actions with owners and verification. |
 | **complex-problem-analyst** | **Fishbone (Ishikawa)** analysis for recurring, multi-causal problems — maps all contributing factor categories (6M) at once, finds the intersections, and pairs with Five Whys for depth. |
 | **high-risk-work-specialist** | What licence or competency a high-risk task needs and who may do it — **AU HRWL classes** (cranes, dogging, rigging, scaffolding, EWP, forklift) vs **NZ competency** (NZQA unit standards, Certificates of Competence, Approved Codes), plus the governing AS/NZS standards. |
+| **sop-author** | Writes or reviews a **Standard Operating Procedure** / safe system of work — purpose & scope, roles, the step-by-step method with hazards and controls integrated, competency sign-off, and document control. |
+| **task-analysis-author** | Builds a **Task Analysis (TA) / JSA** for a specific job — steps → hazards → initial risk → controls (hierarchy) → responsible → residual risk, with a worker sign-on. Reuses the critical-risk matrix and scorer. |
+| **prosecution-analyst** | Turns **NZ/AU H&S prosecution patterns** into preventive lessons and benchmarks — the enforcement/sentencing frameworks (HSWA ss 47–49 + Stumpmaster; model WHS Category 1–3 + industrial manslaughter) and the recurring duty-failure patterns. Company-agnostic and educational; not a prediction of any case. |
 
-> **Roadmap.** Further specialists are planned — `sop-author`, `task-analysis-author`, and
-> `prosecution-analyst`. The collection ships incrementally; a small set of solid skills beats
-> a large set of thin ones.
+> **Status.** All eleven specialists in the planned roster are now built — an orchestrator plus
+> ten specialists spanning critical-risk, governance, NZ/AU duties, high-risk work, investigation,
+> procedures, and prosecution learning. Contributions and refinements welcome (see below).
 
 ---
 

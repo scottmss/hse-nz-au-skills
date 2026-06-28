@@ -60,13 +60,12 @@ status). Return control to the user with a clear statement of which skill is doi
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |
 | AU WHS Act/Regs, state/territory variations, **which jurisdiction & regulator**, Victoria (OHS Act 2004), PCBU/officer duties, notifiable incidents, Codes of Practice, HRWL | **safework-au-specialist** |
 | Cranes, dogging, rigging, scaffolding, EWP, forklift; what licence/competency is needed; HRWL classes (AU) vs NZQA unit standards / Certificates of Competence (NZ); AS/NZS standards | **high-risk-work-specialist** |
-| Safe system of work / SOP authoring and structure | **sop-author** *(planned)* |
-| JSA / task analysis (step → hazard → control) | **task-analysis-author** *(planned)* |
-| Learning from NZ/AU HSE prosecution patterns | **prosecution-analyst** *(planned)* |
+| Safe system of work / SOP authoring, structure, document control | **sop-author** |
+| JSA / task analysis (step → hazard → control → residual), worker sign-on | **task-analysis-author** |
+| Learning from NZ/AU HSE prosecution patterns; enforcement/sentencing; benchmarking against what gets prosecuted | **prosecution-analyst** |
 
-Skills marked *(planned)* are not yet in this collection. If one is requested, do the best
-jurisdiction-correct job you can directly, follow the relevant overview reference, and tell the
-user the dedicated specialist is on the roadmap.
+All specialists above are available in this collection. Identify the jurisdiction and task, then
+hand off to the matching specialist; for work spanning several, sequence them.
 
 ## Jurisdiction note
 

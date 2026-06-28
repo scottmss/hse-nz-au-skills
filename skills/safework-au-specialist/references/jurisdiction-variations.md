@@ -62,7 +62,7 @@ regulator, with **mutual recognition** across jurisdictions. Licence **classes**
 CN, CV, C2–C6, CO, CB, CT), dogging (DG), rigging (RB, RI, RA), scaffolding (SB, SI, SA), elevating
 work platforms (WP, boom-type ≥ 11 m), forklifts (LF, LO), and pressure-equipment/reach-stacker
 classes. This is an **Australian construct** — NZ does not use the same licence-class system. For
-plant/competency depth → `high-risk-work-specialist` *(planned)*.
+plant/competency depth → `high-risk-work-specialist`.
 
 ## Other things that vary by jurisdiction
 

@@ -12,7 +12,9 @@ For each **critical control**, answer all three:
 1. **In place** — does the control physically/organisationally exist for this work, at this site,
    today? (Not "we have a policy" — is the rated sling actually here and tagged in date?)
 2. **Effective** — if it works as intended, does it actually stop the threat or limit the
-   consequence? Is it the right control, correctly specified for the energy involved?
+   consequence? Is it the right control, correctly specified for the energy involved — and does it
+   avoid **introducing a new hazard** worse than the one it controls (see the new-hazard check in
+   `bowtie-methodology.md`)?
 3. **Verified** — how do we *know* 1 and 2 are true? Who checks, how often, and what's the
    evidence? A control with no verification is an assumption.
 

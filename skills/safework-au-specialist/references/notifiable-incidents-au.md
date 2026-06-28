@@ -80,5 +80,5 @@ notifies** — see `overlapping-duties-au.md`.
 - Then the **regulator** for the jurisdiction (each publishes its own incident-notification page and
   contact line).
 
-> **Hand-offs:** investigate the incident → `incident-investigator` *(planned)*. If a critical control
+> **Hand-offs:** investigate the incident → `incident-investigator`. If a critical control
 > failed → `../../critical-risk-manager/`. Board response → `../../officer-governance-advisor/`.
