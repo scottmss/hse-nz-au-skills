@@ -62,6 +62,9 @@ status). Return control to the user with a clear statement of which skill is doi
 | Officer/board/director **governance** or **due diligence**, governance self-assessment, board H&S report, officer induction, "what should the board ask", risk appetite at governance level | **officer-governance-advisor** |
 | Bow tie, critical risk, top event, barrier/control assurance, residual risk scoring | **critical-risk-manager** |
 | Psychosocial risk, mental health at work, work-related stress, job demands, bullying/harassment, traumatic exposure (work-design risk management) | **psychosocial-risk-specialist** |
+| Working at height, falls, fall protection/restraint/arrest, harness, edge protection, MEWP/EWP, ladder, fragile roof, dropped object, suspension trauma | **working-at-height-specialist** |
+| Excavation, trenching, ground disturbance, trench collapse, underground/buried services, cable strike, shoring/benching/battering, potholing, certificate to excavate | **excavation-specialist** |
+| Confined space entry, unsafe atmosphere, gas/atmospheric testing, purge/ventilate, entry permit, standby/hole watch, non-entry rescue, asphyxiation, engulfment | **confined-space-specialist** |
 | Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
 | Recurring/multi-causal problem; Fishbone/Ishikawa; converging contributing factors | **complex-problem-analyst** |
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |

@@ -44,10 +44,14 @@ Use them to work faster and more consistently — not to replace professional ju
 | **task-analysis-author** | Builds a **Task Analysis (TA) / JSA** for a specific job — steps → hazards → initial risk → controls (hierarchy) → responsible → residual risk, with a worker sign-on. Reuses the critical-risk matrix and scorer. |
 | **prosecution-analyst** | Turns **NZ/AU H&S prosecution patterns** into preventive lessons and benchmarks — the enforcement/sentencing frameworks (HSWA ss 47–49 + Stumpmaster; model WHS Category 1–3 + industrial manslaughter) and the recurring duty-failure patterns. Company-agnostic and educational; not a prediction of any case. |
 | **psychosocial-risk-specialist** | Identify, assess and control **psychosocial risk** (work-design hazards that cause psychological harm) — the hazard taxonomy, source-first controls, and the NZ/AU split (AU model WHS Regs 55A–55D + Code; NZ via the general duties, since "health" includes mental health). |
+| **working-at-height-specialist** | The SME for **working at height / preventing falls** — good-practice controls (eliminate → passive → restraint/arrest), dropped objects, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU falls Code; AS/NZS 1891). |
+| **excavation-specialist** | The SME for **excavation, trenching & ground disturbance** — locating/isolating underground services, collapse prevention (batter/bench/shore), exclusion zones, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU Excavation Code; AS 5488). |
+| **confined-space-specialist** | The SME for **confined space entry** — atmosphere (isolate, purge, test, ventilate), entry permit, standby, non-entry rescue, and the qualifications + NZ/AU guidance (WorkSafe; AU Confined spaces Code; AS/NZS 2865). |
 
-> **Status.** Twelve skills built — an orchestrator plus eleven specialists spanning critical-risk,
-> psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures, and
-> prosecution learning. Contributions and refinements welcome (see below).
+> **Status.** Fifteen skills built — an orchestrator plus fourteen specialists spanning critical-risk,
+> psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures, prosecution
+> learning, and **hazard subject-matter experts** (working at height, excavation, confined space)
+> grounded in the relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
 
