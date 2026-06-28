@@ -76,7 +76,10 @@ Many controls are hazard-specific, but a set of **general controls applies to *e
 alongside the specific barriers:
 
 - **Planning** — the work (and its critical risks) is planned before it starts, with the people doing
-  it and a subject-matter expert where needed.
+  it and the relevant **subject-matter expert(s) (SMEs)** consulted. In this collection the SMEs are
+  the sibling specialists — e.g. `../../high-risk-work-specialist/` (plant/competency),
+  `../../psychosocial-risk-specialist/` (psychosocial), `../../worksafe-nz-specialist/` /
+  `../../safework-au-specialist/` (duties). Route via `../../hse-advisor/`.
 - **Risk assessment, scaled to the risk** — escalating from a quick pre-task check, to a JSA / task
   analysis (`../../task-analysis-author/`), to a full safe-work-method statement for critical-risk
   work.
