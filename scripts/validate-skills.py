@@ -22,6 +22,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKILLS_DIR = os.path.join(ROOT, "skills")
 MARKETPLACE = os.path.join(ROOT, ".claude-plugin", "marketplace.json")
+PLUGIN_MANIFEST = os.path.join(ROOT, ".claude-plugin", "plugin.json")
 
 NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 # A backtick code-span whose entire content looks like an internal relative path.
@@ -191,6 +192,32 @@ def validate_marketplace(disk_skills: set[str]) -> None:
         warn("marketplace.json", "no 'owner' set")
 
 
+def validate_plugin_manifest() -> None:
+    """Optional plugin.json: must be valid JSON, have a name, and that name must
+    match a plugin declared in marketplace.json."""
+    if not os.path.isfile(PLUGIN_MANIFEST):
+        return
+    try:
+        with open(PLUGIN_MANIFEST, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except json.JSONDecodeError as e:
+        err("plugin.json", f"invalid JSON: {e}")
+        return
+    if not data.get("name"):
+        err("plugin.json", "missing 'name'")
+    if not data.get("version"):
+        warn("plugin.json", "no 'version' set")
+    if os.path.isfile(MARKETPLACE):
+        try:
+            with open(MARKETPLACE, encoding="utf-8") as fh:
+                names = {p.get("name") for p in json.load(fh).get("plugins", [])}
+        except json.JSONDecodeError:
+            names = set()
+        if data.get("name") and names and data["name"] not in names:
+            err("plugin.json", f"name '{data['name']}' is not a plugin in marketplace.json "
+                f"{sorted(n for n in names if n)}")
+
+
 def main() -> int:
     if not os.path.isdir(SKILLS_DIR):
         print(f"No skills/ directory at {SKILLS_DIR}")
@@ -202,6 +229,7 @@ def main() -> int:
     for name in sorted(disk_skills):
         validate_skill(name)
     validate_marketplace(disk_skills)
+    validate_plugin_manifest()
 
     print(f"Validated {len(disk_skills)} skills.\n")
     for w in warnings:
