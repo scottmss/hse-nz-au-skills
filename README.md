@@ -40,6 +40,7 @@ Use them to work faster and more consistently — not to replace professional ju
 | **incident-investigator** | Structured **Five Whys** root cause analysis for a workplace incident or near-miss — problem statement, validated why-chain, root causes, and corrective actions with owners and verification. |
 | **complex-problem-analyst** | **Fishbone (Ishikawa)** analysis for recurring, multi-causal problems — maps all contributing factor categories (6M) at once, finds the intersections, and pairs with Five Whys for depth. |
 | **high-risk-work-specialist** | What licence or competency a high-risk task needs and who may do it — **AU HRWL classes** (cranes, dogging, rigging, scaffolding, EWP, forklift) vs **NZ competency** (NZQA unit standards, Certificates of Competence, Approved Codes), plus the governing AS/NZS standards. |
+| **lifting-rigging-specialist** | The SME for the **rigging/dogging method** — estimating the load and its centre of gravity, selecting and **de-rating slings for the sling angle**, choosing lifting gear (shackles, eyebolts, beams), and running the lift (exclusion zone, signals, tag lines). Includes a sling-WLL calculator. Grounded in the NZ ACOP for Load-lifting Rigging + AS standards. |
 | **sop-author** | Writes or reviews a **Standard Operating Procedure** / safe system of work — purpose & scope, roles, the step-by-step method with hazards and controls integrated, competency sign-off, and document control. |
 | **task-analysis-author** | Builds a **Task Analysis (TA) / JSA** for a specific job — steps → hazards → initial risk → controls (hierarchy) → responsible → residual risk, with a worker sign-on. Reuses the critical-risk matrix and scorer. |
 | **prosecution-analyst** | Turns **NZ/AU H&S prosecution patterns** into preventive lessons and benchmarks — the enforcement/sentencing frameworks (HSWA ss 47–49 + Stumpmaster; model WHS Category 1–3 + industrial manslaughter) and the recurring duty-failure patterns. Company-agnostic and educational; not a prediction of any case. |
@@ -54,11 +55,11 @@ Use them to work faster and more consistently — not to replace professional ju
 | **water-safety-specialist** | The SME for **working in/on/above water** — prevent the fall in, lifejackets, safety observer, water rescue, conditions monitoring, and diving (AS 4758; AS/NZS 2299; Maritime NZ). |
 | **violence-aggression-specialist** | The SME for **work-related violence & aggression** — design out the opportunity, lone/in-home worker controls, de-escalation, duress/security, and post-incident support (WorkSafe Violence at work; AU violence guidance). Partners psychosocial-risk-specialist. |
 
-> **Status.** Twenty-one skills built — an orchestrator plus twenty specialists spanning critical-risk,
+> **Status.** Twenty-two skills built — an orchestrator plus twenty-one specialists spanning critical-risk,
 > psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures and prosecution
 > learning, plus a full tier of **hazard subject-matter experts** covering the recurring fatal risks:
-> working at height, excavation, confined space, machinery/plant, vehicles & traffic, hazardous
-> substances & asbestos, electrical & stored energy, water, and violence & aggression — each grounded in
+> working at height, excavation, confined space, machinery/plant, vehicles & traffic, lifting & rigging,
+> hazardous substances & asbestos, electrical & stored energy, water, and violence & aggression — each grounded in
 > the relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
