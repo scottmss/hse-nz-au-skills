@@ -83,6 +83,6 @@ nothing is.
 > likelihood — a "rare × catastrophic = 5" must not be waved through as merely *medium*. Score
 > the matrix, but let the catastrophic consequence drive the assurance regime.
 
-`scripts/risk_matrix_scorer.py` implements this scheme deterministically (pre-control and
+`../scripts/risk_matrix_scorer.py` implements this scheme deterministically (pre-control and
 post-control), and applies the critical-consequence override, so scoring is repeatable rather
 than done by eye. Always confirm the matrix in use matches the one the assessment is governed by.

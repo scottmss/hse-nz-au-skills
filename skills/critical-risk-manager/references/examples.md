@@ -91,4 +91,4 @@ NZ/AU-oriented; confirm the equivalent in the relevant jurisdiction.
 - Any gap — a threat with no effective barrier, or a critical control with a fatal escalation
   factor — is a finding to raise and close.
 - Flag the **critical controls** (the few that carry the risk) and assess each with
-  `control-assurance.md`. Score residual risk with `scripts/risk_matrix_scorer.py`.
+  `control-assurance.md`. Score residual risk with `../scripts/risk_matrix_scorer.py`.
