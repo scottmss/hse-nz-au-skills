@@ -97,6 +97,33 @@ def md_files(skill_dir: str):
                 yield os.path.join(dirpath, f)
 
 
+def frontmatter_yaml_issues(fm: str) -> list[str]:
+    """Detect plain-scalar YAML hazards in top-level frontmatter values.
+
+    A ``: `` (colon-space) or `` #`` (space-hash) inside an UNQUOTED scalar makes a
+    YAML parser misread it as a mapping / comment, and the skill fails to load.
+    This is the bug class the basic key checks miss.
+    """
+    issues: list[str] = []
+    cur_key = None
+    quoted = False
+    for ln in fm.split("\n"):
+        m = re.match(r"^(\S[^:]*):(.*)$", ln)
+        if m and not ln[:1].isspace():
+            cur_key = m.group(1).strip()
+            seg = m.group(2)
+            quoted = seg.lstrip().startswith(('"', "'"))
+        else:
+            seg = ln  # continuation line of the current key's value
+        if cur_key == "description" and not quoted:
+            snippet = seg.strip()[:70]
+            if ": " in seg:
+                issues.append(f"unquoted description contains ': ' (breaks YAML load) — …{snippet}")
+            if " #" in seg:
+                issues.append(f"unquoted description contains ' #' (YAML comment hazard) — …{snippet}")
+    return issues
+
+
 def validate_skill(name: str) -> None:
     skill_dir = os.path.join(SKILLS_DIR, name)
     skill_md = os.path.join(skill_dir, "SKILL.md")
@@ -125,6 +152,8 @@ def validate_skill(name: str) -> None:
             desc_region = fm[fm.find("description:"):]
             if len(desc_region) < 80:
                 warn(name, "description looks very short — make it trigger-rich")
+        for issue in frontmatter_yaml_issues(fm):
+            err(name, issue)
 
     low = body.lower()
     if "disclaimer" not in low and "not legal advice" not in low:

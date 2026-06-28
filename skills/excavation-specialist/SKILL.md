@@ -2,7 +2,7 @@
 name: excavation-specialist
 description: The subject-matter expert (SME) you consult for excavation, trenching and ground
   disturbance — preventing collapse/engulfment and contact with underground services. Use for any work
-  that breaks or penetrates the ground: trenches, excavations, pits, post holes, drilling, boring,
+  that breaks or penetrates the ground — trenches, excavations, pits, post holes, drilling, boring,
   directional drilling, or digging near buried cables, gas, water, sewer or telco services. Triggers
   on "excavation", "trenching", "trench collapse", "ground disturbance", "digging", "underground
   services", "buried cables", "cable strike", "shoring", "benching", "battering", "certificate to

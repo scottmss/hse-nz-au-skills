@@ -4,7 +4,7 @@ description: Use this skill to write or review a Standard Operating Procedure (S
   work — the repeatable, trainable method for how a task is done safely. Triggers on "SOP", "standard
   operating procedure", "safe operating procedure", "safe system of work", "write a procedure",
   "document the process for X", "procedure document", "work instruction", or "review/update this SOP".
-  Produces the structure: purpose & scope, roles, the step-by-step method with hazards and controls
+  Produces the structure — purpose & scope, roles, the step-by-step method with hazards and controls
   integrated, competency sign-off, and document control. For a single job's pre-start hazard sheet use
   task-analysis-author; for a critical-risk bow tie use critical-risk-manager. NZ/AU workplace context.
   Not legal advice.
