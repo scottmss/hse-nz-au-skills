@@ -295,16 +295,16 @@ marketplace. Minimal form, declaring skills directly (no per-skill plugin.json r
       "source": "./",
       "strict": false,
       "skills": [
-        "skills/hse-advisor",
-        "skills/critical-risk-manager",
-        "skills/incident-investigator",
-        "skills/complex-problem-analyst",
-        "skills/worksafe-nz-specialist",
-        "skills/safework-au-specialist",
-        "skills/high-risk-work-specialist",
-        "skills/sop-author",
-        "skills/task-analysis-author",
-        "skills/prosecution-analyst"
+        "./skills/hse-advisor",
+        "./skills/critical-risk-manager",
+        "./skills/incident-investigator",
+        "./skills/complex-problem-analyst",
+        "./skills/worksafe-nz-specialist",
+        "./skills/safework-au-specialist",
+        "./skills/high-risk-work-specialist",
+        "./skills/sop-author",
+        "./skills/task-analysis-author",
+        "./skills/prosecution-analyst"
       ]
     }
   ]

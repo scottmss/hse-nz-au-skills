@@ -205,16 +205,20 @@ def validate_marketplace(disk_skills: set[str]) -> None:
                 "(e.g. \"./\" when the plugin lives at the marketplace root)")
         listed_paths.extend(plugin.get("skills", []))
 
+    # Component paths in a plugin manifest are relative paths and must start with
+    # "./" — without it the installer can't resolve them and the plugin fails to
+    # install. The skills live under "./skills/<name>".
     listed = set()
     seen_paths: set[str] = set()
     for p in listed_paths:
         if p in seen_paths:
             err("marketplace.json", f"skill path '{p}' is listed more than once")
         seen_paths.add(p)
-        if not p.startswith("skills/"):
-            err("marketplace.json", f"skill path '{p}' does not start with 'skills/'")
+        if not p.startswith("./skills/"):
+            err("marketplace.json", f"skill path '{p}' must start with './skills/' "
+                "(relative manifest paths require the './' prefix)")
             continue
-        listed.add(p[len("skills/"):])
+        listed.add(p[len("./skills/"):])
         if not os.path.isdir(os.path.join(ROOT, p)):
             err("marketplace.json", f"listed skill '{p}' has no directory on disk")
     for missing in sorted(disk_skills - listed):
