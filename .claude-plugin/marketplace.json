@@ -43,7 +43,8 @@
         "./skills/forestry-specialist",
         "./skills/construction-specialist",
         "./skills/transport-logistics-specialist",
-        "./skills/manufacturing-specialist"
+        "./skills/manufacturing-specialist",
+        "./skills/stevedoring-specialist"
       ]
     }
   ]
