@@ -10,3 +10,6 @@ venv/
 # Editor
 .vscode/
 .idea/
+
+# Build output
+dist/

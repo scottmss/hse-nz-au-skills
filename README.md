@@ -81,9 +81,18 @@ read-only prosecutions case database — it can ground its analysis in real data
 ```bash
 # add this repo as a marketplace
 /plugin marketplace add scottmss/hse-nz-au-skills
-# install the bundle
+# install the bundle (all skills at once)
 /plugin install hse-core@hse-nz-au-skills
 ```
+
+### Download a bundle (no git required)
+
+Prebuilt zips are attached to each [GitHub Release](https://github.com/scottmss/hse-nz-au-skills/releases):
+
+- **`hse-nz-au-skills.zip`** — the whole collection in one download.
+- **`<skill-name>.zip`** — one zip per skill (the skill folder at the root), for when you only want a few.
+
+Unzip a skill folder into `~/.claude/skills/` (Claude Code), or upload it in Claude.ai (below).
 
 ### By copying a single skill folder
 
@@ -97,9 +106,20 @@ project installs at project scope.
 
 ### In Claude.ai / Cowork / the API
 
-A `SKILL.md` folder is portable. Upload a skill — or zip a skill folder and add it as a custom
-skill via the Claude.ai skills interface or the Skills API. The same files work across Claude
-Code, Cowork, and the API.
+A `SKILL.md` folder is portable. In **Claude.ai**, add each skill under **Settings → Capabilities →
+Skills** by uploading its **`<skill-name>.zip`** (from a Release, or build them yourself — below).
+Claude.ai adds skills one at a time, so upload the specific skills you want (e.g. `hse-advisor` plus
+`critical-risk-manager`). The same files work across Claude Code, Cowork, and the API/Agent SDK.
+
+### Building the bundles yourself
+
+```bash
+git clone https://github.com/scottmss/hse-nz-au-skills.git
+cd hse-nz-au-skills
+python3 scripts/bundle.py   # writes per-skill zips + hse-nz-au-skills.zip to dist/
+```
+
+`scripts/bundle.py` is pure-stdlib (no dependencies) and is what produces the Release artifacts.
 
 ---
 
