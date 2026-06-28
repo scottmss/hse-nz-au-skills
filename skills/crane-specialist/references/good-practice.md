@@ -27,8 +27,8 @@ Choose for the **worst case of the job**, with margin:
 - **The heaviest and farthest pick** in the configuration you will actually use (radius, boom length,
   jib, counterweight, outriggers vs on-rubber, over-side vs over-front).
 - **Crane type to task:** mobile/all-terrain, crawler, tower, overhead/gantry (EOT), vehicle-loader
-  crane (HIAB), pick-and-carry (e.g. Franna). Each has different stability and chart behaviour —
-  pick-and-carry capacity drops sharply with articulation and is rated on-rubber.
+  crane (HIAB), pick-and-carry (e.g. Franna). Each has different stability and chart behaviour — full
+  per-type characteristics, capacity behaviour and signature hazards in `crane-types.md`.
 - **Access, set-up area, headroom, obstructions and the swing path** all feed the choice.
 - Leave **capacity margin** — running a crane near 100% of chart leaves nothing for dynamics, wind,
   out-of-level or uncertainty in the load.

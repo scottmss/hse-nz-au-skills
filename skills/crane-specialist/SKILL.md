@@ -43,6 +43,22 @@ the hook takes load.
 - Building the full **bow tie / lift risk study** → `../critical-risk-manager/` (this SME supplies the
   crane controls and questions that go into it).
 
+## Crane types
+
+Each type behaves differently on the **chart, the ground and in stability** — pick and plan for the
+type's quirks (full detail in `references/crane-types.md`):
+
+- **Mobile** (all-terrain / truck / rough-terrain) — capacity from outriggers; separate, much smaller
+  on-rubber chart; over-side vs over-front matters.
+- **Crawler** — on tracks; large ground footprint to prepare; lattice-boom assembly is its own risk.
+- **Tower** (hammerhead / luffing / self-erecting) — erect/climb/dismantle are the high-risk phases;
+  foundation/tie-ins, weathervaning out of service, zoning with adjacent cranes.
+- **Pick-and-carry (Franna / articulated)** — rated on-rubber; capacity drops with steer angle;
+  over-represented in **tip-overs** on slopes / while travelling with the load.
+- **Vehicle-loader (HIAB)** — tonne-metre rating; stabiliser legs; usually roadside near traffic/public.
+- **Overhead / gantry (EOT, portal)** — fixed runway; crush/pinch, load swing, runway/end-stop and
+  hoist limits rather than ground bearing.
+
 ## The risk
 
 A **crane overturn, structural overload, dropped load, or contact with power lines** — from the wrong
