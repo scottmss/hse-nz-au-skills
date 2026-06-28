@@ -21,7 +21,13 @@
         "skills/psychosocial-risk-specialist",
         "skills/working-at-height-specialist",
         "skills/excavation-specialist",
-        "skills/confined-space-specialist"
+        "skills/confined-space-specialist",
+        "skills/machinery-safety-specialist",
+        "skills/mobile-plant-traffic-specialist",
+        "skills/hazardous-substances-specialist",
+        "skills/electrical-energy-specialist",
+        "skills/water-safety-specialist",
+        "skills/violence-aggression-specialist"
       ]
     }
   ]

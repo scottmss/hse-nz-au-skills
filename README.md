@@ -47,11 +47,19 @@ Use them to work faster and more consistently — not to replace professional ju
 | **working-at-height-specialist** | The SME for **working at height / preventing falls** — good-practice controls (eliminate → passive → restraint/arrest), dropped objects, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU falls Code; AS/NZS 1891). |
 | **excavation-specialist** | The SME for **excavation, trenching & ground disturbance** — locating/isolating underground services, collapse prevention (batter/bench/shore), exclusion zones, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU Excavation Code; AS 5488). |
 | **confined-space-specialist** | The SME for **confined space entry** — atmosphere (isolate, purge, test, ventilate), entry permit, standby, non-entry rescue, and the qualifications + NZ/AU guidance (WorkSafe; AU Confined spaces Code; AS/NZS 2865). |
+| **machinery-safety-specialist** | The SME for **machinery & plant safety** — guarding (fixed/interlocked), emergency stops, and **isolation/lockout-tagout (LOTO)**, plus qualifications + NZ/AU guidance (WorkSafe Safe use of machinery; AU plant Code; AS/NZS 4024). |
+| **mobile-plant-traffic-specialist** | The SME for **vehicles, mobile plant & workplace traffic** — separating pedestrians and vehicles, reversing/blind-spot controls, traffic management plans, plus competency (WorkSafe site-traffic GPG; NZGTTM; AU traffic guide). |
+| **hazardous-substances-specialist** | The SME for **hazardous substances/chemicals & asbestos** — inventory/SDS/GHS, eliminate/substitute/ventilate/contain, plus the NZ/AU regs (HSW Hazardous Substances 2017 & Asbestos 2016; AU chemicals & asbestos Codes). |
+| **electrical-energy-specialist** | The SME for **electrical safety & stored/released energy** — de-energise/isolate/prove-dead, arc flash, overhead-line approach distances (NZECP 34), hot work and pressure release, plus competency (WorkSafe Energy Safety; AU electrical Code; AS/NZS 4836). |
+| **water-safety-specialist** | The SME for **working in/on/above water** — prevent the fall in, lifejackets, safety observer, water rescue, conditions monitoring, and diving (AS 4758; AS/NZS 2299; Maritime NZ). |
+| **violence-aggression-specialist** | The SME for **work-related violence & aggression** — design out the opportunity, lone/in-home worker controls, de-escalation, duress/security, and post-incident support (WorkSafe Violence at work; AU violence guidance). Partners psychosocial-risk-specialist. |
 
-> **Status.** Fifteen skills built — an orchestrator plus fourteen specialists spanning critical-risk,
-> psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures, prosecution
-> learning, and **hazard subject-matter experts** (working at height, excavation, confined space)
-> grounded in the relevant GPGs/Codes. Contributions and refinements welcome (see below).
+> **Status.** Twenty-one skills built — an orchestrator plus twenty specialists spanning critical-risk,
+> psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures and prosecution
+> learning, plus a full tier of **hazard subject-matter experts** covering the recurring fatal risks:
+> working at height, excavation, confined space, machinery/plant, vehicles & traffic, hazardous
+> substances & asbestos, electrical & stored energy, water, and violence & aggression — each grounded in
+> the relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
 

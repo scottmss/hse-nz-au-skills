@@ -58,16 +58,16 @@ and adapt the set to your own operations.)
 
 | Category | The harm |
 |---|---|
-| **Driving / vehicles** | Collision or loss of control (cars, trucks, mobile plant) |
+| **Driving / vehicles** | Collision or loss of control (cars, trucks, mobile plant) → `../../mobile-plant-traffic-specialist/` |
 | **Working at height** | Fall from height, dropped object, suspension trauma → `../../working-at-height-specialist/` |
-| **Rotating plant & major machinery** | Contact with rotating tools/plant or large machinery |
-| **Hazardous substances / harmful contaminants** | Exposure to hazardous substances, fumes, dust (incl. asbestos), contaminated water |
-| **Stored / released energy** | Electrical shock, arc flash, crushing, burns; uncontrolled release of pressure/stored energy |
+| **Rotating plant & major machinery** | Contact with rotating tools/plant or large machinery → `../../machinery-safety-specialist/` |
+| **Hazardous substances / harmful contaminants** | Exposure to hazardous substances, fumes, dust (incl. asbestos), contaminated water → `../../hazardous-substances-specialist/` |
+| **Stored / released energy** | Electrical shock, arc flash, crushing, burns; uncontrolled release of pressure/stored energy → `../../electrical-energy-specialist/` |
 | **Ground disturbance / excavation** | Collapse or engulfment; contact with underground services → `../../excavation-specialist/` |
 | **Confined space** | Unsafe/toxic atmosphere — asphyxiation, engulfment, inability to rescue → `../../confined-space-specialist/` |
-| **Water** | Drowning or hypothermia working in, on or above water |
+| **Water** | Drowning or hypothermia working in, on or above water → `../../water-safety-specialist/` |
 | **Psychosocial** | Work-design hazards causing psychological harm → `../../psychosocial-risk-specialist/` |
-| **Violence & aggression** | Violence, assault or significant injury to workers or the public |
+| **Violence & aggression** | Violence, assault or significant injury to workers or the public → `../../violence-aggression-specialist/` |
 
 ## Baseline controls for any critical risk
 
