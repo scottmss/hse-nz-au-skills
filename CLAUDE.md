@@ -292,6 +292,7 @@ marketplace. Minimal form, declaring skills directly (no per-skill plugin.json r
   "plugins": [
     {
       "name": "hse-core",
+      "source": "./",
       "strict": false,
       "skills": [
         "skills/hse-advisor",
