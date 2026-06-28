@@ -65,6 +65,9 @@ status). Return control to the user with a clear statement of which skill is doi
 | Working at height, falls, fall protection/restraint/arrest, harness, edge protection, MEWP/EWP, ladder, fragile roof, dropped object, suspension trauma | **working-at-height-specialist** |
 | Excavation, trenching, ground disturbance, trench collapse, underground/buried services, cable strike, shoring/benching/battering, potholing, certificate to excavate | **excavation-specialist** |
 | Confined space entry, unsafe atmosphere, gas/atmospheric testing, purge/ventilate, entry permit, standby/hole watch, non-entry rescue, asphyxiation, engulfment | **confined-space-specialist** |
+| Machinery/plant safety, guarding, isolation/lockout-tagout (LOTO), rotating/moving parts, entanglement, interlocks, emergency stop, unexpected start-up, stored energy | **machinery-safety-specialist** |
+| Vehicles, mobile plant, forklifts, traffic management (TMP), vehicle-pedestrian separation, reversing/blind spots, driving/loss of control, temporary traffic management | **mobile-plant-traffic-specialist** |
+| Hazardous substances/chemicals, dangerous goods, SDS/GHS, chemical storage/segregation, fumes/dust/silica exposure, spill response, and **asbestos** (management & licensed removal) | **hazardous-substances-specialist** |
 | Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
 | Recurring/multi-causal problem; Fishbone/Ishikawa; converging contributing factors | **complex-problem-analyst** |
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |

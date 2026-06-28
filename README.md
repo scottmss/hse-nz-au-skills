@@ -47,11 +47,15 @@ Use them to work faster and more consistently — not to replace professional ju
 | **working-at-height-specialist** | The SME for **working at height / preventing falls** — good-practice controls (eliminate → passive → restraint/arrest), dropped objects, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU falls Code; AS/NZS 1891). |
 | **excavation-specialist** | The SME for **excavation, trenching & ground disturbance** — locating/isolating underground services, collapse prevention (batter/bench/shore), exclusion zones, rescue, and the qualifications + NZ/AU guidance (WorkSafe GPG; AU Excavation Code; AS 5488). |
 | **confined-space-specialist** | The SME for **confined space entry** — atmosphere (isolate, purge, test, ventilate), entry permit, standby, non-entry rescue, and the qualifications + NZ/AU guidance (WorkSafe; AU Confined spaces Code; AS/NZS 2865). |
+| **machinery-safety-specialist** | The SME for **machinery & plant safety** — guarding (fixed/interlocked), emergency stops, and **isolation/lockout-tagout (LOTO)**, plus qualifications + NZ/AU guidance (WorkSafe Safe use of machinery; AU plant Code; AS/NZS 4024). |
+| **mobile-plant-traffic-specialist** | The SME for **vehicles, mobile plant & workplace traffic** — separating pedestrians and vehicles, reversing/blind-spot controls, traffic management plans, plus competency (WorkSafe site-traffic GPG; NZGTTM; AU traffic guide). |
+| **hazardous-substances-specialist** | The SME for **hazardous substances/chemicals & asbestos** — inventory/SDS/GHS, eliminate/substitute/ventilate/contain, plus the NZ/AU regs (HSW Hazardous Substances 2017 & Asbestos 2016; AU chemicals & asbestos Codes). |
 
-> **Status.** Fifteen skills built — an orchestrator plus fourteen specialists spanning critical-risk,
+> **Status.** Eighteen skills built — an orchestrator plus seventeen specialists spanning critical-risk,
 > psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures, prosecution
-> learning, and **hazard subject-matter experts** (working at height, excavation, confined space)
-> grounded in the relevant GPGs/Codes. Contributions and refinements welcome (see below).
+> learning, and a growing tier of **hazard subject-matter experts** (working at height, excavation,
+> confined space, machinery/plant, vehicles & traffic, hazardous substances & asbestos) grounded in the
+> relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
 
