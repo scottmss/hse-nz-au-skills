@@ -48,6 +48,52 @@ Flag a control as **critical** if **all** of these hold:
 Aim for the *few* that genuinely carry the risk, not every control. If everything is "critical",
 nothing is.
 
+## Common critical-risk categories
+
+Most NZ/AU heavy-industry, utilities and construction organisations define a set of **critical (fatal)
+risks** — the handful of energies/exposures that can kill or permanently disable. The categories below
+recur across the sector; use them as a **checklist to make sure you've identified your critical
+risks**, then build a bow tie for each that applies. (This is a generic industry taxonomy — confirm
+and adapt the set to your own operations.)
+
+| Category | The harm |
+|---|---|
+| **Driving / vehicles** | Collision or loss of control (cars, trucks, mobile plant) |
+| **Working at height** | Fall from height, dropped object, suspension trauma |
+| **Rotating plant & major machinery** | Contact with rotating tools/plant or large machinery |
+| **Hazardous substances / harmful contaminants** | Exposure to hazardous substances, fumes, dust (incl. asbestos), contaminated water |
+| **Stored / released energy** | Electrical shock, arc flash, crushing, burns; uncontrolled release of pressure/stored energy |
+| **Ground disturbance / excavation** | Collapse or engulfment; contact with underground services |
+| **Confined space** | Unsafe/toxic atmosphere — asphyxiation, engulfment, inability to rescue |
+| **Water** | Drowning or hypothermia working in, on or above water |
+| **Psychosocial** | Work-design hazards causing psychological harm → `../../psychosocial-risk-specialist/` |
+| **Violence & aggression** | Violence, assault or significant injury to workers or the public |
+
+## Baseline controls for any critical risk
+
+Many controls are hazard-specific, but a set of **general controls applies to *every* critical risk**
+— the foundation that the hazard-specific (bow tie) controls sit on. Check these are in place
+alongside the specific barriers:
+
+- **Planning** — the work (and its critical risks) is planned before it starts, with the people doing
+  it and a subject-matter expert where needed.
+- **Risk assessment, scaled to the risk** — escalating from a quick pre-task check, to a JSA / task
+  analysis (`../../task-analysis-author/`), to a full safe-work-method statement for critical-risk
+  work.
+- **Consultation** — everyone affected understands the risks and controls (and the public/neighbours
+  where relevant).
+- **Competency** — everyone holds the required, current competency for the task
+  (`../../high-risk-work-specialist/`).
+- **Fatigue, and drugs & alcohol** — managed so people are fit for the task.
+- **A current risk register** — hazards, risks and controls recorded and shared.
+- **Reporting** — events, near-misses and hazards reported so they reach decision-makers and are
+  actioned.
+- **Stop-work authority** — every worker has the right (and is expected) to stop or refuse work that
+  poses an imminent risk to health or safety. This is a control in its own right.
+
+A bow tie covers the **hazard-specific** barriers; these baseline controls are the standing
+foundation. A critical-risk assessment should confirm **both**.
+
 ## Example 5×5 risk matrix (generic — substitute your own)
 
 **Likelihood**

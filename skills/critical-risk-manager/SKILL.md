@@ -71,6 +71,10 @@ critical risk carried only by "be careful" and a hi-vis vest is a red flag. Swee
 framework** (Machine, Mother Nature, Man, Method, Material, Management — `bowtie-methodology.md`)
 across threats, barriers and consequences so no whole class of cause is missed, and pick a
 **diagram format A/B/C** up front. Worked starting templates are in `references/examples.md`.
+When defining *which* risks are critical, check against the **common critical-risk categories**, and
+confirm the **baseline controls** that apply to every critical risk (planning, competency, fatigue,
+reporting, **stop-work authority**, etc.) are in place alongside the bow-tie barriers — both in
+`references/critical-risk-definitions.md`.
 
 **Done when:** the top event is a genuine loss-of-control; every threat and consequence line has at
 least one effective control; critical controls are flagged with their assurance status (in place /
