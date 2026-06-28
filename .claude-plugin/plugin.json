@@ -1,7 +1,7 @@
 {
   "name": "hse-core",
   "displayName": "HSE NZ/AU Skills",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "description": "NZ/AU workplace health & safety Claude Agent Skills — an orchestrator plus specialists for critical risk, governance, NZ/AU duties, high-risk work, investigation, procedures, prosecution learning, and hazard subject-matter experts.",
   "author": {
     "name": "Scott McLeod",
