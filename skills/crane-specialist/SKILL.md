@@ -99,9 +99,12 @@ NZ uses competency/certificates. Determine the exact requirement in `../high-ris
 note it predates HSWA 2015 (not yet updated to the current Act) and is being progressively reviewed;
 it **remains published as good practice**. Confirm current status via `../hse-advisor/`. **AU:** crane
 **design** is **AS 1418** and **safe use** is the **AS 2550** series (.1 general, .4 tower, .5 mobile &
-vehicle-loading), supported by the **Code of Practice for Safe Use of Mobile Cranes** and
-state/territory guidance (e.g. tower cranes). AS/NZS standards are **copyright — cited as
-verify-pointers, not reproduced**; confirm the current edition.
+vehicle-loading), supported by the **Code of Practice for Safe Use of Mobile Cranes**, the model
+**Code _Managing risks of plant in the workplace_** and state/territory guidance. **Cranes are
+registrable plant**: under **WHS Regulations Schedule 5**, **tower cranes (incl. self-erecting)** and
+**mobile cranes with SWL > 10 t** require **design and item registration** — confirm via
+`../safework-au-specialist/`. AS/NZS standards are **copyright — cited as verify-pointers, not
+reproduced**; confirm the current edition.
 
 ## Output
 

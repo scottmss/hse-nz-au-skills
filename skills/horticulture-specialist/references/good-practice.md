@@ -105,7 +105,11 @@ Seasonal, migrant and **RSE** workers are often new to the work, the country and
 - **NZ:** WorkSafe **horticulture**, **working-at-height / mobile elevating work platform**, and
   **overhead power line** guidance (some older horticulture guidance has been withdrawn/replaced —
   confirm current). HSWA 2015 applies. Summarised with attribution.
-- **AU:** WHS framework; **state horticulture guidance** (e.g. Agriculture Victoria / SafeWork NSW);
-  agvet-chemical control-of-use regime for spray drift.
+- **AU:** WHS framework with the model Codes most relevant to horticulture — **_Managing the risk of
+  falls_** + **elevating work platforms** guidance (orchard MEWPs), **_Confined spaces_** (CA
+  coolstores), **_Managing risks of hazardous chemicals_** + **_Labelling..._** (spray), and
+  **_Hazardous manual tasks_** — plus **state horticulture guidance** (e.g. Agriculture Victoria /
+  SafeWork NSW) and the agvet-chemical control-of-use regime; jurisdiction variations →
+  `../../safework-au-specialist/`.
 - Specific-hazard standards live with the relevant SME (height, electrical, substances, confined space,
   machinery, forklift). Confirm current editions/guidance before relying on any figure or rule.

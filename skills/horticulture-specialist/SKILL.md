@@ -98,10 +98,13 @@ Full detail in `references/orchard-and-packhouse.md`.
 
 **NZ:** WorkSafe's **horticulture** and **working-at-height / MEWP** guidance, and its **overhead
 power line** guidance for orchard MEWPs; HSWA 2015 applies (an orchard/packhouse is a workplace).
-**AU:** the WHS framework with state horticulture guidance (e.g. **Agriculture Victoria / SafeWork**
-horticulture safety) and the agvet-chemical control-of-use regime for spray drift. Some WorkSafe
-horticulture guidance has been withdrawn/replaced — **confirm the current guidance** via
-`../hse-advisor/`. Standards/guides change; treat as verify-pointers.
+**AU:** the WHS framework with the model Codes most relevant to horticulture — **_Managing the risk of
+falls at workplaces_** and **elevating work platforms** guidance (orchard MEWPs), **_Confined spaces_**
+(CA coolstores), **_Managing risks of hazardous chemicals_** + **_Labelling of workplace hazardous
+chemicals_** (spray), and **_Hazardous manual tasks_** — plus state horticulture guidance (e.g.
+**Agriculture Victoria / SafeWork NSW**) and the agvet-chemical control-of-use regime for spray drift.
+Jurisdiction variations → `../safework-au-specialist/`. Some WorkSafe horticulture guidance has been
+withdrawn/replaced — **confirm the current guidance** via `../hse-advisor/`. Treat as verify-pointers.
 
 ## Output
 

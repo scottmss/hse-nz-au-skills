@@ -86,11 +86,13 @@ Competency is part of the control set — confirm before the lift:
 **NZ:** the **Approved Code of Practice for Load-lifting Rigging** (MBIE, 5th ed.) is the primary
 good-practice anchor — note it was approved under the now-repealed HSE Act 1992 s 20 but continues to
 apply under HSWA 2015 transitional arrangements; **confirm the current edition/status** via
-`../hse-advisor/`. **AU:** managed under the model WHS framework (general plant/lifting duties; some
-jurisdictions have lifting/cranes guidance rather than a single Code). **Standards** (copyright — cite,
-do not reproduce; confirm current edition): chain slings, wire-rope slings, flat webbing/round slings,
-shackles, eyebolts, lifting devices, and **AS 2550 / AS 1418** for crane use. Treat all as
-verify-pointers.
+`../hse-advisor/`. **AU:** managed under the model WHS framework — the **WHS Regulations (plant)** and the model
+**Code of Practice _Managing risks of plant in the workplace_**, with state **dogging & rigging**
+guidance (e.g. SafeWork NSW). Lifting-gear **standards** (copyright — cite, don't reproduce; confirm
+current edition): **AS 3775** (chain slings), **AS 1666** (wire-rope slings), **AS 4497** (synthetic
+round slings), **AS 2741** (shackles), and **AS 2550 / AS 1418** for crane use. Licence classes
+(DG/RB/RI/RA) → `../high-risk-work-specialist/`; the 9-jurisdiction variations (incl. Victoria's OHS
+Act, WA) → `../safework-au-specialist/`. Treat all as verify-pointers.
 
 ## Output
 
