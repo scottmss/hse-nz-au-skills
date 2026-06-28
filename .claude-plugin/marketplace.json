@@ -1,10 +1,16 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "hse-nz-au-skills",
-  "owner": "scottmss",
+  "owner": {
+    "name": "scottmss",
+    "email": "scott@mcleod.nz"
+  },
   "description": "NZ/AU workplace health & safety Claude Agent Skills",
   "plugins": [
     {
       "name": "hse-core",
+      "description": "NZ/AU workplace health & safety specialist skills, orchestrated by hse-advisor",
+      "version": "0.1.0",
       "strict": false,
       "skills": [
         "skills/hse-advisor",

@@ -175,11 +175,36 @@ def validate_marketplace(disk_skills: set[str]) -> None:
     except json.JSONDecodeError as e:
         err("marketplace.json", f"invalid JSON: {e}")
         return
+    if not data.get("name"):
+        err("marketplace.json", "missing top-level 'name'")
+
+    # owner must be an object with a 'name' — a bare string is the old form and
+    # fails current schema validation in `/plugin marketplace add`.
+    owner = data.get("owner")
+    if owner is None:
+        warn("marketplace.json", "no 'owner' set")
+    elif not isinstance(owner, dict):
+        err("marketplace.json", "'owner' must be an object with a 'name' field, "
+            f"not a bare {type(owner).__name__} (e.g. {{\"name\": \"you\"}})")
+    elif not owner.get("name"):
+        err("marketplace.json", "'owner' object is missing 'name'")
+
+    plugins = data.get("plugins", [])
+    if not plugins:
+        err("marketplace.json", "no plugins declared")
+
     listed_paths: list[str] = []
-    for plugin in data.get("plugins", []):
+    for i, plugin in enumerate(plugins):
+        if not plugin.get("name"):
+            err("marketplace.json", f"plugin #{i} is missing 'name'")
         listed_paths.extend(plugin.get("skills", []))
+
     listed = set()
+    seen_paths: set[str] = set()
     for p in listed_paths:
+        if p in seen_paths:
+            err("marketplace.json", f"skill path '{p}' is listed more than once")
+        seen_paths.add(p)
         if not p.startswith("skills/"):
             err("marketplace.json", f"skill path '{p}' does not start with 'skills/'")
             continue
@@ -188,8 +213,6 @@ def validate_marketplace(disk_skills: set[str]) -> None:
             err("marketplace.json", f"listed skill '{p}' has no directory on disk")
     for missing in sorted(disk_skills - listed):
         err("marketplace.json", f"skill '{missing}' exists on disk but is not listed")
-    if not data.get("owner"):
-        warn("marketplace.json", "no 'owner' set")
 
 
 def validate_plugin_manifest() -> None:
