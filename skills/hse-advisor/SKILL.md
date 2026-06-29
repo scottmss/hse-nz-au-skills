@@ -69,6 +69,7 @@ status). Return control to the user with a clear statement of which skill is doi
 | Vehicles, mobile plant, forklifts, traffic management (TMP), vehicle-pedestrian separation, reversing/blind spots, driving/loss of control, temporary traffic management | **mobile-plant-traffic-specialist** |
 | Hazardous substances/chemicals, dangerous goods, SDS/GHS, chemical storage/segregation, fumes/dust/silica exposure, spill response, and **asbestos** (management & licensed removal) | **hazardous-substances-specialist** |
 | Electrical safety, electric shock, arc flash, live/de-energised work, overhead/underground power lines & approach distances (NZECP 34), hot work, high-pressure/stored-energy release | **electrical-energy-specialist** |
+| **Electricity supply industry** sector — line/network work, live-line as core business, switching/earthing, substations, cable jointing, SM-EI permits/access authorities, hydro & dam safety, geothermal | **electricity-supply-specialist** |
 | Working in/on/above water, drowning, hypothermia, lifejackets/PFDs, safety observer, water rescue, diving operations, lone work near water | **water-safety-specialist** |
 | Work-related violence & aggression, assault, armed offending/robbery, lone/in-home workers, de-escalation, duress alarms, security (physical harm; psychological → psychosocial) | **violence-aggression-specialist** |
 | Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
