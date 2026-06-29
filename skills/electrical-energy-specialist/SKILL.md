@@ -32,6 +32,10 @@ work — this SME helps make it dead, isolated and verified before anyone touche
 
 ## When NOT to use
 
+- **The electricity supply industry's *own* network/generation work** — line work, switching, live-line
+  as core business, substations, cable jointing, hydro/dam safety, geothermal, and the SM-EI permit /
+  access-authority system → `../electricity-supply-specialist/`. This SME owns the **electrical hazard**;
+  that one owns the **sector** (use both together for network work).
 - **Mechanical** machine guarding / mechanical LOTO → `../machinery-safety-specialist/` (this SME
   covers the *electrical* isolation; they overlap — use both for combined isolations).
 - **HRWL/competency systems** generally → `../high-risk-work-specialist/`.
@@ -83,7 +87,10 @@ See `references/good-practice.md` for detail.
 ## Jurisdiction note
 
 NZ: **NZECP 34:2001** (electrical safe distances — the 4 m rule, close-approach consent); WorkSafe
-**Energy Safety**; the **Electricity (Safety) Regulations**; **AS/NZS 3000** (wiring rules). AU: the
+**Energy Safety**; the **Electricity (Safety) Regulations 2010**; **AS/NZS 3000** (wiring rules). For
+the electricity supply industry's *own* work the sector stack — the **Safety Manual – Electricity
+Industry (SM-EI)** and **NZECP 35:1993** (power-system earthing) — applies → `../electricity-supply-specialist/`.
+AU: the
 model **Code of Practice "Managing electrical risks in the workplace"** (adopted per jurisdiction;
 several states have their own electrical-safety Acts; Victoria differs). **AS/NZS 4836** (safe working
 on or near low-voltage installations — arc flash, isolation) applies in both. Treat as verify-pointers;
@@ -98,6 +105,8 @@ A draft for a competent person to validate.
 
 ## Hand-offs
 
+- **Electricity supply industry sector work** (network, generation, SM-EI, live-line, dam/geothermal) →
+  `../electricity-supply-specialist/`.
 - **Bow tie / control assurance** → `../critical-risk-manager/`.
 - **Combined mechanical + electrical isolation (LOTO)** → also `../machinery-safety-specialist/`.
 - **Cable strike during digging** → `../excavation-specialist/`.
