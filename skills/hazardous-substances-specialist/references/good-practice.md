@@ -38,8 +38,10 @@ legal advice**; regulations and SDS change — treat references as verify-pointe
 - **Enclose or isolate** the process; **local exhaust ventilation (LEV)** at the source.
 - **Segregate** incompatible substances by class; **secondary containment / bunding** (e.g. ≥ 110% for
   bulk liquids); drains isolated before filling.
-- **Dust controls** — on-tool extraction and **wet methods** (critical for **respirable crystalline
-  silica** and asbestos).
+- **Dust controls** — on-tool extraction and **wet methods**, **never dry-cut** (critical for
+  **respirable crystalline silica** — incl. **engineered stone**, fibre-cement, concrete, brick/block —
+  and asbestos). **AU prohibits engineered stone (manufacture/supply/processing/installation) from 1 Jul
+  2024**; prefer low-/zero-silica substitution. NZ manages RCS under the general dust/substance duties.
 - **Ignition-source control** for flammables; appropriate fire protection.
 
 ### Administrative

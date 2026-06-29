@@ -5,8 +5,9 @@ description: The subject-matter expert (SME) you consult for hazardous substance
   asbestos. Use for storing, handling, using or disposing of hazardous chemicals, for SDS/GHS
   classification and inventories, and for ASBESTOS work (management and removal). Triggers on
   "hazardous substances", "hazardous chemicals", "dangerous goods", "SDS", "safety data sheet", "GHS",
-  "chemical storage", "flammable", "toxic", "fumes", "dust", "respirable crystalline silica",
-  "certified handler", "asbestos", "asbestos removal", "asbestos management plan", "spill response".
+  "chemical storage", "flammable", "toxic", "fumes", "dust", "respirable crystalline silica", "silica",
+  "silicosis", "engineered stone", "certified handler", "asbestos", "asbestos removal",
+  "asbestos management plan", "spill response".
   Grounded in NZ HSW (Hazardous Substances) Regs 2017 + (Asbestos) Regs 2016, and the AU model Codes
   for hazardous chemicals and asbestos. Not legal advice.
 ---
@@ -68,6 +69,17 @@ See `references/good-practice.md` for detail.
 management plan**, label and don't disturb; removal is **licensed work** with negative-pressure
 enclosure/wet methods, decontamination, and **air monitoring & clearance** by a licensed assessor. See
 `references/good-practice.md`.
+
+**Respirable crystalline silica (RCS) & engineered stone:** cutting/grinding/drilling silica-containing
+materials (**engineered-stone benchtops**, fibre-cement, concrete, brick/block, stone, tiles) generates
+RCS that causes **silicosis and lung cancer** — a leading construction/fit-out health risk, especially
+**residential** (→ `../construction-specialist/`). Apply the hierarchy: prefer **elimination/
+substitution** (low- or zero-silica products), then **water suppression + on-tool extraction (no dry
+cutting)**, enclosure/LEV, then fit-tested RPE; air/exposure and **health monitoring** for exposed
+workers. **AU has prohibited the manufacture, supply, processing and installation of engineered stone
+(from 1 July 2024)** and tightened processing rules for other RCS materials; **NZ** manages RCS under
+the general hazardous-substances/dust duties with a WorkSafe focus on silica. Treat these dates/rules as
+verify-pointers and confirm the current position via `../safework-au-specialist/` / `../worksafe-nz-specialist/`.
 
 ## Qualifications & competency
 

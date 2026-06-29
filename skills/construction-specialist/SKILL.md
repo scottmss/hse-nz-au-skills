@@ -8,8 +8,9 @@ description: The subject-matter expert (SME) you consult for the construction-pr
   method statement", "high risk construction work", "HRCW", "white card", "construction induction",
   "WHS management plan", "site induction", "subcontractor", "temporary works", "formwork", "falsework",
   "propping", "demolition", "precast", "precast concrete", "tilt-up", "tilt slab", "panel erection",
-  "lifting insert", "brace". Grounded in NZ HSWA/WorkSafe construction guidance and the AU WHS
-  construction-work regime + AS 3850. Not legal advice.
+  "lifting insert", "brace", "residential construction", "commercial construction", "house build",
+  "housing", "fit-out", "civil construction". Grounded in NZ HSWA/WorkSafe construction guidance and the
+  AU WHS construction-work regime + AS 3850. Not legal advice.
 ---
 
 # Construction Specialist (construction-project & activities SME)
@@ -61,6 +62,31 @@ fast-changing workplace. Two things define the safety approach:
    plant/loads/collapsing structure, **buried** (excavation/trench), **electrocution** (services), and
    **dust/health** (silica) — each routed to its SME below.
 
+For the **critical-control verification** lens — identifying the few controls that must be present and
+effective for each fatal risk, and how to verify them in the field — use `../critical-risk-manager/`.
+
+## Segment shifts the picture — residential vs commercial vs civil
+
+The same fatal risks are present across construction, but their **weighting, the management regime, and
+who carries the duty** shift by segment. Set the segment early and tune the advice:
+
+- **Residential** (housing, light timber-frame, fit-out) — **falls dominate even more** (roof edges,
+  ladders, incomplete scaffold); sites are often **below the AU principal-contractor / WHS-management-
+  plan threshold** (A$250k), with many **small PCBUs, sole traders and owner-builders** and lighter,
+  dispersed supervision; plant is **ladders/MEWPs/nail guns/saws** rather than cranes; the signature
+  health risk is **respirable crystalline silica, especially engineered-stone benchtops and fibre-
+  cement/concrete cutting** (→ `../hazardous-substances-specialist/`). Emphasise fall prevention,
+  competent scaffold/edge protection, on-tool dust control, and the fact that **every small PCBU still
+  holds the full duty** even with no principal contractor.
+- **Commercial** (multi-storey, fit-out at scale) — the **full regime** (principal contractor + WHS
+  management plan, heavy multi-PCBU coordination), plus **cranes, precast/tilt-up, structural steel,
+  façade/MEWP, lift shafts and voids, hot works and plant-room confined spaces**.
+- **Civil / infrastructure** — **deep excavation and trenching, services, mobile plant and live
+  traffic, working over water, temporary works** at scale; principal-contractor regime throughout.
+
+Commercial and civil match the classic "construction project" model; **residential is the segment most
+often under-served by it** — don't assume a principal contractor, a white card, or a site office exists.
+
 ## The construction safety-management regime
 
 - **Principal contractor / main contractor** coordinates the site, the interfaces between trades, and
@@ -90,7 +116,8 @@ fast-changing workplace. Two things define the safety approach:
 
 ## Method
 
-1. **Set the jurisdiction** (NZ/AU) and the project (size, principal contractor, trades, phase).
+1. **Set the jurisdiction** (NZ/AU) and the project — **segment (residential / commercial / civil)**,
+   size, principal contractor, trades, phase. The segment re-weights the regime and which hazards lead.
 2. **Stand up the regime** — principal contractor + WHS management plan (AU ≥ $250k), induction,
    SWMS/TA for the high-risk activities, consultation/coordination across PCBUs.
 3. **Screen the activities** — identify HRCW and construction-specific work (temporary works, precast,

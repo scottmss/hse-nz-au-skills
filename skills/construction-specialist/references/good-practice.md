@@ -24,6 +24,23 @@ present at once. Safety therefore rests on **two pillars**:
 This skill owns pillar 1 and the **construction-specific activities** (temporary works, precast,
 demolition); it routes pillar 2.
 
+### Segment changes the weighting
+
+The fatal risks are common to all construction, but their emphasis, the management regime and the
+duty-holder mix shift by **segment** — set it early:
+
+| | Residential | Commercial | Civil / infrastructure |
+|---|---|---|---|
+| **Dominant fatal risk** | Falls (roof, ladder, incomplete scaffold) | Falls + struck-by (crane/plant/precast), collapse | Excavation/buried, mobile plant, live traffic, over-water |
+| **Regime** | Often **below the AU PC/WHS-management-plan threshold** (A$250k); many small PCBUs, sole traders, owner-builders; light, dispersed supervision | Full principal-contractor + WHS-management-plan; heavy multi-PCBU coordination | Full PC regime; large temporary works |
+| **Plant** | Ladders, MEWPs, nail guns, saws | Tower/mobile cranes, precast/tilt-up, structural steel, façade/MEWP | Earthmoving, piling, mobile plant, cranes |
+| **Signature health risk** | **RCS silica — engineered-stone benchtops, fibre-cement/concrete cutting** | Silica + broader dust/noise/chemical | Silica, dust, noise |
+
+**Residential is the segment the classic "construction project" model under-serves** — don't assume a
+principal contractor, a white card or a site office exists, and reinforce that **every small PCBU still
+holds the full primary duty** regardless of the threshold. Engineered-stone and fibre-cement silica →
+`../../hazardous-substances-specialist/`.
+
 ---
 
 ## 2. The construction safety-management regime
