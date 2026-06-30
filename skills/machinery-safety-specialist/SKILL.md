@@ -75,11 +75,15 @@ See `references/good-practice.md` for detail.
 
 ## Jurisdiction note
 
-NZ: WorkSafe **Safe use of machinery** good practice + machine-lockout guidance. AU: the model **Code
-of Practice "Managing the risks of plant in the workplace"** (adopted per jurisdiction; Victoria
-differs) + plant registration requirements. Standard: **AS/NZS 4024** (Safety of machinery series —
-e.g. 4024.1201 risk assessment, 4024.1601 controls/interlocks/guarding, 4024.1603 prevention of
-unexpected start-up). Treat as verify-pointers; confirm via `../hse-advisor/`.
+NZ: WorkSafe **Safe use of machinery** good practice + machine-lockout guidance, benchmarked to
+**AS/NZS 4024**. Key NZ/AU difference — **NZ has no general plant registration** (no design/item
+register); it relies on the HSWA SFAIRP duty + GPG, with only the narrow **PECPR 1999** regime (pressure
+equipment, cranes, passenger ropeways) requiring **design verification + inspection** by accredited
+bodies. Full NZ anchor: `references/nz-gpg.md`. AU: the model **Code of Practice "Managing the risks of
+plant in the workplace"** (adopted per jurisdiction; Victoria differs) **plus a plant design and item
+registration** scheme. Standard: **AS/NZS 4024** (Safety of machinery series — e.g. 4024.1201 risk
+assessment, 4024.1601 controls/interlocks/guarding, 4024.1603 prevention of unexpected start-up);
+copyright — treat as verify-pointers; confirm via `../hse-advisor/`.
 
 ## Output
 

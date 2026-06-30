@@ -9,7 +9,9 @@ change — treat references as verify-pointers.
 ## Governing guidance & standards
 
 - **NZ:** WorkSafe **Safe use of machinery** good-practice guidelines; machine-lockout guidance
-  ("keeping workers safe with machine lockouts" / *Lockout!*).
+  ("keeping workers safe with machine lockouts" / *Lockout!*). NZ has **no general plant register** —
+  only the narrow **PECPR 1999** design-verification/inspection regime (pressure equipment, cranes,
+  passenger ropeways). Full NZ regulatory anchor → `nz-gpg.md`.
 - **AU:** model **Code of Practice "Managing the risks of plant in the workplace"** (adopted per
   state/territory; Victoria differs). The WHS Regs require **registration** of certain plant designs
   and items.
