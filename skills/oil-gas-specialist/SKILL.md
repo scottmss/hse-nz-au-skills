@@ -142,7 +142,9 @@ draft for a competent person to validate.
 - **General process-safety / MHF method** → `../manufacturing-specialist/`; **hydrocarbons / H2S / NORM /
   chemicals** → `../hazardous-substances-specialist/`.
 - **Ignition / hazardous-area electrical / hot work / stored & pressure energy** →
-  `../electrical-energy-specialist/`; **rotating drilling equipment** → `../machinery-safety-specialist/`.
+  `../electrical-energy-specialist/`; **the drilling rig & operation** (rig/derrick, rotating string,
+  hoisting, mud) → `../drilling-specialist/`; **rotating-plant guarding/isolation** →
+  `../machinery-safety-specialist/`.
 - **Confined space** → `../confined-space-specialist/`; **height on structures** →
   `../working-at-height-specialist/`; **offshore vessels / marine / SIMOPS** → `../maritime-ports-specialist/`;
   **diving** → `../water-safety-specialist/`.

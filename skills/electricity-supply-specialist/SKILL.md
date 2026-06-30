@@ -148,6 +148,8 @@ A draft for a competent person to validate against SM-EI and the network owner's
   **working around water / dams** → `../water-safety-specialist/`.
 - **SF6 / oil / H2S / asbestos** → `../hazardous-substances-specialist/`; **lone & remote work / trauma**
   → `../psychosocial-risk-specialist/`.
+- **The geothermal field / steamfield / wells (H2S, steam & fluid)** behind a geothermal power station →
+  `../geothermal-specialist/`.
 - **Competency authorisations** → `../high-risk-work-specialist/`; **duties / notifiable / overlapping**
   → `../worksafe-nz-specialist/` / `../safework-au-specialist/`.
 - **Bow tie** → `../critical-risk-manager/`. Route via `../hse-advisor/`.
