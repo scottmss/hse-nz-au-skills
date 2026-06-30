@@ -75,7 +75,9 @@ examples. In brief:
 ## Jurisdiction note
 
 AU: model WHS Regs **55A–55D** and the *Managing psychosocial hazards at work* Code, as enacted by
-each harmonised jurisdiction (confirm the enacted regulation number; **Victoria differs**). NZ: no
+each harmonised jurisdiction (confirm the enacted regulation number; **Victoria differs — it does not
+use the model WHS Regs, managing psychosocial risk under the OHS Act 2004 (Vic) and its own regulations**).
+NZ: no
 specific regs — the duty flows from HSWA (**health includes mental health**; s 36 primary duty, s 30
 management of risks) and WorkSafe guidance. Don't transplant AU regulation numbers onto an NZ matter.
 

@@ -61,9 +61,11 @@ safety. So the safety model is a **supply-chain** one:
 - **AU — Chain of Responsibility (CoR) under the Heavy Vehicle National Law (HVNL):** parties **other
   than the driver** (consignor/consignee, packer, **loader/unloader**, operator/prime contractor,
   **scheduler**, loading manager…) each owe the **Primary Duty** — *eliminate or minimise the risks of
-  your transport activities so far as is reasonably practicable*. It mirrors the WHS primary duty and
-  carries heavy penalties. The **NHVR "Master Code"** (a registered industry Code of Practice) is the
-  practical guide, organised around the HVNL risk areas: **speed, fatigue, mass/dimension/loading, and
+  your transport activities so far as is reasonably practicable* (HVNL s 26C). It mirrors the WHS primary
+  duty and carries a **three-tier penalty structure (Category 1–3)** like WHS. **Executives of each party
+  also owe a personal due-diligence duty** (HVNL s 26D), mirroring WHS officer duties →
+  `../officer-governance-advisor/`. The **NHVR "Master Code"** (a registered industry Code of Practice) is
+  the practical guide, organised around the HVNL risk areas: **speed, fatigue, mass/dimension/loading, and
   vehicle standards**.
 - **NZ — no CoR law, but the same effect via HSWA:** a **PCBU** that consigns, loads, schedules or
   receives freight owes **upstream and overlapping duties**; **vehicles are a workplace**. Operating
@@ -129,6 +131,7 @@ validate.
 - **HIAB / vehicle-loader crane** → `../crane-specialist/` + `../lifting-rigging-specialist/` (licence →
   `../high-risk-work-specialist/`); **dangerous goods** → `../hazardous-substances-specialist/`.
 - **WHS/HSWA duties / notifiable events** → `../worksafe-nz-specialist/` / `../safework-au-specialist/`.
+- **Executive/board due diligence under CoR (HVNL s 26D) or WHS/HSWA** → `../officer-governance-advisor/`.
 - **Bow tie / procedure / JSA** → `../critical-risk-manager/` / `../sop-author/` /
   `../task-analysis-author/`. Route via `../hse-advisor/`.
 

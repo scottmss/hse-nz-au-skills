@@ -14,6 +14,8 @@ traffic-management guidance. **Not legal advice**; guidance changes — treat re
   supervision (e.g. STMS) required.
 - **AU:** Safe Work Australia **General Guide for Workplace Traffic Management** and forklift
   traffic-management guidance, under the model WHS Regulations. (Forklift operation = HRWL LF/LO.)
+  **Victoria** does not use the model law — it manages traffic risk under the **OHS Act 2004 (Vic)** and
+  WorkSafe Victoria guidance; confirm the local instrument via `../../safework-au-specialist/`.
 
 ## The harm — and the one big control
 
