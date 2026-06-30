@@ -155,8 +155,9 @@ Skills can contain executable scripts and are a potential prompt-injection vecto
 `SKILL.md` and every script in a skill before enabling it**, and treat any third-party skill as
 untrusted until you have audited it. This repo holds itself to that bar: no network calls, no
 destructive operations, and no credential handling in any bundled script. Every script in the
-repo — the bundled skill calculators (risk-matrix scorer, sling-WLL, crane-utilisation,
-forklift-capacity) and the repo tooling (`validate-skills.py`, `bundle.py`) — is pure-stdlib and offline.
+repo — the bundled per-skill calculators (the critical-risk matrix scorer and the equipment-tier
+calculators for rigging, cranes, forklifts, EWPs, scaffolding and pressure equipment) and the repo
+tooling (`validate-skills.py`, `bundle.py`) — is pure-stdlib and offline.
 
 ---
 
