@@ -36,14 +36,31 @@ the current rules and a competent person.
   point; **exclusion** from discharge paths, silencer and blow-down areas; **burn protection** and first
   aid for thermal injury. High-pressure release / stored energy method → `../../electrical-energy-specialist/`.
 
-## Geothermal wells & discharge
+## Geothermal well drilling, testing & discharge
 
-- **Uncontrolled discharge / blowout** of steam or two-phase fluid during **drilling, well testing,
-  discharge or work-over** is a major-energy event.
-- Controls: competent **well-test/discharge** procedures, controlled **bleed and quench**, wellhead and
-  master-valve integrity, exclusion, and **blowout** management — coordinate with `../../drilling-specialist/`
-  during drilling (the rig/operation) while this SME owns the geothermal specifics (H2S, hot two-phase
-  returns, steam).
+The **generic drill rig and operation** (derrick, mast rig-up/down, rotating string, hoisting,
+connections, mud system) is `../../drilling-specialist/`. The **geothermal-specific** drilling, well
+control and discharge hazards are owned here — and conventional **oil-and-gas methods do not transfer
+unmodified**:
+
+- **Geothermal well control is different.** Kicks are **high-temperature brine or steam** and can
+  **escalate rapidly (steam kicks)**. The geothermal response is generally to **keep the well full of
+  cold water and cool/quench it**, using a **diverter / rotating BOP** — *not* simply weighting up mud as
+  in petroleum. **Relying on conventional oil-and-gas well control unmodified can be dangerous.** Use
+  competent geothermal well-control procedures, equipment and trained crews.
+- **Total lost circulation.** Geothermal reservoirs are fractured and permeable, so drilling fluid is
+  often **lost to the formation and does not return to surface** ("drilling blind"), with **crossflow**
+  between fracture zones — cuttings aren't returned and MWD/pulse telemetry can be unfeasible. **Aerated-
+  water / underbalanced / managed-pressure drilling** is used to lift cuttings, which introduces
+  **compressed air, a blooey/discharge line and hot returns** at surface.
+- **High temperature.** Limits **drill bits, casing material, drilling mud and cement** formulations and
+  causes **wellbore instability/collapse** in hot fractured rock; the well is usually **cooled/quenched**
+  before logging, running casing and cementing; manage thermal cycling and casing integrity.
+- **H2S and hot returns at surface.** Monitor **H2S** at the rig, shakers and mud pits; guard against
+  **burns/scalds** from hot two-phase returns at the shakers, blooey line and discharge.
+- **Well testing / discharge / work-over.** Competent **bleed and quench**, wellhead and **master-valve**
+  integrity, exclusion zones, silencer management, and **blowout** control. Uncontrolled discharge of
+  steam/two-phase fluid is a major-energy event.
 
 ## Hydrothermal eruptions & hot ground
 
