@@ -205,6 +205,29 @@ Use relative paths, mirroring the `ra-qm-team` convention:
 
 The orchestrator declares its routing map; specialists declare their hand-offs.
 
+### 5.5 Region-anchor references (GPG / ACOP / Code grounding)
+
+Hazard and activity specialists keep their **method jurisdiction-neutral** and push the
+**region-specific regulatory grounding** into a dedicated anchor file per jurisdiction. This is the
+pattern that makes a skill defensibly NZ- *and* AU-correct rather than skewed to one.
+
+- **Split:** `references/good-practice.md` holds the jurisdiction-neutral controls/method (hierarchy of
+  controls, critical questions). `references/nz-gpg.md` (and, where the AU side needs its own depth,
+  `references/au-cop.md`) hold the region anchor — *what the regulator actually points duty-holders to*.
+- **An anchor file names the real documents, not a generic gesture.** "WorkSafe working-at-height
+  guidance" is too vague; cite the **Best Practice Guidelines for Working at Height in New Zealand**, the
+  **Working on roofs GPG**, etc., with their URLs. Pilot: `working-at-height-specialist/references/nz-gpg.md`.
+- **Capture the jurisdiction-specific *principle*, not just the document** — e.g. NZ has **no minimum
+  height** (the "three-metre rule" is a myth); the 5 m figure is only a notification/competency
+  threshold. These framing facts are what a generic controls list misses.
+- **Verify-pointer discipline (see also §1 memory):** every cited GPG/Code/standard is a
+  **verify-pointer** — summarise and link, **never wholesale-copy**. GPGs/ACOPs are free to reference
+  (Crown copyright, attribution); **AS/NZS standards are copyright** — cite and apply, don't reproduce.
+- **Stamp a `Sources last verified: YYYY-MM-DD` line** in each anchor file, and **verify NZ legislative
+  facts via WebSearch** before asserting them (legislation.govt.nz 403s WebFetch).
+- **Roll-out target:** every NZ-thin hazard SME gets an `nz-gpg.md`. Done: working-at-height. Pending:
+  hazardous-substances, machinery-safety (and others as the gap analysis surfaces them).
+
 ---
 
 ## 6. Public vs private separation (CRITICAL)

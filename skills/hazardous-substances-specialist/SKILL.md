@@ -94,13 +94,18 @@ verify-pointers and confirm the current position via `../safework-au-specialist/
 
 ## Jurisdiction note
 
-NZ: **Health and Safety at Work (Hazardous Substances) Regulations 2017** (inventory, SDS, GHS,
-certified handlers, signage, segregation, emergency management; EPA approvals/HSNO classification) and
-the **Health and Safety at Work (Asbestos) Regulations 2016** (management plans, licensed removal,
-assessors). AU: model **Code "Managing risks of hazardous chemicals in the workplace"** (GHS, SDS,
-register/manifest, placarding) and the asbestos Codes **"How to manage and control asbestos"** + **"How
-to safely remove asbestos"** (adopted per jurisdiction; Victoria differs). Treat as verify-pointers;
-confirm via `../hse-advisor/`.
+NZ uses **two regulators**: the **EPA** approves a substance and sets its **HSNO classification** (the
+controls in the approval), while **WorkSafe** enforces the workplace **Health and Safety at Work
+(Hazardous Substances) Regulations 2017** (inventory, SDS, GHS, **certified handlers**, **location test
+certificates**, signage, segregation, tracking, emergency management). **Asbestos sits apart** under the
+**Health and Safety at Work (Asbestos) Regulations 2016** (register/management plan, Class A/B licensed
+removal, **5 days' notice**, licensed assessor clearance). Exposure limits are **WES** (advisory) vs
+**PES** (mandatory) — the NZ **RCS WES-TWA is 0.025 mg/m³** (lowered Nov 2023). Full NZ anchor —
+guidance hub, thresholds, WES detail and asbestos specifics — in `references/nz-gpg.md`. AU: model
+**Code "Managing risks of hazardous chemicals in the workplace"** (GHS, SDS, register/manifest,
+placarding) and the asbestos Codes **"How to manage and control asbestos"** + **"How to safely remove
+asbestos"** (adopted per jurisdiction; Victoria differs), plus the **engineered-stone prohibition from
+1 July 2024**. Treat all as verify-pointers; confirm via `../hse-advisor/`.
 
 ## Output
 
