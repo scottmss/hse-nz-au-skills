@@ -225,8 +225,9 @@ pattern that makes a skill defensibly NZ- *and* AU-correct rather than skewed to
   (Crown copyright, attribution); **AS/NZS standards are copyright** — cite and apply, don't reproduce.
 - **Stamp a `Sources last verified: YYYY-MM-DD` line** in each anchor file, and **verify NZ legislative
   facts via WebSearch** before asserting them (legislation.govt.nz 403s WebFetch).
-- **Roll-out target:** every NZ-thin hazard SME gets an `nz-gpg.md`. Done: working-at-height. Pending:
-  hazardous-substances, machinery-safety (and others as the gap analysis surfaces them).
+- **Roll-out target:** every NZ-thin hazard SME gets an `nz-gpg.md`. Done: working-at-height,
+  hazardous-substances, machinery-safety (the three flagged in the gap analysis). Extend to others as
+  the gap analysis surfaces them.
 
 ---
 
