@@ -14,7 +14,10 @@ legal advice**; regulations and SDS change — treat references as verify-pointe
   management, and (for some substances/locations) **compliance/location test certificates**. EPA sets
   approvals/classifications.
 - **NZ — asbestos:** **Health and Safety at Work (Asbestos) Regulations 2016** — asbestos management
-  plans, licensed removal, and licensed assessors.
+  plans, licensed removal (Class A/B, 5 days' notice), and licensed assessors.
+- **NZ regulatory anchor** — the two-regulator split (EPA/HSNO + WorkSafe), the WorkSafe guidance hub,
+  the certified-handler / location-certificate thresholds, the **WES vs PES** distinction and the current
+  **RCS WES (0.025 mg/m³)**, and the asbestos licensing specifics are consolidated in `nz-gpg.md`.
 - **AU — chemicals:** model **Code of Practice "Managing risks of hazardous chemicals in the
   workplace"** — **GHS** (3rd revised edition), **SDS**, register, **manifest** and **placarding** for
   threshold quantities, health monitoring.
