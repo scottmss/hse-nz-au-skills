@@ -149,7 +149,7 @@ destructive operations, and no credential handling in any bundled script. The on
 Contributions are welcome. Please:
 
 - Keep everything **company-agnostic** — no brand, site, customer, or proprietary content.
-- Follow the authoring conventions in [`CLAUDE.md`](CLAUDE.md) (§5): sharp trigger-rich
+- Follow the authoring conventions in [`CONTRIBUTING.md`](CONTRIBUTING.md): sharp trigger-rich
   `description`, lean `SKILL.md` body, depth pushed into `references/`, deterministic logic in
   `scripts/` over asking Claude to calculate, a jurisdiction note, declared hand-offs, and the
   disclaimer.

@@ -13,3 +13,6 @@ venv/
 
 # Build output
 dist/
+
+# Internal working guide (kept local, not published)
+CLAUDE.md
