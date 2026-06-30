@@ -61,6 +61,23 @@ All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
   notifiable event (**s 25**); **preserve site (s 55)**, **notify WorkSafe ASAP (s 56)**, **keep
   records 5 yrs (s 57)**. **See `references/notifiable-events.md`** for the full lists and triage.
 
+## Who is the regulator — WorkSafe and designated agencies
+
+Under HSWA the **"regulator" means WorkSafe *or* the relevant designated agency** — so "who administers
+HSWA here" is not always WorkSafe. Establish the right regulator before notifying or seeking guidance:
+
+- **WorkSafe NZ** — the **primary** regulator for most work. (Its **High Hazards Unit** handles petroleum,
+  extractives/mining and major hazard facilities — still WorkSafe, not a separate agency.)
+- **Maritime NZ** — the **designated agency** for **ships as workplaces / work aboard ships**, and (from
+  **1 July 2024**) for **HSWA on New Zealand's 13 major ports** (land and ships). So at a major port or on
+  a ship, the HSWA regulator is **Maritime NZ**, not WorkSafe → `../maritime-ports-specialist/` /
+  `../fishing-aquaculture-specialist/`.
+- **Civil Aviation Authority (CAA)** — the **designated agency** for **preparing aircraft for imminent
+  flight and aircraft in operation**.
+
+The **duties are the same HSWA duties** whichever agency applies — only the **enforcing/notified
+regulator** changes. Confirm which agency to **notify** for a notifiable event.
+
 ## Method
 
 1. **Establish it is a NZ matter.** If Australian, route to `safework-au-specialist`.

@@ -10,7 +10,7 @@
       "name": "hse-core",
       "source": "./",
       "description": "NZ/AU workplace health & safety specialist skills, orchestrated by hse-advisor",
-      "version": "1.22.1",
+      "version": "1.22.2",
       "strict": false,
       "skills": [
         "./skills/hse-advisor",
