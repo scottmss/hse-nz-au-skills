@@ -5,12 +5,13 @@ description: The subject-matter expert (SME) you consult for health & safety in 
   defining hazards are hydrogen sulfide (H2S) and high-temperature/high-pressure steam and geothermal
   fluid. Use for any geothermal field, steamfield, well, power station or direct-use question. Triggers
   on "geothermal", "geothermal power", "geothermal energy", "geothermal field", "steamfield", "steam
-  field", "geothermal well", "wellhead", "well test", "well discharge", "two-phase", "brine",
+  field", "geothermal well", "geothermal drilling", "geothermal well control", "wellhead", "well test",
+  "well discharge", "lost circulation", "aerated drilling", "two-phase", "brine",
   "separator", "H2S", "hydrogen sulfide", "hydrogen sulphide", "non-condensable gas", "NCG", "silica
   scaling", "scaling", "hydrothermal eruption", "hot ground", "flash plant", "binary plant", "direct
-  use". Strongly NZ-relevant (Taupo Volcanic Zone). Routes generation/network to electricity-supply and
-  drilling to the drilling SME. Grounded in WorkSafe NZ general duties + geothermal good practice. Not
-  legal advice.
+  use". Strongly NZ-relevant (Taupo Volcanic Zone). Owns geothermal-specific well drilling/control;
+  routes the generic rig to drilling and generation/network to electricity-supply. Grounded in WorkSafe
+  NZ general duties + geothermal good practice. Not legal advice.
 ---
 
 # Geothermal Specialist (geothermal energy sector SME)
@@ -88,6 +89,31 @@ Summary; detail in `references/good-practice.md`:
   monitoring; avoid eruption-prone features.
 - **Confined spaces & scaling** — permit, **test for H2S/CO2 and oxygen**, ventilate, standby and
   **non-entry rescue** before any entry (descaling, vessels, cellars) → `../confined-space-specialist/`.
+
+## Geothermal well drilling (owned here)
+
+The **drill rig and the generic drilling operation** (derrick, mast rig-up/down, rotating drill string,
+hoisting, connections) belong to `../drilling-specialist/`. The **geothermal-specific** drilling hazards
+are owned here — and they differ enough from oil & gas that you **cannot just apply petroleum methods**:
+
+- **Geothermal well control ≠ petroleum well control.** Kicks are **high-temperature brine or steam** and
+  can **escalate rapidly (steam kicks)**. Control is generally by **keeping the well full of cold water
+  and cooling/quenching it**, with a **diverter / rotating BOP** — *not* simply weighting up mud. Applying
+  conventional oil-and-gas well control unmodified can be **dangerous**. Use competent geothermal
+  well-control procedures and equipment.
+- **Total lost circulation** — geothermal formations are fractured and permeable, so drilling fluid is
+  often **lost to the formation and does not return to surface** ("drilling blind"); cuttings aren't
+  returned, and there can be **crossflow** between fracture zones. **Aerated-water / underbalanced /
+  managed-pressure drilling** is used to lift cuttings — adding a **blooey/discharge line**, compressed
+  air and **hot-return** hazards.
+- **High temperature** — limits drill bits, **casing material, drilling mud and cement** formulations;
+  causes **wellbore instability/collapse** in hot fractured rock; the well is usually **cooled/quenched**
+  before logging, casing and cementing.
+- **H2S in returns** and **hot two-phase returns at surface** — monitor H2S at the rig/shakers/mud pits;
+  guard against **burns/scalds** from hot returns at the shakers, blooey line and discharge.
+
+Coordinate with `../drilling-specialist/` (the rig) and route the petroleum-style regime only where it
+genuinely applies. Detail in `references/good-practice.md`.
 
 ## Method
 
