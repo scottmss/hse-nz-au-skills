@@ -23,14 +23,28 @@ Responsibility**; New Zealand reaches the same place through **HSWA upstream and
 ## 2. The regime — Chain of Responsibility & the NZ equivalent
 
 ### AU — Chain of Responsibility (CoR) under the HVNL
-- Parties **other than the driver** — **consignor/consignee, packer, loader/unloader, operator/prime
-  contractor, scheduler, loading manager** and others — each owe the **Primary Duty**: *eliminate or
-  minimise the risks of the transport activities you influence or control, so far as is reasonably
-  practicable.* It mirrors the WHS primary duty (and CoR sits **alongside** WHS, regulated by the
-  **NHVR**, not the WHS regulator).
-- The **NHVR "Master Code"** (registered industry Code of Practice) turns the HVNL risk areas —
-  **speed, fatigue, mass/dimension/loading, vehicle standards** — into practical controls.
-- Breaches carry significant penalties (individual exposure up to imprisonment for serious cases).
+- **The CoR parties.** The HVNL names each party in the chain whose work touches a heavy-vehicle
+  transport activity: **employer, prime contractor, operator, scheduler, consignor, consignee, packer,
+  loader, unloader, loading manager**. One business is usually **several parties at once** (a
+  distribution centre is consignee, unloader and loading manager). The **driver** is covered separately.
+- **The Primary Duty (HVNL s 26C — verify).** Each party must *ensure, so far as is reasonably
+  practicable, the safety of its transport activities* — eliminate the risk, or minimise what can't be
+  eliminated. It expressly prohibits **asking, directing or pressuring** anyone to break the HVNL (e.g.
+  setting a schedule that can only be met by speeding or breaching work-time). It **mirrors the WHS
+  primary duty** and sits **alongside** WHS, regulated by the **NHVR** (not the WHS regulator).
+- **Executive due diligence (HVNL s 26D — verify).** An **executive** (director/officer) of a CoR party
+  owes a **personal, positive duty** to exercise due diligence that the business meets its Primary Duty —
+  understand the operation and its risks, resource the controls, and verify they work. It is
+  **independent of the company's liability** (an executive can be prosecuted without the company being
+  convicted first) and directly **mirrors WHS officer due diligence (s 27)** →
+  `../../officer-governance-advisor/`.
+- **The four HVNL risk areas** — **speed, fatigue, mass/dimension/loading, vehicle standards** — are
+  where the duty bites; the **NHVR "Master Code"** (registered industry Code of Practice) turns them into
+  practical controls.
+- **Penalties mirror WHS — a three-tier Primary-Duty offence (verify):** **Category 1** (reckless
+  conduct exposing a person to death or serious injury/illness — most serious, individual imprisonment
+  exposure), **Category 2** (the conduct exposes a person to that risk), **Category 3** (failure to
+  comply with the Primary Duty). Maxima are substantial and apply to **executives** as well as entities.
 
 ### NZ — same effect via HSWA
 - No CoR statute, but a **PCBU** that **consigns, packs, loads, schedules or receives** freight owes
