@@ -10,7 +10,7 @@
       "name": "hse-core",
       "source": "./",
       "description": "NZ/AU workplace health & safety specialist skills, orchestrated by hse-advisor",
-      "version": "1.21.0",
+      "version": "1.22.0",
       "strict": false,
       "skills": [
         "./skills/hse-advisor",
@@ -55,7 +55,9 @@
         "./skills/rail-specialist",
         "./skills/hospitality-specialist",
         "./skills/ewp-specialist",
-        "./skills/scaffolding-specialist"
+        "./skills/scaffolding-specialist",
+        "./skills/geothermal-specialist",
+        "./skills/drilling-specialist"
       ]
     }
   ]
