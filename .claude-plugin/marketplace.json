@@ -10,7 +10,7 @@
       "name": "hse-core",
       "source": "./",
       "description": "NZ/AU workplace health & safety specialist skills, orchestrated by hse-advisor",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "strict": false,
       "skills": [
         "./skills/hse-advisor",
@@ -46,7 +46,8 @@
         "./skills/manufacturing-specialist",
         "./skills/stevedoring-specialist",
         "./skills/mining-quarrying-specialist",
-        "./skills/fishing-aquaculture-specialist"
+        "./skills/fishing-aquaculture-specialist",
+        "./skills/maritime-ports-specialist"
       ]
     }
   ]
