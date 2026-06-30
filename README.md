@@ -64,12 +64,13 @@ Use them to work faster and more consistently — not to replace professional ju
 | **forestry-specialist** | The SME for **forestry & harvesting** — owns the deadly core tasks (**tree felling**, **breaking out / cable logging**, the cutover and landing), foregrounds **mechanisation / winch-assist to get people off the slope**, and covers competency and remote rescue; routes generic hazards to the relevant SME. Grounded in WorkSafe NZ's 2025 forestry ACOP + Safetree + AU Safe Work Australia / state harvesting Codes. |
 | **agriculture-specialist** | The SME for **farm & agriculture safety** — the sector's fatal risks with **farm vehicles & quad bikes** as the flagship (CPD/OPD rollover protection, helmets, no-passengers, side-by-side choice), plus livestock, working alone, and child/visitor safety; routes specific hazards to the relevant SME. Grounded in WorkSafe NZ Safer Farms + the AU ACCC quad standard. |
 | **violence-aggression-specialist** | The SME for **work-related violence & aggression** — design out the opportunity, lone/in-home worker controls, de-escalation, duress/security, and post-incident support (WorkSafe Violence at work; AU violence guidance). Partners psychosocial-risk-specialist. |
+| **mining-quarrying-specialist** | The SME for **mining, quarrying & extractives** (surface & underground) — the sector's **separate safety regime** (NZ HSW Mining/Quarrying Regs 2016; AU **state-by-state** — Qld RSHQ Acts, NSW Mines & Petroleum Sites, WA WHS (Mines) Regs), statutory roles & **certificates of competence**, and the **principal hazards** (ground/strata failure, inrush, gas/ventilation, blasting, haul trucks, dust/black lung, tailings, mines rescue); routes generic hazards to their SMEs. |
 
-> **Status.** Thirty-two skills built — an orchestrator plus thirty-one specialists spanning critical-risk,
+> **Status.** Thirty-three skills built — an orchestrator plus thirty-two specialists spanning critical-risk,
 > psychosocial risk, governance, NZ/AU duties, high-risk work, investigation, procedures and prosecution
 > learning, plus a full tier of **hazard subject-matter experts** covering the recurring fatal risks:
 > working at height, excavation, confined space, machinery/plant, vehicles & traffic, lifting & rigging,
-> cranes & lift planning, forklifts, hazardous substances & asbestos, electrical & stored energy, water, violence & aggression, farm/agriculture, horticulture, forestry, construction, transport & logistics, manufacturing, stevedoring, and the electricity supply industry — each grounded in
+> cranes & lift planning, forklifts, hazardous substances & asbestos, electrical & stored energy, water, violence & aggression, farm/agriculture, horticulture, forestry, construction, transport & logistics, manufacturing, stevedoring, mining & quarrying, and the electricity supply industry — each grounded in
 > the relevant GPGs/Codes. Contributions and refinements welcome (see below).
 
 ### Pairs with a risk register
