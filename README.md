@@ -145,8 +145,9 @@ python3 scripts/bundle.py   # writes per-skill zips + hse-nz-au-skills.zip to di
 Skills can contain executable scripts and are a potential prompt-injection vector. **Review
 `SKILL.md` and every script in a skill before enabling it**, and treat any third-party skill as
 untrusted until you have audited it. This repo holds itself to that bar: no network calls, no
-destructive operations, and no credential handling in any bundled script. The only script today,
-`risk_matrix_scorer.py`, is pure-stdlib and offline.
+destructive operations, and no credential handling in any bundled script. Every script in the
+repo — the bundled skill calculators (risk-matrix scorer, sling-WLL, crane-utilisation,
+forklift-capacity) and the repo tooling (`validate-skills.py`, `bundle.py`) — is pure-stdlib and offline.
 
 ---
 
