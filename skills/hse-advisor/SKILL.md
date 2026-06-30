@@ -77,6 +77,7 @@ status). Return control to the user with a clear statement of which skill is doi
 | **Transport & logistics** sector — heavy vehicle operations, Chain of Responsibility (CoR), driver fatigue, load restraint, loading/unloading, depots & yards | **transport-logistics-specialist** |
 | **Manufacturing** sector — factory/production-line & process safety, major hazard facility (MHF)/safety case, combustible dust/explosion, occupational noise, hazardous manual tasks | **manufacturing-specialist** |
 | **Stevedoring** sector — port cargo handling, ship loading/unloading, plant-pedestrian interface on wharves, working in ship holds, lashing/securing | **stevedoring-specialist** |
+| **Mining, quarrying & extractives** sector — surface/underground mines, quarries, alluvial; the separate mining safety regime (NZ 2016 Regs / AU state-by-state), statutory roles & certificates of competence, principal hazards (ground/strata, inrush, gas/ventilation, blasting, haul trucks, dust, tailings), mines rescue | **mining-quarrying-specialist** |
 | Working in/on/above water, drowning, hypothermia, lifejackets/PFDs, safety observer, water rescue, diving operations, lone work near water | **water-safety-specialist** |
 | Work-related violence & aggression, assault, armed offending/robbery, lone/in-home workers, de-escalation, duress alarms, security (physical harm; psychological → psychosocial) | **violence-aggression-specialist** |
 | Investigating an incident/near-miss; "why did this happen"; Five Whys; RCA (single causal thread) | **incident-investigator** |
