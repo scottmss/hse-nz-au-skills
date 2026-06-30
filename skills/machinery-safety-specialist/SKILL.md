@@ -95,6 +95,8 @@ A draft for a competent person to validate.
 ## Hand-offs
 
 - **Bow tie / control assurance** → `../critical-risk-manager/`.
+- **Pressure equipment** (boilers, pressure vessels, air receivers, relief, hazard level, PECPR/registration
+  & inspection) → `../pressure-equipment-specialist/`.
 - **Mobile plant / vehicles** → `../mobile-plant-traffic-specialist/`; **confined-space machinery** →
   `../confined-space-specialist/`.
 - **Plant registration / duty / notifiable** → `../safework-au-specialist/` / `../worksafe-nz-specialist/`.

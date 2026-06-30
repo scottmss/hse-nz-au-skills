@@ -1,7 +1,7 @@
 {
   "name": "hse-core",
   "displayName": "HSE NZ/AU Skills",
-  "version": "1.22.2",
+  "version": "1.23.0",
   "description": "NZ/AU workplace health & safety Claude Agent Skills — an orchestrator plus specialists for critical risk, governance, NZ/AU duties, high-risk work, investigation and procedures, prosecution learning, a full tier of hazard subject-matter experts, and sector specialists (construction, transport & logistics, manufacturing, agriculture, horticulture, forestry, electricity supply, mining & quarrying, fishing & aquaculture, maritime & ports, healthcare, waste & recycling, and more).",
   "author": {
     "name": "Scott McLeod",
