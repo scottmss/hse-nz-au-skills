@@ -7,9 +7,12 @@ guidance change — treat references as verify-pointers and confirm the current 
 
 ## Governing guidance & standards
 
-- **NZ:** WorkSafe **working-at-height** good-practice guidance; **scaffolding** good practice. Under
-  HSWA, **construction work with a risk of a person falling 5 m or more is notifiable work** (≥ 24 h
-  notice to WorkSafe), as is erecting/dismantling scaffolding from which a person could fall ≥ 5 m.
+- **NZ:** the WorkSafe **Best Practice Guidelines for Working at Height in New Zealand**, **Working on
+  roofs GPG**, and **Scaffolding in New Zealand** (SARNZ). NZ manages falls at **all heights** (no
+  minimum — the "three-metre rule" is a myth); 5 m is only the **notifiable-work and Certificated-
+  Scaffolder threshold** (≥ 24 h notice to WorkSafe for construction fall risk ≥ 5 m and for erecting/
+  dismantling scaffolding with a ≥ 5 m fall). Full NZ regulatory anchor, thresholds and competency →
+  `nz-gpg.md`.
 - **AU:** model **Code of Practice — *Managing the risk of falls at workplaces*** (adopted per
   state/territory; Victoria runs its own compliance code). The WHS Regs require managing the risk of
   falls, with specific duties where a fall could cause injury.

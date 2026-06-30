@@ -79,12 +79,18 @@ Detail in `references/good-practice.md`; the licensing system itself is in `../h
 
 ## Jurisdiction note
 
-NZ: WorkSafe **working-at-height good practice** guidance; **construction work with a risk of falling
-5 m or more is notifiable work** (24 h notice to WorkSafe), as is scaffolding ≥ 5 m. AU: the model
-**Code of Practice "Managing the risk of falls at workplaces"** (adopted per jurisdiction; Victoria
-differs). Standards: **AS/NZS 1891** (fall-arrest), **AS/NZS 1657** (platforms/walkways/ladders),
-**AS/NZS 4576** (scaffolding), **AS 1418.10 / AS 2550.10** (MEWP). Treat all as verify-pointers and
-confirm the current edition/jurisdiction via `../hse-advisor/`.
+**NZ:** the WorkSafe **Best Practice Guidelines for Working at Height in New Zealand**, **Working on
+roofs GPG**, and **Scaffolding in New Zealand** (SARNZ). Key NZ principle — there is **no minimum
+height**: the old "three-metre rule" is a myth, and **any fall that could cause harm must be managed**
+(falls under 1.8 m seriously injure). The 5 m figure is only a **notification & scaffolder-CoC
+threshold**, not a control trigger: **construction work with a fall risk of 5 m or more is notifiable**
+(24 h notice), as is **scaffolding from which a person could fall ≥ 5 m** (which also needs a
+**Certificated Scaffolder**). NZ is **competency-based — no HRWL.** Full NZ anchor: `references/nz-gpg.md`.
+**AU:** the model **Code of Practice "Managing the risk of falls at workplaces"** (adopted per
+jurisdiction; Victoria runs its own compliance code) + **HRWL** for scaffolding (SB/SI/SA) and boom EWP
+≥ 11 m (WP). Standards: **AS/NZS 1891** (fall-arrest), **AS/NZS 1657** (platforms/walkways/ladders),
+**AS/NZS 4576** (scaffolding), **AS 1418.10 / AS 2550.10** (MEWP) — copyright; treat as verify-pointers
+and confirm the current edition/jurisdiction via `../hse-advisor/`.
 
 ## Output
 
