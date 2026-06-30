@@ -104,6 +104,8 @@ competency and questions** to feed into a bow tie (`../critical-risk-manager/`) 
 - **Bow tie / control assurance** for the fall risk → `../critical-risk-manager/`.
 - **The EWP/MEWP machine itself** (type selection, data-plate platform load, ground/stability, wind/slope,
   crush-entrapment, rescue) → `../ewp-specialist/`.
+- **The scaffold structure itself** (type, duty rating, foundations, ties/bracing, scaftag, inspection) →
+  `../scaffolding-specialist/`.
 - **Licence/competency system** (EWP, scaffolding classes) → `../high-risk-work-specialist/`.
 - **Procedure / JSA** → `../sop-author/` / `../task-analysis-author/`.
 - **Notifiable work / duties** → `../worksafe-nz-specialist/` / `../safework-au-specialist/`. Route
