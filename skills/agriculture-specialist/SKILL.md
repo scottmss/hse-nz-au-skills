@@ -6,8 +6,9 @@ description: The subject-matter expert (SME) you consult for health & safety on 
   "agriculture", "agricultural", "rural", "station", "dairy", "orchard", "quad bike", "ATV", "side by
   side", "side-by-side", "SSV", "ROV", "UTV", "farm bike", "two-wheeler", "tractor", "PTO", "rollover",
   "crush protection device", "CPD", "operator protection device", "OPD", "livestock", "cattle yard",
-  "working alone on farm", "child safety on farm", "Safer Farms". Grounded in WorkSafe NZ's agriculture
-  / Safer Farms guidance and the AU WHS + ACCC quad bike standard. Not legal advice.
+  "working alone on farm", "child safety on farm", "Safer Farms", "agrichemical", "farm chemicals",
+  "SDS", "chemical inventory", "dairy shed chemicals", "LPG on farm", "farm fuel storage". Grounded in
+  WorkSafe NZ's agriculture / Safer Farms guidance and the AU WHS + ACCC quad bike standard. Not legal advice.
 ---
 
 # Agriculture Specialist (farm safety SME)
@@ -51,8 +52,13 @@ Plan against the recurring killers (detail in `references/good-practice.md`; veh
 3. **Working with livestock** — crush, kick, trample (yards, bulls, calving).
 4. **Working alone / remotely** — distance from help, communications, check-in, first aid.
 5. **Working at height** — sheds, silos, woolsheds, roofs → `../working-at-height-specialist/`.
-6. **Hazardous substances** — agrichemicals, sprays, fuel, dust/zoonoses (e.g. leptospirosis) →
-   `../hazardous-substances-specialist/`.
+6. **Hazardous substances** — agrichemicals, sprays, **fuels (diesel/petrol), LPG, dairy-shed chemicals
+   (acids/alkalis/sanitisers), animal remedies/veterinary medicines**, dust/zoonoses (e.g.
+   leptospirosis) → `../hazardous-substances-specialist/`. **Hidden hazard:** substances are the most
+   commonly *under-managed* farm risk — WorkSafe's 2025 nationwide farm assessments found hazardous
+   substances the leading gap, most often simply a **missing chemical inventory or safety data sheet
+   (SDS)**. The baseline duty for every farm is a **current inventory + accessible SDS** for what's on
+   hand; make this the first thing you check.
 7. **Confined spaces** — silos, tanks, effluent systems → `../confined-space-specialist/`.
 8. **Electricity** — overhead lines vs tall machinery/irrigators → `../electrical-energy-specialist/`.
 9. **Child & visitor safety** — the farm is a workplace *and* a home; children near vehicles/machinery.

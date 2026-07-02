@@ -61,7 +61,9 @@ See `references/good-practice.md` for detail.
 3. **Administrative** — a **hazardous-substances inventory** and accessible **Safety Data Sheets
    (SDS)**; correct **GHS labelling and signage**; safe procedures for use/storage/transport/disposal
    per the SDS; exposure **monitoring** and (where relevant) **health monitoring**; spill/emergency
-   response and fire precautions; training.
+   response and fire precautions; training. **The inventory + SDS baseline is the most commonly missed
+   control in small/agricultural PCBUs** — WorkSafe's 2025 farm assessments found it the single biggest
+   gap (→ `../agriculture-specialist/`); confirm it first.
 4. **PPE** — gloves, eye protection, coveralls, and **respiratory protective equipment** selected and
    fit-tested for the substance and exposure (last line; depends on correct use).
 
