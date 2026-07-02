@@ -7,8 +7,9 @@ description: Specialist in New Zealand HSWA 2015 duties and WorkSafe NZ requirem
   to control a risk. Triggers on "PCBU", "overlapping duties", "consult cooperate coordinate", "3 Cs",
   "shared workplace", "contracting chain", "principal/contractor/subcontractor duties", "who is
   responsible", "contractor management", "primary duty of care", "reasonably practicable", "HSWA
-  duties", "WorkSafe", "notifiable event". New Zealand only (HSWA 2015); for Australia use
-  safework-au-specialist. Not legal advice.
+  duties", "WorkSafe", "notifiable event", "safe work instrument", "SWI", "approved code of practice",
+  "ACOP", "is this mandatory or guidance", "regulatory hierarchy", "regulations vs guidance". New
+  Zealand only (HSWA 2015); for Australia use safework-au-specialist. Not legal advice.
 ---
 
 # WorkSafe NZ Specialist (HSWA duties)
@@ -29,6 +30,8 @@ advice** — section numbers are verify-pointers; confirm the current text.
 - Framing a **reasonably practicable (SFAIRP)** judgement, or the **management-of-risks** duty.
 - Identifying the **PCBU / worker / officer / other-person** duties in a scenario.
 - A first read on whether something is a **notifiable event** (then validate against the Act).
+- Working out **whether a requirement is mandatory or guidance** — where a Safe Work Instrument (SWI),
+  regulation, ACOP or GPG sits in the NZ HSE law hierarchy.
 
 ## When NOT to use
 
@@ -60,6 +63,31 @@ All section numbers are **HSWA 2015** and are verify-pointers, not quotes:
 - **Notifiable events.** Notifiable injury/illness (**s 23**), notifiable incident (**s 24**),
   notifiable event (**s 25**); **preserve site (s 55)**, **notify WorkSafe ASAP (s 56)**, **keep
   records 5 yrs (s 57)**. **See `references/notifiable-events.md`** for the full lists and triage.
+
+## The NZ HSE law hierarchy — what is binding vs guidance
+
+Knowing **which instrument is legally binding** underpins every *reasonably practicable* judgement — a
+mandatory requirement is not a "cost/benefit" choice. The NZ stack, from binding to advisory:
+
+1. **Health and Safety at Work Act 2015** — the primary duties (binding).
+2. **Regulations** — e.g. General Risk & Workplace Management 2016, Hazardous Substances 2017, Asbestos
+   2016, Mining/Quarrying Operations 2016 (binding).
+3. **Safe Work Instruments (SWIs)** — a distinct form of **secondary/tertiary legislation** made by
+   WorkSafe (under the WorkSafe NZ Act 2013) that a regulation can call up to give technical detail
+   **legal force**. **SWIs are binding** where a regulation invokes them. Current families: **Asbestos**,
+   **Hazardous Substances** (e.g. Prescribed Exposure Standards — see `../hazardous-substances-specialist/`),
+   **General Risk & Workplace Management**, **Pipelines** (2023), and **Mining & Quarrying Operations**
+   (competency — see `../mining-quarrying-specialist/`). A SWI can therefore carry a **mandatory** limit
+   or competency requirement, not mere guidance — check whether one applies before relying on a GPG.
+4. **Approved Codes of Practice (ACOPs)** — approved under HSWA; **not binding in themselves** but
+   **admissible as evidence** of what is reasonably practicable, and courts treat compliance as strong
+   evidence of meeting the duty (e.g. the Cranes ACOP).
+5. **Good Practice Guidelines (GPG) / WorkSafe guidance** — persuasive, **not legally binding**; useful
+   evidence of good practice but always secondary to the binding tiers above.
+
+**When answering "must we?" vs "should we?"** locate the requirement in this stack: Act/Regs/SWI = must;
+ACOP/GPG = strong/reasonable expectation. **AU has no "Safe Work Instrument" equivalent** (its stack is
+Act → Regulations → approved Codes of Practice) — route AU to `safework-au-specialist`.
 
 ## Who is the regulator — WorkSafe and designated agencies
 
