@@ -25,6 +25,9 @@ small number of controls matters more than a long generic hazard list.
 - Building a new bow tie for a hazard or activity.
 - Reviewing/critiquing an existing bow tie for completeness and control quality.
 - Defining whether something is a **critical risk** and identifying its **critical controls**.
+  (**NZ:** "critical risk" is also a defined statutory term under HSWA 2015 — Schedule 1A hazards,
+  or any hazard likely to cause death/notifiable injury or illness/notifiable incident/Schedule 2
+  occupational disease — see `references/critical-risk-definitions.md`.)
 - Scoring residual risk on a matrix, or assessing **control assurance** (are the controls real,
   in place, and verified?).
 
@@ -115,6 +118,8 @@ Produce, in this order:
 
 - **Notifiable event** surfaced by a consequence → `worksafe-nz-specialist` (NZ) or
   `safework-au-specialist` (AU), via `hse-advisor`.
+- **Whether a small PCBU (< 20 workers) must cooperate with another PCBU on this risk** (NZ) →
+  `worksafe-nz-specialist/references/overlapping-duties.md`.
 - **High-risk-work licensing / plant competency** (crane, rigging, EWP, scaffold) →
   `high-risk-work-specialist`.
 - **Turn controls into a procedure** → `sop-author`; **into a task-level JSA** →
