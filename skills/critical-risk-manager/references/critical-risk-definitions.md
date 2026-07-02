@@ -12,7 +12,8 @@ organisations and regulators use their own; always confirm which matrix applies 
 - **Critical risk** — a hazard with the realistic potential to cause **death or permanent
   disabling injury**. Critical risks are managed by the assurance of a few **critical controls**,
   not by long generic hazard registers. (Often called *material risks*, *fatal risks*, or
-  *Significant/Material Unwanted Events* depending on the organisation.)
+  *Significant/Material Unwanted Events* depending on the organisation. **NZ: also now a defined
+  statutory term under HSWA 2015** — see below.)
 - **Top event** — the point at which control of the hazard is lost (released, but harm not yet
   realised). Sits between threats and consequences.
 - **Threat** — a credible cause that could lead to the top event.
@@ -47,6 +48,31 @@ Flag a control as **critical** if **all** of these hold:
 
 Aim for the *few* that genuinely carry the risk, not every control. If everything is "critical",
 nothing is.
+
+## Statutory critical risk (NZ HSWA 2015)
+
+Since the 2026 HSWA amendment, **"critical risk" is also a defined legal term**, not only an
+organisational one. A risk is a critical risk in law if it's associated with:
+
+- a hazard described in **Schedule 1A** — work at height, scaffolding, excavation, cranes, pressure
+  systems, hazardous substances, mobile plant, major hazard facilities, adventure activities, and other
+  high-consequence hazards; **or**
+- a hazard of any kind **likely to result in** a death, a notifiable injury or illness, a notifiable
+  incident, or an occupational disease listed in **Schedule 2 of the Accident Compensation Act 2001**.
+
+A Schedule 1A hazard is a critical risk whether it's being considered against a Schedule 1A regulation
+or a general Part 2 duty. The statutory definition carries real legal consequences: it sets which risks
+a **small PCBU (fewer than 20 workers)** *must* cooperate on with other PCBUs under HSWA s 34, whereas
+a **large PCBU (20+ workers)** must cooperate on all relevant risks regardless →
+`../../worksafe-nz-specialist/references/overlapping-duties.md` for the full mechanics, and
+`../../construction-specialist/references/residential-roles-and-responsibilities.md` for how it plays
+out on a residential construction site.
+
+The Schedule 1A list maps closely onto the **organisational critical-risk categories** below — treat
+the statutory definition as the **legal floor** (it decides what a small PCBU must cooperate on, and
+what the ACOP safe-harbour provisions apply to) and this skill's taxonomy/bow-tie method as **how you
+actually manage the risk** once it's identified, statutory or not. Confirm the current Schedule 1A/2
+text before relying on either list.
 
 ## Common critical-risk categories
 

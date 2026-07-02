@@ -41,6 +41,15 @@ principal contractor, a white card or a site office exists, and reinforce that *
 holds the full primary duty** regardless of the threshold. Engineered-stone and fibre-cement silica →
 `../../hazardous-substances-specialist/`.
 
+**NZ residential — roles and responsibilities:** WorkSafe's ACOP *"Identifying health and safety roles
+and responsibilities on a residential construction site"* maps the client/principal
+contractor/contractor/worker/officer roles onto residential projects and resolves the recurring
+question of **when a homeowner or landowner is a PCBU** (building a new home vs. renovating an existing
+one they live in vs. renting it out). It also sets out how the **small-PCBU critical-risk cooperation
+floor** (§2 below) applies to the sole traders and small trade businesses that make up most residential
+sites. Full detail, the role-finder flowchart, and worked coordination examples →
+`residential-roles-and-responsibilities.md` (flagship for this segment).
+
 ---
 
 ## 2. The construction safety-management regime
@@ -73,6 +82,13 @@ holds the full primary duty** regardless of the threshold. Engineered-stone and 
 - The legal heart of multi-contractor sites: PCBUs who share a workplace must **consult, cooperate and
   coordinate** so far as is reasonably practicable. Overlapping-duties detail →
   `../../worksafe-nz-specialist/` (NZ) / `../../safework-au-specialist/` (AU).
+- **NZ:** the *cooperate* limb now scales with PCBU size — a **large PCBU (20+ workers)** must cooperate
+  on all relevant risks; a **small PCBU (< 20 workers)**, the norm on residential sites, is only
+  *required* to cooperate on **critical risks** (Schedule 1A hazards, or any hazard likely to cause
+  death/notifiable injury or illness/notifiable incident/Schedule 2 occupational disease). Work out
+  which shared risks are critical risks early — that's the mandatory floor for the small PCBUs involved.
+  Full mechanics → `../../worksafe-nz-specialist/references/overlapping-duties.md`; residential worked
+  examples → `residential-roles-and-responsibilities.md` §5.
 
 ---
 
@@ -131,6 +147,10 @@ holds the full primary duty** regardless of the threshold. Engineered-stone and 
   services, confined space (links above)?
 - Are **overlapping duties between contractors** actively coordinated? → `../../worksafe-nz-specialist/`
   / `../../safework-au-specialist/`.
+- **NZ residential:** has each party's HSWA role been correctly identified — including whether a
+  homeowner or landowner involved is a **client PCBU**, a **principal contractor**, or just an "other
+  person at the workplace"? → `residential-roles-and-responsibilities.md` §2–3. Has cooperation on the
+  **critical risks** actually happened between the small PCBUs on site?
 - Could an event be **notifiable**? (Same regulators.)
 
 ---
@@ -138,7 +158,9 @@ holds the full primary duty** regardless of the threshold. Engineered-stone and 
 ## Sources & discipline
 
 - **NZ:** **HSWA 2015**; **WorkSafe construction** guidance; **CHASNZ** sector body; notifiable/particular
-  hazardous work; WorkSafe **"Safe work with precast concrete"** GPG. Summarised with attribution.
+  hazardous work; WorkSafe **"Safe work with precast concrete"** GPG; the residential-construction ACOP
+  **"Identifying health and safety roles and responsibilities on a residential construction site"**
+  (WSNZ_S052) → `residential-roles-and-responsibilities.md`. Summarised with attribution.
 - **AU:** **WHS Regulations Chapter 6 (Construction work)**; model **Code of Practice _Construction
   Work_**; **HRCW/SWMS (Reg 291)**; **principal contractor + WHS management plan (≥ A$250k)**;
   **construction induction (white card, CPCWHS1001)**; precast **AS 3850 / AS 3600** + **National Code of

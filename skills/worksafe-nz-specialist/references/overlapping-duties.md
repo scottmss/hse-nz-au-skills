@@ -18,6 +18,42 @@ other PCBUs who have a duty in relation to that same matter.
   penalties: a fine up to **$20,000** for an individual / up to **$100,000** for any other person such
   as a company — verify current figures).
 
+## Cooperation now scales with PCBU size
+
+HSWA 2015 was amended to make the **cooperate** limb of s 34 proportionate to the size of the PCBU:
+
+- **Large PCBU (20 or more workers)** — must consult, cooperate and coordinate with other PCBUs
+  holding the same duty **on all relevant risks**, as before.
+- **Small PCBU (fewer than 20 workers)** — is only **required** to cooperate with other PCBUs on
+  **critical risks** (defined below). Cooperation on other, non-critical relevant risks becomes
+  **discretionary** for a small PCBU — it may still choose to cooperate more broadly, and a contract
+  between PCBUs of different sizes can require broader cooperation, provided the contract doesn't
+  limit or remove any HSWA duty.
+- The **consult** and **coordinate** limbs, and the underlying primary duty (s 36), are **unaffected**
+  by size — every PCBU still holds its full duty for its own work; only the *scope of the
+  cooperate-with-others* obligation narrows for small PCBUs on non-critical risks.
+- Practical sequence: (1) work out whether each PCBU is small or large **by headcount**, not turnover
+  or influence; (2) identify which of the shared risks are **critical risks**; (3) cooperate on those
+  regardless of size, and treat cooperation on everything else as best practice rather than a floor.
+
+### What counts as a "critical risk" (statutory definition)
+
+A **critical risk** is a defined statutory term, not an organisational judgement call. A risk is a
+critical risk if it is associated with:
+
+- a hazard described in **Schedule 1A** — work at height, scaffolding, excavation, cranes, pressure
+  systems, hazardous substances, mobile plant, major hazard facilities, adventure activities, and other
+  high-consequence hazards; **or**
+- a hazard of any kind that is **likely to result in** a death, a notifiable injury or illness, a
+  notifiable incident, or an occupational disease listed in **Schedule 2 of the Accident Compensation
+  Act 2001**.
+
+A Schedule 1A hazard is a critical risk whether it's being considered against a Schedule 1A regulation
+or a general Part 2 duty. For building/scoring the controls around a critical risk (bow tie, critical
+controls) → `../../critical-risk-manager/`, whose organisational/fatal-risk taxonomy sits alongside
+this statutory definition. For how this plays out on a residential construction site (where most
+PCBUs are small) → `../../construction-specialist/references/residential-roles-and-responsibilities.md`.
+
 ## When do duties overlap?
 
 Two situations — **a shared workplace is not required**:
@@ -157,6 +193,9 @@ meeting to establish each party's duties:
 - **PCBU vs worker** — a self-employed person who decides how their work is done and controls the
   risks is a **PCBU**; but if they work for another PCBU that decides what they do and how/when, they
   are a **worker** of that PCBU.
+- **Small PCBU / large PCBU** — a **large PCBU** has 20 or more workers; a **small PCBU** has fewer
+  than 20. This threshold now drives how much cooperation is mandatory under s 34 (see above) — it is
+  a headcount test, not a turnover, revenue or influence/control test.
 - **Reasonably practicable (SFAIRP, s 22)** — ask: (1) how likely is the risk? (2) how severe is the
   harm? (3) what do you know, or ought reasonably to know, about the hazard and ways to control it?
   (4) what controls are available and suitable? (5) finally, is the cost **grossly disproportionate**
@@ -173,5 +212,8 @@ meeting to establish each party's duties:
 
 > **Hand-offs:** to build/score the controls for a shared risk → `../../critical-risk-manager/`.
 > For board/officer governance of overlapping-duty relationships → `../../officer-governance-advisor/`.
+> For residential construction sites specifically (roles, homeowner/PCBU status, small-PCBU
+> critical-risk cooperation worked examples) →
+> `../../construction-specialist/references/residential-roles-and-responsibilities.md`.
 > For Australia, the equivalent duty is model WHS Act s 46 (different numbering/detail) →
 > `safework-au-specialist`.

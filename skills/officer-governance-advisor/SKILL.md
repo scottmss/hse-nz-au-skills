@@ -37,6 +37,10 @@ model (Foundations → Principles → 5Cs → Vision).
 - Operational/management H&S delivery, building a bow tie, writing an SOP, investigating an event
   → those are management tasks; route via `hse-advisor` to `critical-risk-manager`,
   `incident-investigator`, etc. Governance *oversees* these; it does not perform them.
+- Assessing a person's conduct while they were **doing the work itself** (not governing) — e.g. a
+  director who is also the only worker, mid-build. That's a **worker-duty (s 45)** question, not an
+  officer-duty question, even if the same individual is also an officer. See the scope note in
+  `references/officer-due-diligence.md`.
 - A pure legal-duty question (is this notifiable? what penalty? overlapping duties?) →
   `worksafe-nz-specialist` / `safework-au-specialist`.
 - Worker-level or HSR matters that are not board/officer governance.
@@ -119,6 +123,9 @@ Every output is a **draft for the officer/board to own and validate** — see Di
   `worksafe-nz-specialist` / `safework-au-specialist`, via `hse-advisor`.
 - **An incident the board is learning from** → `incident-investigator` /
   `complex-problem-analyst`.
+- **A small PCBU/owner-operator where the officer is also the only worker** (common in residential
+  construction) → `../construction-specialist/references/residential-roles-and-responsibilities.md`
+  for the operational role picture; this skill stays at the governance/officer-duty altitude.
 - Always route jurisdiction-setting and cross-specialist work through `hse-advisor`.
 
 ## Disclaimer

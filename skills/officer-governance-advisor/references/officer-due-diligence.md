@@ -21,6 +21,28 @@ exercise **due diligence** to ensure the PCBU complies with that duty.
 - It is **not enough to rely on what you are told.** Officers must be proactive and curious — ask
   questions, confirm understanding, and seek to validate information received.
 
+## Scope: the officer duty doesn't follow you into another role
+
+Since the 2026 HSWA amendment, s 44 makes explicit that **an officer's due-diligence duty does not
+extend to activities the officer performs in another role for the same PCBU** — most commonly where
+an officer also works "on the tools" as a worker (e.g. a director of a small building company who
+also frames houses on site, or a sole-director owner-operator who is also the only worker).
+
+- When acting **as an officer** — governing, resourcing, overseeing — the s 44 due-diligence duty
+  applies (the six reasonable steps below).
+- When acting **as a worker** for the same PCBU — actually carrying out the work — the **worker
+  duties (s 45)** apply to that conduct instead, not the officer duty. The same individual can owe
+  both duties at different moments; assess their conduct against **whichever duty matches what they
+  were actually doing at the time**, not their job title.
+- This matters most for **small PCBUs and owner-operator businesses** (the norm on a residential
+  construction site — see `../../construction-specialist/references/residential-roles-and-
+  responsibilities.md`), where the sole director is often the only worker too.
+- This scope limit does **not** reduce the officer's due-diligence obligation itself — a business of
+  one still requires full personal due diligence over the systems, resourcing and oversight of that
+  business. It only clarifies that carelessness **doing the work** is a worker-duty question, and
+  carelessness **governing the business** is an officer-duty question — don't conflate the two when
+  assessing what went wrong or what "reasonable steps" looked like.
+
 ## The six areas of due diligence (s 44(4))
 
 Statutory "reasonable steps" to take, grouped by the IoD/WorkSafe guide into **Enabling**,

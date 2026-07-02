@@ -22,7 +22,8 @@ WorkSafe NZ guidance, and it is not legal advice.
   knowledge; understand operations and their hazards/risks; ensure appropriate resources and
   processes to eliminate or minimise risk; ensure processes for receiving and acting on incident/
   hazard/risk information; ensure processes for complying with duties; verify the above are in
-  place and used).
+  place and used). The duty **does not extend to activities the officer performs in another role**
+  for the same PCBU (e.g. also acting as a worker) — route to `officer-governance-advisor`.
 - **Workers** (**s 45**) — take reasonable care for their own and others' safety; comply with
   reasonable instructions and policies.
 - **Other persons at a workplace** (**s 46**) — e.g. visitors; take reasonable care and follow
@@ -40,7 +41,11 @@ WorkSafe NZ guidance, and it is not legal advice.
   practicable. This is the legal backbone of the hierarchy of controls used in
   `critical-risk-manager`.
 - **Overlapping duties.** More than one PCBU can owe a duty for the same matter (principal,
-  contractor, labour-hire). They must **consult, cooperate and coordinate** (the "3 Cs").
+  contractor, labour-hire). They must **consult, cooperate and coordinate** (the "3 Cs"). The
+  **cooperate** limb now scales with size: a **large PCBU (20+ workers)** cooperates on all relevant
+  risks; a **small PCBU (< 20 workers)** is only required to cooperate on **critical risks** (a
+  Schedule 1A hazard, or any hazard likely to cause death/notifiable injury or illness/notifiable
+  incident/Schedule 2 occupational disease). Detail → `worksafe-nz-specialist`.
 - **Notifiable events.** A **notifiable event (s 25)** is a death, a **notifiable injury or
   illness (s 23)**, or a **notifiable incident (s 24)** arising from work. On a notifiable event
   the PCBU must **preserve the site (s 55)** and **notify WorkSafe as soon as possible (s 56)**,

@@ -9,8 +9,10 @@ description: The subject-matter expert (SME) you consult for the construction-pr
   "WHS management plan", "site induction", "subcontractor", "temporary works", "formwork", "falsework",
   "propping", "demolition", "precast", "precast concrete", "tilt-up", "tilt slab", "panel erection",
   "lifting insert", "brace", "residential construction", "commercial construction", "house build",
-  "housing", "fit-out", "civil construction". Grounded in NZ HSWA/WorkSafe construction guidance and the
-  AU WHS construction-work regime + AS 3850. Not legal advice.
+  "housing", "fit-out", "civil construction", "homeowner", "owner-builder", "residential roles and
+  responsibilities", "who is the principal contractor". Grounded in NZ HSWA/WorkSafe construction
+  guidance (incl. the residential roles & responsibilities ACOP) and the AU WHS construction-work
+  regime + AS 3850. Not legal advice.
 ---
 
 # Construction Specialist (construction-project & activities SME)
@@ -28,6 +30,10 @@ routes the physical hazards (falls, excavation, cranes, plant, dust) to the rele
 - The **construction safety-management regime** — **principal contractor** duties, **WHS management
   plan**, **SWMS for high-risk construction work (HRCW)**, **site induction / white card**, multi-
   contractor coordination.
+- **Residential roles and responsibilities (NZ)** — who is the client/principal contractor/contractor/
+  worker/officer on a house build or renovation, whether a **homeowner or landowner is a PCBU**, and
+  how the **small-PCBU critical-risk cooperation floor** applies → `references/residential-roles-and-
+  responsibilities.md`.
 - **Temporary works** — formwork, **falsework**, propping, shoring, bracing (the structure-while-being-
   built).
 - **Precast / tilt-up concrete erection** — panels, lifting inserts, concrete strength at lift,
@@ -77,7 +83,10 @@ who carries the duty** shift by segment. Set the segment early and tune the advi
   health risk is **respirable crystalline silica, especially engineered-stone benchtops and fibre-
   cement/concrete cutting** (→ `../hazardous-substances-specialist/`). Emphasise fall prevention,
   competent scaffold/edge protection, on-tool dust control, and the fact that **every small PCBU still
-  holds the full duty** even with no principal contractor.
+  holds the full duty** even with no principal contractor. **NZ:** identifying who holds which HSWA
+  role (client / principal contractor / contractor / worker / officer / other person), whether a
+  homeowner or landowner is a PCBU, and how the small-PCBU **critical-risk** cooperation floor applies
+  → `references/residential-roles-and-responsibilities.md` (flagship for this segment).
 - **Commercial** (multi-storey, fit-out at scale) — the **full regime** (principal contractor + WHS
   management plan, heavy multi-PCBU coordination), plus **cranes, precast/tilt-up, structural steel,
   façade/MEWP, lift shafts and voids, hot works and plant-room confined spaces**.
@@ -118,8 +127,12 @@ often under-served by it** — don't assume a principal contractor, a white card
 
 1. **Set the jurisdiction** (NZ/AU) and the project — **segment (residential / commercial / civil)**,
    size, principal contractor, trades, phase. The segment re-weights the regime and which hazards lead.
+   **NZ residential:** confirm each party's HSWA role, and whether any homeowner/landowner involved is
+   a PCBU, via `references/residential-roles-and-responsibilities.md` §2–3 before going further.
 2. **Stand up the regime** — principal contractor + WHS management plan (AU ≥ $250k), induction,
-   SWMS/TA for the high-risk activities, consultation/coordination across PCBUs.
+   SWMS/TA for the high-risk activities, consultation/coordination across PCBUs; for NZ residential,
+   determine which shared risks are **critical risks** so small-PCBU cooperation obligations are clear
+   (`references/residential-roles-and-responsibilities.md` §5).
 3. **Screen the activities** — identify HRCW and construction-specific work (temporary works, precast,
    demolition) and apply their controls (precast → flagship reference).
 4. **Route each physical hazard** to its SME (falls, excavation, crane, lifting, plant, dust, services,
