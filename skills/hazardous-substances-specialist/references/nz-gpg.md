@@ -50,8 +50,9 @@ NZ splits hazardous-substances regulation across **two regulators** — get the 
 
 - A **WES (Workplace Exposure Standard)** is **advisory** — the airborne concentration most workers can
   be exposed to without harm; you still control **SFAIRP** and below the WES.
-- A **Prescribed Exposure Standard (PES)** is a **mandatory** limit (set via a safe work instrument under
-  the General Risk and Workplace Management Regs 2016 / specific regs) that **must not be exceeded**.
+- A **Prescribed Exposure Standard (PES)** is a **mandatory** limit (set via a **Safe Work Instrument** —
+  binding tertiary legislation; see `../../worksafe-nz-specialist/` for the NZ law hierarchy) that
+  **must not be exceeded**.
 - **Respirable crystalline silica (RCS):** the NZ **WES-TWA is 0.025 mg/m³** (lowered from 0.05 in
   November 2023; itself down from 0.1 in 2019). Significant risk remains *at* the WES — control to as low
   as reasonably practicable, don't treat the number as "safe". **Verify the current value before use.**

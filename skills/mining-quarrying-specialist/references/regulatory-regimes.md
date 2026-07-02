@@ -22,7 +22,8 @@ regime; **Australia is not harmonised** and varies by state.
 - **Certificates of Competence (CoC):** **everyone in a safety-critical role must hold a current CoC**
   (e.g. SSE, underground mine manager, underground deputy, ventilation, winding-engine, quarry/alluvial
   managers). Issued by the **NZ Mining Board of Examiners**; **WorkSafe sets the competencies** (via
-  Safe Work Instruments), with **continuing professional development** requirements.
+  **Safe Work Instruments** — binding tertiary legislation; see `../../worksafe-nz-specialist/` for the
+  NZ law hierarchy), with **continuing professional development** requirements.
 - **Management system:** a documented **health & safety management system**, with **principal hazard
   management** for the operation's principal hazards, emergency management, and worker participation.
 - **Graduated requirements:** the regime **scales with risk** — underground mines (most prescriptive),
