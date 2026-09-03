@@ -98,6 +98,7 @@ status). Return control to the user with a clear statement of which skill is doi
 | Cranes, dogging, rigging, scaffolding, EWP, forklift; what licence/competency is needed; HRWL classes (AU) vs NZQA unit standards / Certificates of Competence (NZ); AS/NZS standards | **high-risk-work-specialist** |
 | Safe system of work / SOP authoring, structure, document control | **sop-author** |
 | JSA / task analysis (step → hazard → control → residual), worker sign-on | **task-analysis-author** |
+| **Plain language / document clarity** — rewrite or review an H&S document so workers can read and understand it, readability, jargon, "will workers understand this", mixed literacy or ESOL workforce, translation, comprehension testing, toolbox talk or sign wording | **plain-language-reviewer** |
 | Learning from NZ/AU HSE prosecution patterns; enforcement/sentencing; benchmarking against what gets prosecuted | **prosecution-analyst** |
 
 All specialists above are available in this collection. Identify the jurisdiction and task, then
