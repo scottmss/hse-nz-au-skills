@@ -10,7 +10,7 @@
       "name": "hse-core",
       "source": "./",
       "description": "NZ/AU workplace health & safety specialist skills, orchestrated by hse-advisor",
-      "version": "1.25.0",
+      "version": "1.26.0",
       "strict": false,
       "skills": [
         "./skills/hse-advisor",
@@ -27,6 +27,7 @@
         "./skills/forklift-specialist",
         "./skills/sop-author",
         "./skills/task-analysis-author",
+      "./skills/plain-language-reviewer",
         "./skills/prosecution-analyst",
         "./skills/psychosocial-risk-specialist",
         "./skills/working-at-height-specialist",
