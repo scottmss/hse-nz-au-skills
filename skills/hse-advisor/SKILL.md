@@ -61,6 +61,7 @@ status). Return control to the user with a clear statement of which skill is doi
 |---|---|
 | Officer/board/director **governance** or **due diligence**, governance self-assessment, board H&S report, officer induction, "what should the board ask", risk appetite at governance level | **officer-governance-advisor** |
 | Bow tie, critical risk, top event, barrier/control assurance, residual risk scoring | **critical-risk-manager** |
+| **Energy-based safety / the Energy Wheel** — energy-based hazard recognition sweep, is this hazard **high energy** (~1,500 J / STCKY), is this control a **direct control** or only an alternate one, HECA/EBO measurement instead of TRIR, SIF prevention, CHASNZ energy wheel | **energy-based-safety-specialist** |
 | Psychosocial risk, mental health at work, work-related stress, job demands, bullying/harassment, traumatic exposure (work-design risk management) | **psychosocial-risk-specialist** |
 | Working at height, falls, fall protection/restraint/arrest, harness, edge protection, MEWP/EWP, ladder, fragile roof, dropped object, suspension trauma | **working-at-height-specialist** |
 | Excavation, trenching, ground disturbance, trench collapse, underground/buried services, cable strike, shoring/benching/battering, potholing, certificate to excavate | **excavation-specialist** |
