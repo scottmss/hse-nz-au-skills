@@ -1,0 +1,24 @@
+{
+  "name": "hse-sector-primary",
+  "version": "2.1.0",
+  "description": "Sector specialists for agriculture, horticulture, forestry, and commercial fishing and aquaculture.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "agriculture",
+    "farming",
+    "horticulture",
+    "forestry",
+    "fishing",
+    "aquaculture"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

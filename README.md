@@ -130,8 +130,8 @@ pack's name (e.g. `hse-core:hse-advisor`, `hse-plant:crane-specialist`).
 
 #### Or pick individual packs
 
-Bundles are built from eight **packs**. Install packs directly if you want a leaner or a custom set —
-`hse-core` first, then whichever others fit your work:
+Bundles are built from eight **packs**. Install packs directly if you want a leaner or a custom set
+(any pack brings `hse-core` with it):
 
 | Pack | Install name | What's in it |
 |------|--------------|--------------|
@@ -152,9 +152,10 @@ runs forklifts and MEWPs, say.
 inside a small fixed budget (about 1% of the context window). Install more skills than fit and
 Claude keeps the names but drops the descriptions — the skills stop triggering. Packs keep you
 under that budget. If a job needs a specialist from a pack you haven't installed, `hse-advisor`
-still reads its method from disk and tells you which pack to add.
+tells you which pack to add. Every pack installs `hse-core` automatically, so the orchestrator and
+the NZ/AU law and method skills are always there.
 
-**Upgrading from v1.x?** `hse-core` used to contain every skill; from v2.0.0 it is the core pack
+**Upgrading from v1.x?** `hse-core` used to contain every skill; from v2 it is the core pack
 only. Update the marketplace, then install the bundle for your industry (it keeps `hse-core` and
 adds the rest):
 
@@ -175,7 +176,7 @@ Unzip a skill folder into `~/.claude/skills/` (Claude Code), or upload it in Cla
 
 ```bash
 git clone https://github.com/scottmss/hse-nz-au-skills.git
-cp -r hse-nz-au-skills/skills/critical-risk-manager ~/.claude/skills/
+cp -r hse-nz-au-skills/packs/hse-core/skills/critical-risk-manager ~/.claude/skills/
 ```
 
 `~/.claude/skills/` installs at user scope (all projects). A `.claude/skills/` folder inside a

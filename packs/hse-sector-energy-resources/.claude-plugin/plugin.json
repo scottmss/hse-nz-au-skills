@@ -1,0 +1,24 @@
+{
+  "name": "hse-sector-energy-resources",
+  "version": "2.1.0",
+  "description": "Sector specialists for electricity supply, geothermal, oil and gas, mining and quarrying, and drilling.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "electricity-supply",
+    "geothermal",
+    "oil-and-gas",
+    "mining",
+    "quarrying",
+    "drilling"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "hse-sector-transport",
+  "version": "2.1.0",
+  "description": "Sector specialists for road transport and logistics, stevedoring, maritime and ports, and rail.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "transport",
+    "logistics",
+    "chain-of-responsibility",
+    "stevedoring",
+    "maritime",
+    "ports",
+    "rail"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

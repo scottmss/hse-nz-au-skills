@@ -70,45 +70,66 @@ Keep `SKILL.md` bodies tight. Push depth into `references/`. A good body has:
 
 ## 4. Cross-skill references
 
-Use relative paths so specialists can point at each other's reference files:
+Packs install into **separate folders**, so a skill can only reach files in its own pack. Three
+forms, each checked by the validator:
 
-```
-../worksafe-nz-specialist/references/notifiable-events.md
-```
+| To… | Write | Example |
+|---|---|---|
+| hand off to another skill (any pack) | its **name** | `` `crane-specialist` `` |
+| point at a file in **your own pack** | a relative path | `` `../critical-risk-manager/references/control-assurance.md` `` |
+| point at a file in **another pack** | `skill:path` | `` `worksafe-nz-specialist:references/overlapping-duties.md` `` |
+
+- **Hand off by name, never by path.** `` `../crane-specialist/` `` fails validation if the skill is in
+  another pack, and breaks silently the day a skill moves. The name always works.
+- `skill:path` means *that file inside that skill* — Claude invokes the skill to reach it. Keep these
+  rare: if the other pack isn't installed the pointer is a dead end, so say enough inline that the
+  reader isn't stranded.
+- Inside a `references/` file, remember a relative path starts from that folder
+  (`../../other-skill/references/x.md`, or `../scripts/tool.py` for your own skill's script).
 
 The orchestrator (`hse-advisor`) declares its routing map; each specialist declares its own hand-offs.
 
-**Keep `skills/` flat — do not move skills into per-pack folders.** The collection is installed as
-several packs (below), but every pack is carved out of the same folder, so each install contains
-the whole `skills/` tree. That is what keeps these `../` references working whichever packs a user
-chose. Moving skills into separate plugin directories would break the cross-pack ones.
+## 4a. Packs and bundles
 
-## 4a. Packs
+The collection installs as **packs** — `hse-core`, `hse-hazards`, `hse-plant` and the `hse-sector-*`
+packs — so users load only what they need and stay inside the description budget. Each pack is a
+real plugin folder:
 
-`.claude-plugin/marketplace.json` splits the collection into installable **packs** — `hse-core`,
-`hse-hazards`, `hse-plant` and the `hse-sector-*` packs — so users load only what they need and stay
-inside the description budget. Each pack entry is `"source": "./"` + `"strict": false` + an explicit
-`skills` list; there is deliberately **no `plugin.json`** (at a shared root it would stamp one name
-and version on every pack). When you add a skill:
+```
+packs/hse-plant/
+├── .claude-plugin/plugin.json      name, version, description, author, dependencies
+└── skills/
+    ├── crane-specialist/SKILL.md
+    └── …
+```
 
-1. **Put it in exactly one pack** — add `./skills/<name>` to that pack's `skills` list. Core is for
-   the orchestrator and cross-cutting method/law skills; hazards, plant and sectors go in their packs.
-   Start a new `hse-sector-*` pack rather than letting one grow past ~6 skills.
+**The folder a skill sits in is its pack.** There is no separate list to keep in step: Claude Code
+scans the pack's `skills/` folder, and a plugin manager counts what is on disk. (v2.0.0 carved every
+pack out of one shared `skills/` folder; each install then held all 48 skills on disk and plugin
+managers showed "48 skills" for every pack.) When you add a skill:
+
+1. **Put it in exactly one pack** — `packs/<pack>/skills/<name>/`. Core is for the orchestrator and
+   cross-cutting method/law skills; hazards, plant and sectors go in their packs. Start a new
+   `hse-sector-*` pack rather than letting one grow past ~6 skills.
 2. **Add a routing row** for it in the `hse-advisor` routing map — this is where its full trigger
    vocabulary lives.
 3. **Add it to the pack table** in `hse-advisor` ("Packs — when a specialist isn't installed") and to
-   the README roster and install table.
+   the README roster (with its pack) and install table.
 4. **Bump the version everywhere together** with `python3 scripts/bump-version.py X.Y.Z`. Installs
    are pinned by version: a pack whose version doesn't change never updates for existing users.
 
 The validator enforces all four, and prints each pack's and bundle's description cost.
 
-**Bundles** (`hse-for-construction-industrial`, `hse-everything`, …) give users a one-step install. Each is a
-folder under `bundles/` holding only `.claude-plugin/plugin.json` — a `name`, a `version` and a
-`dependencies` list of packs — plus a marketplace entry whose `source` is that folder. A bundle
+**A new pack** needs `packs/<name>/.claude-plugin/plugin.json` (copy a sibling's; keep
+`"dependencies": ["hse-core"]` — every specialist hands off into core) and a marketplace entry whose
+`source` is `./packs/<name>`. Keep `version` in `plugin.json` only — if the marketplace entry sets one
+too, `plugin.json` silently wins — and keep the `description` identical in both.
+
+**Bundles** (`hse-for-construction-industrial`, `hse-everything`, …) give users a one-step install.
+Each is a folder under `bundles/` holding only `.claude-plugin/plugin.json` — a `name`, a `version`
+and a `dependencies` list of packs — plus a marketplace entry whose `source` is that folder. A bundle
 carries no skills, so a new skill needs no bundle change; a new **pack** should be added to the
-bundles it belongs in (always to `hse-everything`). Keep a bundle's `version` in its `plugin.json`
-only — if the marketplace entry sets one too, `plugin.json` silently wins.
+bundles it belongs in (always to `hse-everything`).
 
 ## 5. Region-anchor references (GPG / ACOP / Code grounding)
 
@@ -149,5 +170,6 @@ bar: no network calls, no destructive operations, no credential handling in any 
 - [ ] Region anchors carry verify-pointers + a `Sources last verified` date.
 - [ ] Company-agnostic — no proprietary or organisation-specific content.
 - [ ] `python3 scripts/validate-skills.py` passes.
-- [ ] If you added a skill: listed in exactly one pack in `marketplace.json`, given a routing row and
-      a pack-table entry in `hse-advisor`, added to the README roster, and every pack's `version` bumped.
+- [ ] Hand-offs written as skill names; no `../` path into another pack.
+- [ ] If you added a skill: placed in exactly one pack folder, given a routing row and a pack-table
+      entry in `hse-advisor`, added to the README roster, and the version bumped with `bump-version.py`.

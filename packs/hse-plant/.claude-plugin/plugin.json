@@ -1,0 +1,25 @@
+{
+  "name": "hse-plant",
+  "version": "2.1.0",
+  "description": "Subject-matter experts for the equipment itself — cranes, lifting and rigging, forklifts, elevating work platforms, scaffolding and pressure equipment — each with its capacity or load calculator.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "cranes",
+    "rigging",
+    "forklift",
+    "EWP",
+    "MEWP",
+    "scaffolding",
+    "pressure-equipment"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

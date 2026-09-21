@@ -8,7 +8,7 @@ Claude Code marketplace from GitHub:
                           e.g. critical-risk-manager/SKILL.md) — ready to upload
                           as a custom skill in Claude.ai (Settings -> Capabilities
                           -> Skills) or to drop into ~/.claude/skills/.
-- dist/hse-nz-au-skills.zip  the whole collection (skills/, bundles/, the
+- dist/hse-nz-au-skills.zip  the whole collection (packs/, bundles/, the
                           marketplace manifest, README and LICENSE) — a single
                           download of everything, usable as a local marketplace.
 
@@ -26,15 +26,15 @@ import sys
 import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKILLS_DIR = os.path.join(ROOT, "skills")
+PACKS_DIR = os.path.join(ROOT, "packs")
 DIST = os.path.join(ROOT, "dist")
 
 EXCLUDE_DIRS = {".git", "dist", "__pycache__", ".venv", "venv", ".github"}
 EXCLUDE_FILES = {".DS_Store"}
 # Files/dirs (relative to repo root) included in the combined collection zip.
-COLLECTION_INCLUDE = ["skills", "bundles", ".claude-plugin", "scripts", "README.md", "LICENSE"]
-# Hidden directories are skipped when walking a tree, except these: each bundle's
-# manifest lives in bundles/<name>/.claude-plugin/.
+COLLECTION_INCLUDE = ["packs", "bundles", ".claude-plugin", "scripts", "README.md", "LICENSE"]
+# Hidden directories are skipped when walking a tree, except these: every pack and
+# bundle keeps its manifest in <folder>/.claude-plugin/.
 KEEP_HIDDEN_DIRS = {".claude-plugin"}
 
 
@@ -70,17 +70,17 @@ def check_collection(path: str) -> list[str]:
         for plugin in json.loads(zf.read(manifest)).get("plugins", []):
             label = plugin.get("name", "?")
             source = str(plugin.get("source", "")).lstrip("./").rstrip("/")
-            if source and f"{source}/.claude-plugin/plugin.json" not in names:
+            if f"{source}/.claude-plugin/plugin.json" not in names:
                 problems.append(f"plugin '{label}': source ./{source} has no plugin.json in the zip")
-            for skill in plugin.get("skills", []):
-                if f"{skill.lstrip('./')}/SKILL.md" not in names:
-                    problems.append(f"plugin '{label}': {skill}/SKILL.md is not in the zip")
+            if source.startswith("packs/") and not any(
+                    n.startswith(f"{source}/skills/") and n.endswith("/SKILL.md") for n in names):
+                problems.append(f"plugin '{label}': no skills under ./{source}/skills/ in the zip")
     return problems
 
 
 def main() -> int:
-    if not os.path.isdir(SKILLS_DIR):
-        print(f"No skills/ directory at {SKILLS_DIR}")
+    if not os.path.isdir(PACKS_DIR):
+        print(f"No packs/ directory at {PACKS_DIR}")
         return 1
     os.makedirs(DIST, exist_ok=True)
     # Clean previous artifacts.
@@ -88,17 +88,22 @@ def main() -> int:
         if f.endswith(".zip"):
             os.remove(os.path.join(DIST, f))
 
-    skills = sorted(
-        d for d in os.listdir(SKILLS_DIR)
-        if os.path.isdir(os.path.join(SKILLS_DIR, d)) and not d.startswith(".")
-    )
+    # name -> folder, across every pack (skill names are unique across packs).
+    skills = {}
+    for pack in sorted(os.listdir(PACKS_DIR)):
+        pack_skills = os.path.join(PACKS_DIR, pack, "skills")
+        if pack.startswith(".") or not os.path.isdir(pack_skills):
+            continue
+        for d in sorted(os.listdir(pack_skills)):
+            if os.path.isdir(os.path.join(pack_skills, d)) and not d.startswith("."):
+                skills[d] = os.path.join(pack_skills, d)
 
     # 1) One zip per skill (skill folder at the zip root).
     print(f"Packaging {len(skills)} skills into {os.path.relpath(DIST, ROOT)}/ ...\n")
-    for name in skills:
+    for name in sorted(skills):
         out = os.path.join(DIST, f"{name}.zip")
         with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
-            count = _add_tree(zf, os.path.join(SKILLS_DIR, name), name)
+            count = _add_tree(zf, skills[name], name)
         size = os.path.getsize(out)
         print(f"  {name}.zip  ({count} files, {size/1024:.0f} KB)")
 
