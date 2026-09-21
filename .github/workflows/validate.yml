@@ -18,6 +18,8 @@ jobs:
           python-version: "3.x"
       - name: Lint every SKILL.md (frontmatter, cross-refs, marketplace.json)
         run: python3 scripts/validate-skills.py
+      - name: Build the release zips (fails if the collection zip lacks anything its manifest points at)
+        run: python3 scripts/bundle.py
       - name: Run risk_matrix_scorer self-test
         run: python3 skills/critical-risk-manager/scripts/risk_matrix_scorer.py --selftest
       - name: Run energy_calculator self-test
