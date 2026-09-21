@@ -1,13 +1,8 @@
 ---
 name: water-safety-specialist
-description: The subject-matter expert (SME) you consult for working in, on or above water — preventing
-  drowning and hypothermia. Use for work near water edges, on structures over water (dams, canals,
-  gates, wharves, bridges), on or from boats/vessels, and diving operations. Triggers on "working over
-  water", "working near water", "drowning", "hypothermia", "lifejacket", "PFD", "personal flotation
-  device", "man overboard", "safety observer over water", "rescue boat/buoy", "throw bag", "lone worker
-  near water", "diving operations", "dam/canal/wharf". Grounded in good-practice for working on/near
-  water (PFD AS 4758, safety observer, rescue plan) and occupational diving (AS/NZS 2299), with
-  Maritime NZ for vessels. Not legal advice.
+description: Working in, on or above water — preventing drowning and hypothermia at water
+  edges, dams, canals, wharves, bridges and from boats. Lifejackets and PFDs, safety observer,
+  rescue plan, man overboard, lone work near water, diving operations.
 ---
 
 # Water Safety Specialist (working on/near water SME)

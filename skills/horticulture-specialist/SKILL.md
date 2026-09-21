@@ -1,13 +1,8 @@
 ---
 name: horticulture-specialist
-description: The subject-matter expert (SME) you consult for health & safety in horticulture — orchards,
-  vineyards, kiwifruit, pipfruit, market gardens, glasshouses, and the packhouses and coolstores that go
-  with them. Use for any growing, picking, pruning, spraying, packing or coolstore question. Triggers on
-  "horticulture", "horticultural", "orchard", "vineyard", "viticulture", "kiwifruit", "apple",
-  "pipfruit", "market garden", "glasshouse", "packhouse", "pack house", "coolstore", "cool store",
-  "controlled atmosphere", "CA room", "orchard platform", "horticultural MEWP", "hydraladda", "picking",
-  "pruning", "spray drift", "airblast sprayer", "RSE worker", "seasonal worker". Grounded in WorkSafe NZ
-  horticulture guidance and the AU WHS framework. Not legal advice.
+description: Horticulture safety — orchards, vineyards, kiwifruit, market gardens, glasshouses,
+  packhouses and coolstores. Orchard platforms and MEWPs near overhead lines, spray drift,
+  packhouse machinery, controlled-atmosphere (CA) rooms, seasonal and RSE workers.
 ---
 
 # Horticulture Specialist (orchard / vineyard / packhouse SME)

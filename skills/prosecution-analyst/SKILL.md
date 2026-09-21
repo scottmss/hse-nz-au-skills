@@ -1,13 +1,8 @@
 ---
 name: prosecution-analyst
-description: Use this skill to learn from NZ/AU workplace health & safety prosecution patterns — what
-  duty failures get prosecuted, the factors courts weigh, and the preventive lessons — as a learning
-  and benchmarking source. Triggers on "prosecution", "enforcement", "what gets prosecuted", "lessons
-  from", "case law", "sentencing", "penalties", "culpability", "reparation", "enforceable
-  undertaking", "category 1/2/3 offence", "reckless conduct", "industrial manslaughter", "WorkSafe/
-  SafeWork prosecution", "duty-holder liability", or benchmarking your controls against real failures.
-  Company-agnostic and educational — it reasons about public prosecution patterns and the method of
-  learning from them; it does not predict the outcome of any specific case. Not legal advice.
+description: Learn from NZ/AU H&S prosecution patterns — which duty failures get prosecuted,
+  sentencing and penalties (Stumpmaster; WHS Category 1–3; industrial manslaughter),
+  enforceable undertakings, and preventive lessons. Educational; does not predict cases.
 ---
 
 # Prosecution Analyst (learning from NZ/AU H&S prosecutions)

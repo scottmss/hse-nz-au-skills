@@ -1,13 +1,8 @@
 ---
 name: critical-risk-manager
-description: Use this skill when building or reviewing a bow tie risk assessment, defining a
-  critical risk, assessing control (barrier) assurance, or scoring residual risk for NZ/AU
-  workplace hazards. Triggers on "bow tie", "bowtie", "critical risk", "control assurance",
-  "barrier", "top event", "barrier analysis", "threat", "consequence", "risk matrix",
-  "residual risk", "escalation factor", "critical control". Builds the structured visual risk
-  story for high-energy / fatal-risk hazards — crane lifts, confined space, working at height,
-  chemical handling, traffic/mobile plant, electrical, dropped objects. Grounded in HSWA 2015
-  (NZ) and the WHS model law (AU). Use the bow tie structure here before starting any bow tie.
+description: Build or review a bow tie for a critical (fatal) risk — top event, threats,
+  consequences, barriers, escalation factors — then assess critical-control assurance and score
+  residual risk on the risk matrix. NZ/AU. Use before starting any bow tie.
 ---
 
 # Critical Risk Manager

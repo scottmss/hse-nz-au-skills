@@ -1,13 +1,8 @@
 ---
 name: complex-problem-analyst
-description: Use this skill for a complex, recurring or multi-causal workplace problem that simple
-  fixes haven't solved — to run a Fishbone (Ishikawa) analysis that maps all contributing factor
-  categories at once. Triggers on "why does this keep happening", "we can't figure out why", "it's
-  not just one thing", "recurring issue", "systemic", "fishbone", "Ishikawa", "contributing
-  factors", "post-mortem", "post-incident review", or any request to diagnose a failure with several
-  converging causes rather than a single chain. Use this when the problem involves people, process,
-  equipment and environment interacting. Pairs with incident-investigator (Five Whys) for depth.
-  NZ/AU workplace context. Not legal advice.
+description: Fishbone (Ishikawa) analysis for a recurring, systemic or multi-causal workplace
+  problem that simple fixes haven't solved — maps people, process, equipment and environment
+  factors together. Pairs with incident-investigator (Five Whys).
 ---
 
 # Complex Problem Analyst (Fishbone / Ishikawa)

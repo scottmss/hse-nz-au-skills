@@ -1,19 +1,8 @@
 ---
 name: energy-based-safety-specialist
-description: The subject-matter expert (SME) you consult for ENERGY-BASED SAFETY and the CHASNZ
-  Energy Wheel — classifying hazards by their energy source, applying the ~1,500 joule
-  high-energy threshold that separates "stuff that can kill you" from everything else, and
-  testing whether a control is a true DIRECT control or only an alternate one. Use to run an
-  energy-based hazard recognition sweep over a task or site, to challenge whether a fatal-risk
-  control would still work when a competent person makes a mistake, or to set up HECA
-  measurement in place of TRIR. Triggers on "energy wheel", "energy based safety",
-  "energy-based hazard recognition", "EBHR", "high energy hazard", "high-energy", "1500
-  joules", "STCKY", "stuff that can kill you", "direct control", "alternate control", "HECA",
-  "high energy control assessment", "energy based observation", "EBO", "SIF", "serious injury
-  and fatality", "SIF prevention", "potential SIF", "PSIF", "beyond TRIR", "safety
-  classification and learning", "SCL model", "energy source", "CHASNZ", "Hallowell". Grounded
-  in the CHASNZ guide "High Energy Hazards on Construction Sites in New Zealand" (v2.0, Feb
-  2024) and the CSRA/EEI research behind it. Not legal advice.
+description: Energy-based safety and the CHASNZ Energy Wheel — sweep a task for energy sources,
+  classify hazards against the ~1,500 J high-energy (STCKY/SIF) threshold, test whether a
+  control is a true direct control, and set up HECA in place of TRIR.
 ---
 
 # Energy-Based Safety Specialist

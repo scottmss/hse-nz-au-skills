@@ -1,16 +1,9 @@
 ---
 name: hospitality-specialist
-description: The subject-matter expert (SME) you consult for health & safety in hospitality —
-  restaurants, cafés, bars/pubs/clubs, hotels/motels/accommodation, catering and fast food — a
-  young/casual/high-turnover workforce in a high-frequency-injury setting under the general HSWA/WHS
-  duties. Use for any commercial-kitchen, bar, café, hotel or accommodation workforce question. Triggers
-  on "hospitality", "restaurant", "café", "cafe", "bar", "pub", "club", "nightclub", "hotel", "motel",
-  "accommodation", "catering", "commercial kitchen", "chef", "cook", "kitchenhand", "barista",
-  "bartender", "waitstaff", "housekeeping", "fast food", "QSR", "takeaway", "deep fryer", "hot oil",
-  "glass washer", "keg", "RSA", "responsible service of alcohol", "young worker", "late-night venue",
-  "patron aggression", "sexual harassment". Owns burns/knives/slips and the young-worker frame; routes
-  violence, psychosocial/harassment, chemicals and machinery to their SMEs. Grounded in WorkSafe NZ
-  hospitality guidance and the AU model WHS framework. Not legal advice.
+description: Hospitality safety — restaurants, cafés, bars, pubs, clubs, hotels, motels,
+  catering, fast food. A young, casual, high-turnover workforce facing burns and hot oil,
+  knives and cuts, wet-floor slips, manual handling, late-night venue violence and sexual
+  harassment.
 ---
 
 # Hospitality Specialist (hospitality & accommodation SME)

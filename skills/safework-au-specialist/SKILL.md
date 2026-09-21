@@ -1,14 +1,9 @@
 ---
 name: safework-au-specialist
-description: Specialist in Australian Work Health and Safety (WHS) law — the model WHS Act as enacted
-  by each state/territory and the Commonwealth, and the key point that VICTORIA uses a different law
-  (OHS Act 2004). Use for who holds which WHS duty, the PCBU primary duty of care, officer due
-  diligence, reasonably practicable, overlapping duties (consult, cooperate, coordinate), notifiable
-  incidents, which regulator and which Act applies in a given jurisdiction, model Codes of Practice,
-  and high-risk work licensing. Triggers on "WHS", "WHS Act", "model WHS", "PCBU" (AU), "SafeWork",
-  "WorkSafe" (state), "Comcare", "NSW/Queensland/WA/SA/Tasmania/ACT/NT/Victoria", "officer due
-  diligence", "notifiable incident", "Code of Practice", "high-risk work licence", "which state",
-  "jurisdiction". Australia only; for New Zealand use worksafe-nz-specialist. Not legal advice.
+description: Australian WHS law — which jurisdiction, Act and regulator apply (model WHS vs
+  Victoria's OHS Act 2004), PCBU primary duty, officer due diligence, overlapping duties,
+  notifiable incidents and Codes of Practice. Australia only; for NZ use
+  worksafe-nz-specialist.
 ---
 
 # SafeWork AU Specialist (WHS duties)

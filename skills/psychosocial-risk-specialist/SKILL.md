@@ -1,15 +1,8 @@
 ---
 name: psychosocial-risk-specialist
-description: Specialist in managing psychosocial risk — hazards arising from the design and management
-  of work that may cause psychological (and physical) harm. Use to identify, assess and control
-  psychosocial hazards such as high job demands, low job control, poor support, low role clarity,
-  poor change management, low recognition, organisational injustice, traumatic exposure, remote/
-  isolated work, and workplace conflict, bullying, harassment or violence. Triggers on "psychosocial
-  risk/hazard", "mental health at work", "work-related stress", "burnout", "workload", "job demands",
-  "bullying", "harassment", "workplace conflict", "fatigue" (work-design angle), "traumatic exposure",
-  "mentally healthy work", "ISO 45003". Key split — AUSTRALIA has explicit duties (model WHS Regs
-  55A–55D + a Code of Practice); NEW ZEALAND manages it under the general HSWA duties because "health"
-  includes mental health. Not legal advice; not clinical/therapeutic advice.
+description: Identify, assess and control psychosocial risk — work-design hazards like
+  workload, low control, poor support, bullying, harassment, burnout and traumatic exposure. AU
+  has explicit duties (WHS Regs 55A–55D); NZ uses general HSWA duties. Not clinical advice.
 ---
 
 # Psychosocial Risk Specialist

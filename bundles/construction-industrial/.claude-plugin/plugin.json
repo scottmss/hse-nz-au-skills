@@ -1,0 +1,15 @@
+{
+  "name": "hse-for-construction-industrial",
+  "version": "2.0.0",
+  "description": "One-step install for construction, manufacturing, food processing and waste — the core pack, hazard specialists, plant and lifting specialists, and the construction and industrial sector specialists.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "dependencies": [
+    "hse-core",
+    "hse-hazards",
+    "hse-plant",
+    "hse-sector-industrial"
+  ]
+}

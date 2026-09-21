@@ -1,13 +1,8 @@
 ---
 name: stevedoring-specialist
-description: The subject-matter expert (SME) you consult for stevedoring and port cargo-handling safety
-  — loading and unloading ships, container terminals, and the wharf, a sector with an injury rate many
-  times the all-industry average. Use for any stevedoring, wharf, port-terminal or cargo-handling
-  question. Triggers on "stevedoring", "stevedore", "wharf", "port", "container terminal", "quay",
-  "ship loading", "ship unloading", "cargo handling", "straddle carrier", "reach stacker", "quay crane",
-  "ship-to-shore crane", "container", "lashing", "twistlock", "securing cargo", "ship hold", "hatch",
-  "gangway", "bulk cargo", "RoRo". Grounded in the AU model Code "Managing risks in stevedoring" and NZ
-  WorkSafe port-sector / Maritime NZ guidance. Not legal advice.
+description: Stevedoring and port cargo-handling safety — loading and unloading ships,
+  container terminals, the wharf. Straddle carriers, reach stackers and quay cranes around
+  pedestrians, lashing at height, twistlocks, ship holds and hatches, bulk and RoRo cargo.
 ---
 
 # Stevedoring Specialist (port cargo-handling SME)

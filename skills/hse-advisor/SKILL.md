@@ -1,15 +1,9 @@
 ---
 name: hse-advisor
-description: Orchestrator for NZ/AU workplace health & safety work. Use this skill FIRST
-  whenever a request touches occupational H&S, WHS, or HSWA — to identify the jurisdiction
-  (New Zealand vs Australia, and which Australian state/territory) and the task type, then
-  route to the right specialist skill. Triggers on "health and safety", "H&S", "HSE", "WHS",
-  "HSWA", "PCBU", "duty holder", "officer", "due diligence", "governance", "director", "board",
-  "WorkSafe", "SafeWork", "notifiable event", "risk assessment",
-  "bow tie", "incident investigation", "safe work method", "SOP", "JSA", "task analysis",
-  "high-risk work licence", or any workplace hazard/safety question. Does not do deep work
-  itself; it scopes the request and hands off. Grounded in HSWA 2015 (NZ) and the WHS model
-  law (AU).
+description: Orchestrator for NZ/AU workplace health & safety. Use FIRST for any H&S, HSE, WHS
+  or HSWA question — hazards, risk, duties, incidents, procedures, governance. Establishes
+  jurisdiction (NZ vs which Australian state) and task type, then routes to the right
+  specialist. Does no deep work itself.
 ---
 
 # HSE Advisor (orchestrator)
@@ -96,13 +90,48 @@ status). Return control to the user with a clear statement of which skill is doi
 | NZ HSWA duties: PCBU primary duty, overlapping duties / 3 Cs / contracting chains, reasonably practicable, notifiable events, WorkSafe NZ | **worksafe-nz-specialist** |
 | AU WHS Act/Regs, state/territory variations, **which jurisdiction & regulator**, Victoria (OHS Act 2004), PCBU/officer duties, notifiable incidents, Codes of Practice, HRWL | **safework-au-specialist** |
 | Cranes, dogging, rigging, scaffolding, EWP, forklift; what licence/competency is needed; HRWL classes (AU) vs NZQA unit standards / Certificates of Competence (NZ); AS/NZS standards | **high-risk-work-specialist** |
+| The **crane and the lift** — mobile/crawler/tower/gantry/EOT crane, vehicle loader crane (HIAB), franna/pick-and-carry; crane selection, load chart / rated capacity and de-rating, gross-load build-up, utilisation, lift plan/lift study, critical/tandem/dual lift, outriggers & ground bearing pressure, stability, wind speed limits, crane inspection (the licence → high-risk-work; the slings → lifting-rigging) | **crane-specialist** |
+| **Rigging, dogging & slinging** the load — sling selection and sling-angle de-rating, WLL/SWL, load estimation & centre of gravity, lifting gear/tackle (shackles, eyebolts, lifting/spreader beams, chain/wire-rope/webbing/round slings), tag lines, exclusion zone, signals, dropped load | **lifting-rigging-specialist** |
+| The **forklift itself** — forklift/lift truck, reach truck, order picker, telehandler (lift-truck use); rated capacity, load centre, data/capacity plate, lift-height de-rating, stability triangle & tip-over, attachments, tynes/forks, grades & loading docks, pre-start, ROPS/seatbelt, refuelling/charging (site traffic & pedestrians → mobile-plant-traffic) | **forklift-specialist** |
+| The **EWP/MEWP itself** — boom lift, cherry picker, knuckle/articulating/telescopic boom, scissor lift, vertical lift, spider lift, trailer/truck-mounted EWP; type selection, data plate (platform capacity, max persons), firm level ground & ground bearing, slope & wind limits, outriggers, crush/entrapment & secondary guarding, emergency lowering/rescue (falls & harness → working-at-height) | **ewp-specialist** |
+| The **scaffold structure itself** — tube-and-coupler, system/modular, mobile towers, birdcage, cantilever, hung/suspended; duty (load) rating light/medium/heavy/special, foundations/sole boards/base plates, standards/ledgers/transoms, ties & bracing, complete platforms & edge protection, erect/alter/dismantle, scaftag handover & inspection, AS/NZS 1576 / 4576 | **scaffolding-specialist** |
+| **Pressure equipment** (fired & unfired) — boilers, pressure vessels, air receivers, autoclaves, pressure piping, steam & compressed-air systems, gas/LPG cylinders; catastrophic rupture/stored energy, safety/relief valves (PRV), hazard level (AS 4343 pV), design verification, plant registration, in-service inspection (AS/NZS 3788), NZ PECPR, boiler/turbine operator competency | **pressure-equipment-specialist** |
 | Safe system of work / SOP authoring, structure, document control | **sop-author** |
 | JSA / task analysis (step → hazard → control → residual), worker sign-on | **task-analysis-author** |
 | **Plain language / document clarity** — rewrite or review an H&S document so workers can read and understand it, readability, jargon, "will workers understand this", mixed literacy or ESOL workforce, translation, comprehension testing, toolbox talk or sign wording | **plain-language-reviewer** |
 | Learning from NZ/AU HSE prosecution patterns; enforcement/sentencing; benchmarking against what gets prosecuted | **prosecution-analyst** |
 
-All specialists above are available in this collection. Identify the jurisdiction and task, then
-hand off to the matching specialist; for work spanning several, sequence them.
+Identify the jurisdiction and task, then hand off to the matching specialist; for work spanning
+several, sequence them.
+
+## Packs — when a specialist isn't installed
+
+The collection installs as **packs**, so a user may have this skill without every specialist
+above. `hse-core` (this pack) always has the orchestrator and the cross-cutting specialists; the
+rest are optional:
+
+| Pack | Specialists |
+|---|---|
+| `hse-core` | hse-advisor, critical-risk-manager, energy-based-safety-specialist, officer-governance-advisor, worksafe-nz-specialist, safework-au-specialist, high-risk-work-specialist, incident-investigator, complex-problem-analyst, sop-author, task-analysis-author, plain-language-reviewer, prosecution-analyst |
+| `hse-hazards` | working-at-height, excavation, confined-space, machinery-safety, mobile-plant-traffic, hazardous-substances, electrical-energy, water-safety, psychosocial-risk, violence-aggression |
+| `hse-plant` | crane, lifting-rigging, forklift, ewp, scaffolding, pressure-equipment |
+| `hse-sector-primary` | agriculture, horticulture, forestry, fishing-aquaculture |
+| `hse-sector-industrial` | construction, manufacturing, food-processing, waste-recycling |
+| `hse-sector-transport` | transport-logistics, stevedoring, maritime-ports, rail |
+| `hse-sector-energy-resources` | electricity-supply, geothermal, oil-gas, mining-quarrying, drilling |
+| `hse-sector-care-hospitality` | healthcare, hospitality |
+
+If the routing map points to a specialist that is **not available as a skill** in this session:
+
+1. **Read it from disk anyway.** Every pack ships the whole `skills/` folder, so the specialist's
+   method is normally still there — open `../<specialist-name>/SKILL.md` (and its `references/`)
+   and follow it as if it had been invoked.
+2. **Tell the user once** which pack carries it, so they can install it and have it trigger on
+   its own next time — e.g. "`forestry-specialist` is in the `hse-sector-primary` pack:
+   `/plugin install hse-sector-primary@hse-nz-au-skills`".
+3. If the file isn't there either (e.g. skills uploaded one at a time to Claude.ai), say so, name
+   the pack, and carry on with the core specialists and general good practice — don't invent the
+   specialist's content.
 
 ## Jurisdiction note
 

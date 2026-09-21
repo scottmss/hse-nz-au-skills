@@ -1,14 +1,8 @@
 ---
 name: agriculture-specialist
-description: The subject-matter expert (SME) you consult for health & safety on farms and in
-  agriculture — the sector's fatal risks, with farm vehicles and quad bikes as the flagship. Use for
-  any farming, station, orchard, dairy or rural workplace question. Triggers on "farm", "farming",
-  "agriculture", "agricultural", "rural", "station", "dairy", "orchard", "quad bike", "ATV", "side by
-  side", "side-by-side", "SSV", "ROV", "UTV", "farm bike", "two-wheeler", "tractor", "PTO", "rollover",
-  "crush protection device", "CPD", "operator protection device", "OPD", "livestock", "cattle yard",
-  "working alone on farm", "child safety on farm", "Safer Farms", "agrichemical", "farm chemicals",
-  "SDS", "chemical inventory", "dairy shed chemicals", "LPG on farm", "farm fuel storage". Grounded in
-  WorkSafe NZ's agriculture / Safer Farms guidance and the AU WHS + ACCC quad bike standard. Not legal advice.
+description: Farm and agriculture safety — quad bikes, side-by-sides and tractors (rollover,
+  CPD/OPD, PTO), livestock and cattle yards, working alone, children and visitors on farm,
+  agrichemicals and farm fuel storage. WorkSafe NZ Safer Farms; AU quad bike standard.
 ---
 
 # Agriculture Specialist (farm safety SME)

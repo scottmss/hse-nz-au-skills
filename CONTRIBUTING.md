@@ -24,19 +24,29 @@ This guide covers the authoring conventions every skill must follow. Please read
 ```markdown
 ---
 name: critical-risk-manager
-description: Use this skill when building or reviewing a bow tie risk assessment,
-  defining a critical risk, assessing control assurance, or scoring residual risk
-  for NZ/AU workplace hazards. Triggers on "bow tie", "critical risk", "control
-  assurance", "top event", "barrier analysis", "risk matrix". Grounded in HSWA 2015
-  (NZ) and the WHS model law (AU).
+description: Build or review a bow tie for a critical (fatal) risk — top event, threats,
+  consequences, barriers, escalation factors — then assess critical-control assurance and score
+  residual risk on the risk matrix. NZ/AU. Use before starting any bow tie.
 ---
 ```
 
 - The **description is the most important line in the skill** — it is what Claude scans to decide
-  whether to load it. State both *what it does* and *when to use it*, with explicit trigger phrases.
+  whether to load it. State *what it does* and *when to use it*, leading with the words a user would
+  actually say.
+- **Keep it short — aim for ~250 characters, never over 300.** Claude loads *every* installed
+  skill's description into context on every turn, inside a fixed budget of roughly 8,000 characters
+  shared with all the user's other skills. Go over and Claude keeps the skill names but silently
+  drops descriptions, and skills stop triggering. (v1.x descriptions averaged ~900 characters; a
+  full install was 5× over budget and users could not see most of the skills.) The validator warns
+  above 300 and **fails above 1,024**, the Agent Skills spec maximum — Claude.ai rejects the upload.
+- **Put the long trigger list in the orchestrator, not the description.** The `hse-advisor` routing
+  map is where the exhaustive keywords belong: it loads on demand and costs nothing against the budget.
+- Name the sibling a user is most likely to confuse it with ("For slings use
+  lifting-rigging-specialist"). Skip "Not legal advice" here — the body carries the disclaimer.
 - `name` must match the folder name, lowercase-hyphenated.
 - Watch the YAML: an unquoted description containing a colon-then-space can break loading — the
-  validator checks for this.
+  validator checks for this. When wrapping the description over several lines, never break straight
+  after a hyphen: YAML folds the line break into a space, turning `de-rating` into `de- rating`.
 
 ## 2. Body structure
 
@@ -67,6 +77,38 @@ Use relative paths so specialists can point at each other's reference files:
 ```
 
 The orchestrator (`hse-advisor`) declares its routing map; each specialist declares its own hand-offs.
+
+**Keep `skills/` flat — do not move skills into per-pack folders.** The collection is installed as
+several packs (below), but every pack is carved out of the same folder, so each install contains
+the whole `skills/` tree. That is what keeps these `../` references working whichever packs a user
+chose. Moving skills into separate plugin directories would break the cross-pack ones.
+
+## 4a. Packs
+
+`.claude-plugin/marketplace.json` splits the collection into installable **packs** — `hse-core`,
+`hse-hazards`, `hse-plant` and the `hse-sector-*` packs — so users load only what they need and stay
+inside the description budget. Each pack entry is `"source": "./"` + `"strict": false` + an explicit
+`skills` list; there is deliberately **no `plugin.json`** (at a shared root it would stamp one name
+and version on every pack). When you add a skill:
+
+1. **Put it in exactly one pack** — add `./skills/<name>` to that pack's `skills` list. Core is for
+   the orchestrator and cross-cutting method/law skills; hazards, plant and sectors go in their packs.
+   Start a new `hse-sector-*` pack rather than letting one grow past ~6 skills.
+2. **Add a routing row** for it in the `hse-advisor` routing map — this is where its full trigger
+   vocabulary lives.
+3. **Add it to the pack table** in `hse-advisor` ("Packs — when a specialist isn't installed") and to
+   the README roster and install table.
+4. **Bump the version everywhere together** with `python3 scripts/bump-version.py X.Y.Z`. Installs
+   are pinned by version: a pack whose version doesn't change never updates for existing users.
+
+The validator enforces all four, and prints each pack's and bundle's description cost.
+
+**Bundles** (`hse-for-construction-industrial`, `hse-everything`, …) give users a one-step install. Each is a
+folder under `bundles/` holding only `.claude-plugin/plugin.json` — a `name`, a `version` and a
+`dependencies` list of packs — plus a marketplace entry whose `source` is that folder. A bundle
+carries no skills, so a new skill needs no bundle change; a new **pack** should be added to the
+bundles it belongs in (always to `hse-everything`). Keep a bundle's `version` in its `plugin.json`
+only — if the marketplace entry sets one too, `plugin.json` silently wins.
 
 ## 5. Region-anchor references (GPG / ACOP / Code grounding)
 
@@ -99,7 +141,7 @@ bar: no network calls, no destructive operations, no credential handling in any 
 
 ## 7. Before you open a PR — checklist
 
-- [ ] Sharp, trigger-rich `description`.
+- [ ] Sharp `description` — what + when, ~250 characters, never over 300.
 - [ ] Body lean; depth pushed into `references/`.
 - [ ] Deterministic `scripts/` preferred over asking Claude to calculate.
 - [ ] Jurisdiction note + disclaimer present.
@@ -107,4 +149,5 @@ bar: no network calls, no destructive operations, no credential handling in any 
 - [ ] Region anchors carry verify-pointers + a `Sources last verified` date.
 - [ ] Company-agnostic — no proprietary or organisation-specific content.
 - [ ] `python3 scripts/validate-skills.py` passes.
-- [ ] `marketplace.json` and the README roster updated if you added a skill.
+- [ ] If you added a skill: listed in exactly one pack in `marketplace.json`, given a routing row and
+      a pack-table entry in `hse-advisor`, added to the README roster, and every pack's `version` bumped.

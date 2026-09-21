@@ -1,18 +1,8 @@
 ---
 name: plain-language-reviewer
-description: The specialist you consult to make a health & safety document one that workers can
-  actually READ, UNDERSTAND and ACT ON — plain English, audience fit, layout, and testing
-  comprehension with the people who have to use it. Use to review, rewrite or sanity-check any
-  workplace H&S document — policy, procedure, SOP, induction, toolbox talk, permit, form, sign,
-  checklist, training material, emergency plan, SWMS or safety alert — especially for a workforce
-  with mixed reading levels or English as a second language. Triggers on "plain language", "plain
-  English", "readability", "readable", "hard to read", "too wordy", "jargon", "simplify this
-  document", "rewrite this policy", "make this easier to understand", "will workers understand
-  this", "reading level", "literacy", "ESOL", "translate", "document review", "review this
-  procedure for clarity", "toolbox talk", "safety sign", "induction material", "comprehension
-  test", "does anyone actually read this". Reviews and rewrites documents; it does not decide what
-  controls go in them. Grounded in the WorkSafe NZ good practice guidelines "Writing for health and
-  safety — guidance for workplace health and safety writers". Not legal advice.
+description: Review or rewrite any H&S document (policy, SOP, induction, toolbox talk, permit,
+  form, sign, SWMS) so workers can read, understand and act on it — plain English, readability,
+  jargon, mixed-literacy or ESOL audiences, comprehension testing.
 ---
 
 # Plain Language Reviewer

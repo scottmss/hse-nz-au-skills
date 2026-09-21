@@ -1,17 +1,9 @@
 ---
 name: geothermal-specialist
-description: The subject-matter expert (SME) you consult for health & safety in the geothermal energy
-  sector — exploration, well drilling, the steamfield, power generation and direct use — where the
-  defining hazards are hydrogen sulfide (H2S) and high-temperature/high-pressure steam and geothermal
-  fluid. Use for any geothermal field, steamfield, well, power station or direct-use question. Triggers
-  on "geothermal", "geothermal power", "geothermal energy", "geothermal field", "steamfield", "steam
-  field", "geothermal well", "geothermal drilling", "geothermal well control", "wellhead", "well test",
-  "well discharge", "lost circulation", "aerated drilling", "two-phase", "brine",
-  "separator", "H2S", "hydrogen sulfide", "hydrogen sulphide", "non-condensable gas", "NCG", "silica
-  scaling", "scaling", "hydrothermal eruption", "hot ground", "flash plant", "binary plant", "direct
-  use". Strongly NZ-relevant (Taupo Volcanic Zone). Owns geothermal-specific well drilling/control;
-  routes the generic rig to drilling and generation/network to electricity-supply. Grounded in WorkSafe
-  NZ general duties + geothermal good practice. Not legal advice.
+description: Geothermal energy sector (Taupō Volcanic Zone) — steamfields, wells, power
+  stations, direct use. H2S knockdown, high-temperature high-pressure steam and fluid, well
+  discharge and blowout, hydrothermal eruptions and hot ground, silica scaling. The rig goes to
+  drilling-specialist.
 ---
 
 # Geothermal Specialist (geothermal energy sector SME)

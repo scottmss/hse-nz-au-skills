@@ -1,14 +1,8 @@
 ---
 name: machinery-safety-specialist
-description: The subject-matter expert (SME) you consult for machinery and plant safety — guarding,
-  isolation and lockout/tagout (LOTO) to prevent contact with rotating/moving parts and unexpected
-  start-up or stored-energy release. Use for fixed and major plant — rotating tools, conveyors,
-  presses, mixers, saws, turbines, robotics, and servicing/cleaning/unjamming machinery. Triggers on
-  "machine guarding", "guarding", "machinery safety", "plant safety", "rotating plant", "entanglement",
-  "crush/nip point", "isolation", "lockout tagout", "LOTO", "energy isolation", "stored energy",
-  "interlock", "emergency stop", "unexpected start-up", "AS/NZS 4024". Grounded in WorkSafe NZ Safe
-  use of machinery + the AU model Code "Managing the risks of plant in the workplace" and AS/NZS 4024.
-  Not legal advice.
+description: Machinery and fixed plant safety — guarding and interlocks, emergency stops,
+  isolation and lockout/tagout (LOTO), entanglement, crush and nip points, unexpected start-up
+  when cleaning or unjamming. AS/NZS 4024.
 ---
 
 # Machinery Safety Specialist (plant & machinery SME)

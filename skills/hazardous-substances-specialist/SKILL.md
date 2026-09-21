@@ -1,15 +1,8 @@
 ---
 name: hazardous-substances-specialist
-description: The subject-matter expert (SME) you consult for hazardous substances and chemicals —
-  managing exposure, fire/explosion, and reactive/toxic harm from substances, fumes, dusts and
-  asbestos. Use for storing, handling, using or disposing of hazardous chemicals, for SDS/GHS
-  classification and inventories, and for ASBESTOS work (management and removal). Triggers on
-  "hazardous substances", "hazardous chemicals", "dangerous goods", "SDS", "safety data sheet", "GHS",
-  "chemical storage", "flammable", "toxic", "fumes", "dust", "respirable crystalline silica", "silica",
-  "silicosis", "engineered stone", "certified handler", "asbestos", "asbestos removal",
-  "asbestos management plan", "spill response".
-  Grounded in NZ HSW (Hazardous Substances) Regs 2017 + (Asbestos) Regs 2016, and the AU model Codes
-  for hazardous chemicals and asbestos. Not legal advice.
+description: Hazardous substances, chemicals and asbestos — inventory, SDS and GHS, storage and
+  segregation, flammables, fumes, dust and silica, certified handlers, spill response, asbestos
+  management and removal. NZ Hazardous Substances Regs 2017; AU Codes.
 ---
 
 # Hazardous Substances Specialist (chemicals & asbestos SME)

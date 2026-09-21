@@ -1,14 +1,8 @@
 ---
 name: forestry-specialist
-description: The subject-matter expert (SME) you consult for health & safety in forestry and harvesting —
-  a high-fatality sector with its own deadly core tasks — manual and mechanised tree felling, breaking
-  out / cable (hauler) logging, the cutover and the landing/skid. Use for any forestry, logging,
-  harvesting or silviculture question. Triggers on "forestry", "forest", "logging", "harvesting", "tree
-  felling", "faller", "feller", "chainsaw felling", "breaking out", "breaker-out", "hauler", "cable
-  logging", "skyline", "skidder", "forwarder", "feller-buncher", "harvester", "log truck", "landing",
-  "skid site", "cutover", "windthrow", "hung-up tree", "silviculture", "pruning", "thinning", "woodlot",
-  "plantation", "Safetree", "winch-assist", "steep-slope harvesting". Grounded in WorkSafe NZ's forestry
-  ACOP (2025) and the AU Safe Work Australia / state forestry framework. Not legal advice.
+description: Forestry and harvesting safety — manual and mechanised tree felling, breaking out
+  and cable (hauler) logging, the cutover, landing and skid site, log trucks, steep-slope and
+  winch-assist harvesting, silviculture. WorkSafe NZ forestry ACOP (2025); Safetree.
 ---
 
 # Forestry Specialist (forestry & harvesting SME)

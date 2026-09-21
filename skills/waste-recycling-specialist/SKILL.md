@@ -1,15 +1,9 @@
 ---
 name: waste-recycling-specialist
-description: The subject-matter expert (SME) you consult for health & safety in waste management and
-  recycling — kerbside collection, transfer stations, materials recovery facilities (MRFs), landfills,
-  composting and hazardous/clinical waste — one of the highest fatality-rate sectors, run under the
-  general HSWA/WHS duties. Use for any rubbish, recycling, resource-recovery or waste-facility question.
-  Triggers on "waste", "rubbish", "refuse", "recycling", "resource recovery", "kerbside collection",
-  "refuse truck", "garbage truck", "transfer station", "materials recovery facility", "MRF", "landfill",
-  "tip", "composting", "organics", "green waste", "baler", "compactor", "shredder", "picking line",
-  "scrap metal", "e-waste", "clinical waste", "medical waste", "lithium battery fire", "leachate",
-  "landfill gas", "bioaerosol", "wheelie bin". Grounded in WorkSafe NZ + WasteMINZ guidance and the AU
-  state-WHS waste codes (incl. lithium-ion battery fire risk). Not legal advice.
+description: Waste and recycling safety — kerbside collection, refuse trucks, transfer
+  stations, MRFs, landfills, composting, clinical waste. Struck-by mobile plant, machinery
+  crush (compactors, balers, shredders), lithium-ion battery fires, unknown mixed-waste
+  hazards.
 ---
 
 # Waste & Recycling Specialist (waste-sector SME)

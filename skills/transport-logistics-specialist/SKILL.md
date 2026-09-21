@@ -1,14 +1,8 @@
 ---
 name: transport-logistics-specialist
-description: The subject-matter expert (SME) you consult for road transport, trucking and logistics
-  safety — the heavy-vehicle supply-chain regime (Chain of Responsibility in AU; HSWA upstream duties
-  plus Land Transport work-time in NZ), driver fatigue and work-time, loading/unloading, and load
-  restraint. Use for any freight, trucking, distribution or heavy-vehicle question. Triggers on
-  "transport", "logistics", "trucking", "freight", "heavy vehicle", "truck", "driver fatigue", "chain
-  of responsibility", "CoR", "HVNL", "NHVR", "work time", "logbook", "load restraint", "loading",
-  "unloading", "load shift", "fatigue management", "BFM", "AFM", "journey management", "distribution",
-  "linehaul", "prime mover". Grounded in the AU HVNL/Chain of Responsibility regime and NZ HSWA + Land
-  Transport rules. Not legal advice.
+description: Road transport, trucking and logistics safety — Chain of Responsibility (CoR,
+  HVNL, NHVR) in AU and HSWA upstream duties plus work-time rules in NZ, driver fatigue and
+  logbooks, loading and unloading, load restraint, journey management, depots and yards.
 ---
 
 # Transport & Logistics Specialist (road transport / heavy-vehicle SME)
