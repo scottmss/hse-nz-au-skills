@@ -8,9 +8,9 @@ Claude Code marketplace from GitHub:
                           e.g. critical-risk-manager/SKILL.md) — ready to upload
                           as a custom skill in Claude.ai (Settings -> Capabilities
                           -> Skills) or to drop into ~/.claude/skills/.
-- dist/hse-nz-au-skills.zip  the whole collection (skills/, the marketplace
-                          manifest, README and LICENSE) — a single download of
-                          everything.
+- dist/hse-nz-au-skills.zip  the whole collection (skills/, bundles/, the
+                          marketplace manifest, README and LICENSE) — a single
+                          download of everything, usable as a local marketplace.
 
 Pure standard library. No network. Run from anywhere:
 
@@ -20,6 +20,7 @@ Build output goes to dist/ (gitignored). Exit 0 on success.
 """
 from __future__ import annotations
 
+import json
 import os
 import sys
 import zipfile
@@ -31,7 +32,10 @@ DIST = os.path.join(ROOT, "dist")
 EXCLUDE_DIRS = {".git", "dist", "__pycache__", ".venv", "venv", ".github"}
 EXCLUDE_FILES = {".DS_Store"}
 # Files/dirs (relative to repo root) included in the combined collection zip.
-COLLECTION_INCLUDE = ["skills", ".claude-plugin", "scripts", "README.md", "LICENSE"]
+COLLECTION_INCLUDE = ["skills", "bundles", ".claude-plugin", "scripts", "README.md", "LICENSE"]
+# Hidden directories are skipped when walking a tree, except these: each bundle's
+# manifest lives in bundles/<name>/.claude-plugin/.
+KEEP_HIDDEN_DIRS = {".claude-plugin"}
 
 
 def _keep(name: str) -> bool:
@@ -42,7 +46,8 @@ def _add_tree(zf: zipfile.ZipFile, src_dir: str, arc_base: str) -> int:
     """Add a directory tree to the zip under arc_base; return file count."""
     n = 0
     for dirpath, dirs, files in os.walk(src_dir):
-        dirs[:] = [d for d in dirs if d not in EXCLUDE_DIRS and not d.startswith(".")]
+        dirs[:] = [d for d in dirs if d not in EXCLUDE_DIRS
+                   and (not d.startswith(".") or d in KEEP_HIDDEN_DIRS)]
         for f in sorted(files):
             if not _keep(f):
                 continue
@@ -51,6 +56,26 @@ def _add_tree(zf: zipfile.ZipFile, src_dir: str, arc_base: str) -> int:
             zf.write(full, arc)
             n += 1
     return n
+
+
+def check_collection(path: str) -> list[str]:
+    """Everything the zip's own marketplace.json points at must be inside the zip,
+    or unzipping it and adding it as a marketplace gives broken plugins."""
+    problems: list[str] = []
+    with zipfile.ZipFile(path) as zf:
+        names = set(zf.namelist())
+        manifest = ".claude-plugin/marketplace.json"
+        if manifest not in names:
+            return [f"{manifest} is not in the zip"]
+        for plugin in json.loads(zf.read(manifest)).get("plugins", []):
+            label = plugin.get("name", "?")
+            source = str(plugin.get("source", "")).lstrip("./").rstrip("/")
+            if source and f"{source}/.claude-plugin/plugin.json" not in names:
+                problems.append(f"plugin '{label}': source ./{source} has no plugin.json in the zip")
+            for skill in plugin.get("skills", []):
+                if f"{skill.lstrip('./')}/SKILL.md" not in names:
+                    problems.append(f"plugin '{label}': {skill}/SKILL.md is not in the zip")
+    return problems
 
 
 def main() -> int:
@@ -90,6 +115,13 @@ def main() -> int:
                 total += 1
     print(f"\n  hse-nz-au-skills.zip  (whole collection: {total} files, "
           f"{os.path.getsize(combined)/1024:.0f} KB)")
+
+    problems = check_collection(combined)
+    if problems:
+        print("\nCollection zip is INCOMPLETE — its marketplace.json points at files it lacks:")
+        for msg in problems:
+            print(f"  [FAIL] {msg}")
+        return 1
 
     print(f"\nDone. {len(skills)} per-skill zips + 1 collection zip in "
           f"{os.path.relpath(DIST, ROOT)}/.")
