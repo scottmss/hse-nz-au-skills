@@ -1,18 +1,9 @@
 ---
 name: construction-specialist
-description: The subject-matter expert (SME) you consult for the construction-project safety regime and
-  construction-specific activities — the principal-contractor / SWMS / high-risk-construction-work
-  system, site induction and coordination, temporary works, demolition, and precast/tilt-up concrete
-  erection. Use for any building, civil or construction-site question. Triggers on "construction",
-  "construction site", "building site", "civil works", "principal contractor", "SWMS", "safe work
-  method statement", "high risk construction work", "HRCW", "white card", "construction induction",
-  "WHS management plan", "site induction", "subcontractor", "temporary works", "formwork", "falsework",
-  "propping", "demolition", "precast", "precast concrete", "tilt-up", "tilt slab", "panel erection",
-  "lifting insert", "brace", "residential construction", "commercial construction", "house build",
-  "housing", "fit-out", "civil construction", "homeowner", "owner-builder", "residential roles and
-  responsibilities", "who is the principal contractor". Grounded in NZ HSWA/WorkSafe construction
-  guidance (incl. the residential roles & responsibilities ACOP) and the AU WHS construction-work
-  regime + AS 3850. Not legal advice.
+description: Construction project safety regime — principal contractor, SWMS and high-risk
+  construction work, site induction and coordination, temporary works (formwork, falsework,
+  propping), demolition, precast and tilt-up (AS 3850), residential roles and owner-builder
+  PCBU status.
 ---
 
 # Construction Specialist (construction-project & activities SME)

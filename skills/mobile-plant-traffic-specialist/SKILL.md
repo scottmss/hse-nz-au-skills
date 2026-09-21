@@ -1,14 +1,8 @@
 ---
 name: mobile-plant-traffic-specialist
-description: The subject-matter expert (SME) you consult for vehicles, mobile plant and workplace
-  traffic — preventing collisions, vehicle-pedestrian strikes, and loss of control. Use for forklifts,
-  trucks, diggers/excavators, loaders, telehandlers and cars moving around a workplace or site, for
-  pedestrian/vehicle separation and traffic management plans, and for loss-of-control while driving.
-  Triggers on "traffic management", "traffic management plan", "TMP", "vehicle pedestrian", "mobile
-  plant", "forklift", "reversing", "blind spot", "spotter", "exclusion zone", "loading zone", "site
-  vehicles", "driving", "fleet safety", "loss of control", "temporary traffic management", "STMS".
-  Grounded in WorkSafe NZ Managing work site traffic GPG + the AU workplace traffic management guide;
-  road/roadside via NZGTTM (NZTA). Not legal advice.
+description: Vehicles, mobile plant and workplace traffic — separating pedestrians from
+  forklifts, trucks, excavators and loaders; reversing, blind spots, spotters; traffic
+  management plans (TMP), temporary traffic management, driving and fleet safety.
 ---
 
 # Mobile Plant & Traffic Specialist (vehicles & traffic SME)

@@ -1,15 +1,9 @@
 ---
 name: drilling-specialist
-description: The subject-matter expert (SME) you consult for the drilling rig and the rotary-drilling
-  operation itself — common across oil & gas, geothermal, water-bore and mineral-exploration drilling.
-  Use for the rig, the drill floor and the operation, whatever the sector. Triggers on "drilling",
-  "drill rig", "drilling rig", "rotary drilling", "drill string", "drill pipe", "rotary table", "kelly",
-  "top drive", "derrick", "mast", "rig up", "rig down", "draw works", "travelling block", "tongs", "iron
-  roughneck", "slips", "spinning chain", "cathead", "pipe handling", "casing", "mud", "drilling fluid",
-  "mud pump", "standpipe", "stuck pipe", "kick", "blowout preventer", "BOP", "coring", "core drill",
-  "exploration drilling", "water bore". Owns the rig/operation and rotating-string entanglement; routes
-  the petroleum well-control regime to oil-gas and the geothermal field to geothermal. Grounded in NZ
-  WorkSafe/MinEx + AU drilling good practice. Not legal advice.
+description: The drilling rig and rotary-drilling operation in any sector — oil and gas,
+  geothermal, water-bore, mineral exploration. Rotating drill-string entanglement, making and
+  breaking connections, hoisting and dropped objects, mast rig-up and rig-down, the
+  high-pressure mud system.
 ---
 
 # Drilling Specialist (drill rig & rotary-drilling operation SME)

@@ -1,13 +1,8 @@
 ---
 name: task-analysis-author
-description: Use this skill to create a Task Analysis (TA) / Job Safety Analysis (JSA) for a specific
-  work activity — breaking the job into steps, identifying the hazards in each step, scoring the risk,
-  applying controls by the hierarchy of controls, and rescoring residual risk, with a worker sign-on.
-  Triggers on "task analysis", "TA", "JSA", "job safety analysis", "JHA", "step-by-step hazard
-  analysis", "document the hazards for this job", "we need a TA before we start", or "what are the
-  risks and controls for this task". Task/step level (the hazards of doing a job today); for a
-  critical-risk bow tie use critical-risk-manager, and for a full procedure use sop-author. NZ/AU
-  workplace context. Not legal advice.
+description: Create a Task Analysis (TA), JSA or JHA for a specific job — steps, hazards, risk
+  score, controls by the hierarchy, residual risk and worker sign-on. For a full procedure use
+  sop-author; for a bow tie use critical-risk-manager.
 ---
 
 # Task Analysis Author (TA / JSA)

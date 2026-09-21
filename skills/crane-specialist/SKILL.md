@@ -1,14 +1,9 @@
 ---
 name: crane-specialist
-description: The subject-matter expert (SME) you consult for the crane itself — selecting the right
-  crane, reading and de-rating its load chart / rated capacity, building up the gross load, setting up
-  on competent ground with outriggers, keeping it stable, planning the lift and classifying critical
-  lifts. Use for any crane or hoisting appliance. Triggers on "crane", "mobile crane", "crawler
-  crane", "tower crane", "overhead/gantry/EOT crane", "vehicle loader crane", "HIAB", "franna",
-  "pick and carry", "load chart", "rated capacity", "lift plan", "lift study", "critical lift",
-  "tandem lift", "dual lift", "outrigger", "ground bearing pressure", "crane stability", "boom",
-  "jib", "slew", "counterweight", "wind speed limit", "AS 2550", "crane inspection". Grounded in the
-  NZ ACOP for Cranes and the AU AS 1418/AS 2550 framework. Not legal advice.
+description: The crane and the lift — crane selection, reading and de-rating the load chart,
+  gross load, utilisation and critical-lift classification, outriggers and ground bearing, wind
+  limits, lift plans. Mobile, crawler, tower, gantry, HIAB. For slings use
+  lifting-rigging-specialist.
 ---
 
 # Crane Specialist (crane operations / lift planning SME)

@@ -1,15 +1,8 @@
 ---
 name: manufacturing-specialist
-description: The subject-matter expert (SME) you consult for health & safety in manufacturing and
-  processing — the factory production system and its catastrophic and chronic risks, including process
-  safety and major hazard facilities, combustible dust and fire/explosion, occupational noise, and
-  hazardous manual tasks. Use for any factory, production-line, plant or processing question. Triggers
-  on "manufacturing", "factory", "production line", "processing plant", "process safety", "major hazard
-  facility", "MHF", "safety case", "combustible dust", "dust explosion", "hazardous area", "occupational
-  noise", "hearing loss", "manual handling", "hazardous manual task", "ergonomics", "repetitive strain",
-  "robotics", "automation", "conveyor", "foundry", "molten metal", "hot work", "shift work". Grounded in
-  NZ HSW (Major Hazard Facilities) Regs 2016 and the AU WHS major-hazard-facility / noise / manual-task
-  framework. Not legal advice.
+description: Manufacturing and processing safety — the factory production system, process
+  safety and major hazard facilities (MHF, safety case), combustible dust and explosion,
+  occupational noise and hearing loss, hazardous manual tasks and ergonomics.
 ---
 
 # Manufacturing Specialist (factory & processing SME)

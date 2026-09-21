@@ -1,14 +1,8 @@
 ---
 name: violence-aggression-specialist
-description: The subject-matter expert (SME) you consult for work-related violence and aggression —
-  preventing harm to workers (and the public) from assault, threats, aggression or armed offending.
-  Use for customer/client-facing work, cash/valuables handling, lone or in-home work, public-facing
-  sites, and any role exposed to aggression or violence. Triggers on "workplace violence", "work-
-  related violence", "aggression", "assault", "armed offending/robbery", "occupational violence",
-  "lone worker", "in-home visits", "de-escalation", "duress alarm", "panic button", "security/CCTV",
-  "zero tolerance", "customer aggression", "personal safety". Grounded in WorkSafe NZ "Violence at
-  work" guidance and Safe Work Australia work-related violence guidance. Covers physical harm and
-  security; psychological harm → psychosocial-risk-specialist. Not legal advice.
+description: Work-related violence and aggression — assault, threats, robbery, customer
+  aggression, lone and in-home workers. Design out the opportunity, de-escalation, duress
+  alarms, security. Psychological harm goes to psychosocial-risk-specialist.
 ---
 
 # Violence & Aggression Specialist (work-related violence SME)

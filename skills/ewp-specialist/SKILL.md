@@ -1,15 +1,8 @@
 ---
 name: ewp-specialist
-description: The subject-matter expert (SME) you consult for the elevating work platform itself —
-  selecting the right EWP/MEWP type, reading the data plate (rated platform capacity and max persons),
-  setting up on firm level ground within slope and wind limits, keeping it stable, and preventing the
-  signature MEWP killer (crush/entrapment between the platform and a structure). Use for any mobile
-  elevating work platform. Triggers on "EWP", "MEWP", "elevating work platform", "mobile elevating work
-  platform", "boom lift", "cherry picker", "knuckle boom", "articulating boom", "telescopic boom",
-  "scissor lift", "vertical lift", "travel tower", "spider lift", "trailer-mounted EWP", "truck-mounted
-  EWP", "platform capacity", "outriggers", "secondary guarding", "entrapment", "WP class", "AS 2550.10",
-  "AS 1418.10". Includes a platform-load / ground-bearing calculator. Grounded in the NZ WorkSafe MEWP
-  good practice and the AU AS 1418.10 / AS 2550.10 framework. Not legal advice.
+description: The EWP or MEWP itself — scissor lift, boom lift, cherry picker. Type selection,
+  data plate (platform capacity, max persons), firm level ground and ground bearing, slope and
+  wind limits, crush and entrapment against structures, emergency lowering.
 ---
 
 # EWP Specialist (elevating work platform SME)

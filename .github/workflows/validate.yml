@@ -22,3 +22,5 @@ jobs:
         run: python3 skills/critical-risk-manager/scripts/risk_matrix_scorer.py --selftest
       - name: Run energy_calculator self-test
         run: python3 skills/energy-based-safety-specialist/scripts/energy_calculator.py --selftest
+      - name: Run readability_check self-test
+        run: python3 skills/plain-language-reviewer/scripts/readability_check.py --selftest

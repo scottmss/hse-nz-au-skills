@@ -1,0 +1,15 @@
+{
+  "name": "hse-for-energy-resources",
+  "version": "2.0.0",
+  "description": "One-step install for electricity supply, geothermal, oil and gas, mining and quarrying, and drilling — the core pack, hazard specialists, plant and lifting specialists, and the energy and resources sector specialists.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "dependencies": [
+    "hse-core",
+    "hse-hazards",
+    "hse-plant",
+    "hse-sector-energy-resources"
+  ]
+}

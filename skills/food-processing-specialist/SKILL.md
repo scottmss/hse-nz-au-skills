@@ -1,16 +1,9 @@
 ---
 name: food-processing-specialist
-description: The subject-matter expert (SME) you consult for WORKER health & safety in food, meat, dairy
-  and seafood processing — abattoirs/meatworks, boning rooms, rendering, dairy factories, seafood and
-  general food manufacturing. A manufacturing sub-sector with its own distinctive harm profile (knives,
-  processing machinery, ammonia refrigeration, wet/cold environments, zoonoses). Use for any food/meat/
-  dairy/seafood processing-plant workforce question. Triggers on "food processing", "meat processing",
-  "meatworks", "abattoir", "slaughterhouse", "freezing works", "boning room", "rendering", "smallgoods",
-  "poultry processing", "dairy factory", "milk powder", "cheese plant", "seafood processing", "bakery",
-  "bandsaw", "mincer", "slicer", "knife safety", "cut-resistant", "ammonia refrigeration", "anhydrous
-  ammonia", "wet floor slip", "cold store", "leptospirosis", "Q fever", "zoonosis", "CIP", "occupational
-  overuse". This is WORKER safety, not food safety/product hygiene. Grounded in WorkSafe NZ food/meat
-  guidance (incl. leptospirosis) and the AU model WHS framework (incl. Q fever). Not legal advice.
+description: Worker safety in food, meat, dairy and seafood processing (not food safety) —
+  abattoirs, meatworks, boning rooms, dairy factories. Knives and cut-resistant PPE, bandsaws
+  and mincers, ammonia refrigeration, wet-floor slips, cold, overuse injuries, zoonoses
+  (leptospirosis, Q fever).
 ---
 
 # Food Processing Specialist (food, meat & dairy processing SME)

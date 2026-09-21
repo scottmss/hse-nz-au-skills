@@ -1,18 +1,9 @@
 ---
 name: electricity-supply-specialist
-description: The subject-matter expert (SME) you consult for the electricity supply industry (ESI)
-  sector — the generation, transmission and distribution workforce whose core business IS the electrical
-  network. Use for line work, live-line and de-energised network work, substations, cable jointing,
-  switching and earthing, network permits and access authorities, vegetation work near lines, and
-  generation (hydro and dam safety, geothermal and H2S, thermal, wind, solar and battery). Triggers on
-  "electricity supply industry", "ESI", "lines company", "lines worker", "linesman", "network",
-  "distribution network", "transmission", "Transpower", "substation", "switchyard", "live-line",
-  "live line work", "cable jointing", "switching", "earthing", "access authority", "permit to work"
-  (network), "SM-EI", "dam safety", "hydro", "penstock", "geothermal", "vegetation near lines",
-  "tree work near lines", "power network". Owns the ESI sector safety system and generation/network
-  activities, and routes the electrical hazard itself to electrical-energy-specialist. Grounded in the
-  NZ ESI safety stack (SM-EI, NZECP 34, Electricity (Safety) Regulations 2010) and StayLive industry
-  guidance. Not legal advice.
+description: Electricity supply industry (ESI) — generation, transmission and distribution.
+  Line work and live-line, switching and earthing, substations, cable jointing, SM-EI permits,
+  access authorities, vegetation near lines, hydro and dam safety. For the electrical hazard
+  use electrical-energy-specialist.
 ---
 
 # Electricity Supply Specialist (electricity supply industry / ESI sector SME)

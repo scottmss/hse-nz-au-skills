@@ -1,13 +1,9 @@
 ---
 name: forklift-specialist
-description: The subject-matter expert (SME) you consult for the forklift itself — its rated capacity
-  and load-centre/lift-height de-rating, the stability triangle and tip-over, attachments, operating
-  on grades and at loading docks, pre-start checks, ROPS/seatbelt, and refuelling/charging. Use for
-  any powered industrial lift truck. Triggers on "forklift", "fork lift", "fork truck", "lift truck",
-  "reach truck", "order picker", "telehandler" (lift-truck use), "counterbalance", "load centre",
-  "data plate", "capacity plate", "rated capacity", "forklift stability", "stability triangle",
-  "tip-over", "forklift attachment", "forklift tynes/forks", "loading dock", "pedestrian forklift",
-  "forklift pre-start". Grounded in the NZ forklift ACOP and the AU AS 2359 framework. Not legal advice.
+description: The forklift itself — rated capacity and load-centre de-rating, data plate,
+  stability triangle and tip-over, attachments, grades and loading docks, pre-start, seatbelt,
+  charging. Reach trucks, order pickers, telehandlers. For site traffic use
+  mobile-plant-traffic-specialist.
 ---
 
 # Forklift Specialist (powered lift-truck SME)

@@ -1,13 +1,8 @@
 ---
 name: incident-investigator
-description: Use this skill to investigate a workplace incident, near-miss or failure with a
-  structured Five Whys root cause analysis (RCA). Triggers on "five whys", "5 whys", "root cause",
-  "RCA", "why did this happen", "incident investigation", "near-miss investigation", "what caused",
-  "investigate this incident", "post-incident", or any request to systematically work out why an
-  event occurred and how to stop it recurring. Single-thread causal method — for a multi-causal
-  problem with several converging factors, use complex-problem-analyst (Fishbone) instead, or first.
-  Retrospective (an event that happened); for prospective risk use critical-risk-manager. NZ/AU
-  workplace context. Not legal advice.
+description: Investigate a workplace incident or near-miss with a structured Five Whys root
+  cause analysis (RCA) — problem statement, validated why-chain, root causes, corrective
+  actions with owners. For recurring multi-causal problems use complex-problem-analyst.
 ---
 
 # Incident Investigator (Five Whys RCA)

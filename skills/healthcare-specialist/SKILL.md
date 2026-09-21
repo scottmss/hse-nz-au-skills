@@ -1,17 +1,9 @@
 ---
 name: healthcare-specialist
-description: The subject-matter expert (SME) you consult for WORKER health & safety in healthcare, aged
-  residential care, and disability & community support — the largest-employing sector, where chronic,
-  psychosocial, biological and violence hazards converge under the general HSWA/WHS duties (no separate
-  healthcare safety regime). Use for any hospital, clinic, rest home, aged-care, disability or
-  home/community-care workforce question. Triggers on "healthcare", "health care", "hospital", "nurse",
-  "nursing", "aged care", "rest home", "residential care", "disability support", "community care", "home
-  care", "district nurse", "caregiver", "support worker", "paramedic", "ambulance", "mental health
-  unit", "person handling", "patient handling", "moving and handling", "no-lift", "hoist", "slide
-  sheet", "needlestick", "sharps", "bloodborne", "infectious", "occupational violence", "dementia care",
-  "cytotoxic", "anaesthetic gas". This is WORKER safety, not patient/clinical safety. Grounded in
-  WorkSafe NZ's healthcare & social assistance approach + ACC moving-and-handling guidance, and the AU
-  model WHS framework. Not legal advice.
+description: Worker safety in healthcare, aged and disability care (not patient safety) —
+  hospitals, rest homes, home and community care, ambulance. Person and patient handling
+  (no-lift, hoists, slide sheets), occupational violence, shift work, sharps and needlestick,
+  cytotoxics.
 ---
 
 # Healthcare Specialist (health, aged & disability care workforce SME)

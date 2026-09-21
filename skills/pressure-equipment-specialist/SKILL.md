@@ -1,16 +1,9 @@
 ---
 name: pressure-equipment-specialist
-description: The subject-matter expert (SME) you consult for the pressure equipment itself — fired and
-  unfired — boilers, pressure vessels, pressure piping, air receivers, autoclaves, steam and
-  compressed-air systems, and gas cylinders as equipment. Use for the catastrophic-rupture / stored-
-  energy hazard, pressure relief, the hazard-level classification, design verification/registration,
-  in-service inspection, and operator competency. Triggers on "pressure equipment", "pressure vessel",
-  "boiler", "air receiver", "compressed air receiver", "autoclave", "pressure piping", "steam system",
-  "steam boiler", "gas cylinder", "LPG cylinder", "safety valve", "pressure relief", "relief valve",
-  "PRV", "hazard level", "design verification", "pressure equipment inspection", "plant registration",
-  "AS 4343", "AS/NZS 1200", "AS 3788", "PECPR", "boiler operator", "turbine operation". Includes a
-  pV / hazard-level calculator. Grounded in NZ PECPR + AS 4343 / AS/NZS 1200 / 3788 and the AU plant-
-  registration & HRWL boiler/turbine framework. Not legal advice.
+description: Pressure equipment — boilers, pressure vessels, air receivers, autoclaves,
+  pressure piping, gas cylinders. Catastrophic rupture and stored energy, safety and relief
+  valves, hazard level (AS 4343), design verification, registration and in-service inspection
+  (NZ PECPR).
 ---
 
 # Pressure Equipment Specialist (boilers, vessels & pressure systems SME)

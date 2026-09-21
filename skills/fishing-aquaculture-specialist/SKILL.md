@@ -1,15 +1,9 @@
 ---
 name: fishing-aquaculture-specialist
-description: The subject-matter expert (SME) you consult for health & safety in commercial fishing and
-  aquaculture — one of the highest-fatality sectors, worked on vessels and the water under a
-  co-regulated maritime + work-health-and-safety regime. Use for any commercial fishing, marine farm,
-  or seafood-harvesting question. Triggers on "fishing", "commercial fishing", "fishing vessel",
-  "trawler", "deckhand", "crew", "skipper", "aquaculture", "marine farm", "mussel farm", "salmon farm",
-  "oyster farm", "fish farm", "sea cage", "man overboard", "MOB", "lifejacket", "PFD", "vessel
-  stability", "capsize", "deck machinery", "winch", "hauler", "net drum", "crossing the bar", "MOSS",
-  "Maritime NZ", "AMSA", "domestic commercial vessel", "DCV", "SeaCert", "occupational diving",
-  "fatigue at sea", "working alone at sea". Grounded in NZ Maritime NZ (HSWA designated agency) + MOSS
-  and the AU AMSA Domestic Commercial Vessel National Law + state WHS. Not legal advice.
+description: Commercial fishing and aquaculture safety — fishing vessels and marine farms
+  (mussel, salmon, oyster). Man overboard and PFDs, vessel stability and capsize, deck
+  machinery and winches, crossing the bar, fatigue at sea, diving. Maritime NZ and MOSS; AU
+  AMSA plus state WHS.
 ---
 
 # Fishing & Aquaculture Specialist (commercial fishing & marine farming SME)

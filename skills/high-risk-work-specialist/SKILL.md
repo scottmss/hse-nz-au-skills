@@ -1,15 +1,8 @@
 ---
 name: high-risk-work-specialist
-description: Specialist in high-risk work competency and licensing for NZ and Australia — cranes,
-  dogging, rigging, scaffolding, elevating work platforms (EWP), forklifts and hoists. Use to work
-  out WHAT licence or competency a task needs and WHO may carry it out, and which AS/NZS standard
-  applies. Key split — AUSTRALIA uses national High Risk Work Licences (HRWL) with set classes (e.g.
-  C2/C6 slewing cranes, DG dogging, RB/RI/RA rigging, SB/SI/SA scaffolding, WP boom EWP, LF/LO
-  forklift); NEW ZEALAND has no HRWL — it uses NZQA unit standards, Certificates of Competence and
-  WorkSafe Approved Codes of Practice. Triggers on "high-risk work", "HRWL", "crane licence",
-  "crane ticket", "dogging", "rigging", "scaffolding certificate", "EWP", "forklift licence",
-  "certificate of competence", "NZQA unit standard", "who can operate", "what ticket do I need",
-  "crane class", "AS/NZS". Not legal advice.
+description: What licence or competency a high-risk task needs and who may do it — cranes,
+  dogging, rigging, scaffolding, EWP, forklift. AU High Risk Work Licence (HRWL) classes vs NZ
+  unit standards, Certificates of Competence and ACOPs.
 ---
 
 # High-Risk Work Specialist

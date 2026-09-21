@@ -1,15 +1,8 @@
 ---
 name: officer-governance-advisor
-description: Expert in workplace health & safety GOVERNANCE and OFFICER DUE DILIGENCE for
-  boards, directors, CEOs and other officers. Use when an officer or board needs to discharge or
-  demonstrate due diligence, improve H&S governance, run a governance self-assessment, design or
-  critique a board H&S report, induct a new officer, prepare director questions for a critical-risk
-  deep dive, or connect H&S governance to enterprise risk. Triggers on "officer", "due diligence",
-  "director", "board", "governance", "officer duties", "board report", "governance self-assessment",
-  "the 5Cs", "officer induction", "leadership of health and safety", "what questions should the board
-  ask", "critical risk deep dive", "risk appetite". Grounded in HSWA 2015 s 44 (NZ), the IoD/WorkSafe
-  NZ "Health and Safety Governance — A Good Practice Guide" (2024) and the Business Leaders' Forum
-  "CEO Guide to Risk". Mirrors to the AU model WHS officer duty (s 27).
+description: H&S governance and officer due diligence for boards, directors and CEOs (HSWA s
+  44; AU WHS s 27) — governance self-assessment, board H&S reports, officer induction, director
+  questions for critical-risk deep dives, and risk appetite.
 ---
 
 # Officer Governance Advisor

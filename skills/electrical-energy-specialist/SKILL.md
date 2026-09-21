@@ -1,15 +1,8 @@
 ---
 name: electrical-energy-specialist
-description: The subject-matter expert (SME) you consult for electrical safety and stored/released
-  energy — electric shock, arc flash/blast, burns, and uncontrolled release of stored energy. Use for
-  work on or near energised electrical equipment, working near overhead or underground power lines,
-  de-energising/isolating electrical supply, arc-flash risk, hot works (ignition), and high-pressure
-  fluid release. Triggers on "electrical safety", "electric shock", "arc flash", "arc blast", "live
-  work", "energised", "de-energise", "isolate/test before touch", "overhead power lines", "minimum
-  approach distance", "NZECP 34", "close approach consent", "underground services", "hot work
-  permit", "high-pressure release", "lightning", "stored energy". Grounded in NZ NZECP 34 / WorkSafe
-  Energy Safety + the AU model Code "Managing electrical risks in the workplace" and AS/NZS 4836.
-  Not legal advice.
+description: Electrical safety and stored-energy release — electric shock, arc flash, live vs
+  de-energised work, isolate and prove dead, overhead and underground power lines and approach
+  distances (NZECP 34), hot work, high-pressure release.
 ---
 
 # Electrical & Energy Specialist (stored/released energy SME)

@@ -1,15 +1,9 @@
 ---
 name: rail-specialist
-description: The subject-matter expert (SME) you consult for health & safety in the rail sector —
-  heavy rail, metro, light rail/trams and rail freight — worked in the rail corridor under a dedicated
-  rail-safety regime that is co-regulated alongside WHS/HSWA. Use for any railway, train, track-worker
-  or rail-operations question. Triggers on "rail", "railway", "rail safety", "train", "locomotive",
-  "rolling stock", "track", "track worker", "rail corridor", "level crossing", "shunting", "marshalling
-  yard", "signaller", "signal passed at danger", "SPAD", "overhead line", "traction", "OLE", "hi-rail",
-  "road-rail vehicle", "rail safety worker", "possession", "worksite protection", "track protection",
-  "ONRSR", "Rail Safety National Law", "RSNL", "Railways Act 2005", "rail safety case", "KiwiRail",
-  "TAIC", "ATSB", "rail accreditation". Grounded in the AU ONRSR / Rail Safety National Law and the NZ
-  Railways Act 2005 (Waka Kotahi/NZTA), with WHS/HSWA in parallel. Not legal advice.
+description: Rail sector safety — heavy, metro and light rail, rail freight. Track-worker
+  protection and possessions, level crossings, shunting and yards, overhead traction lines,
+  SPAD, rail-safety-worker fatigue. AU ONRSR and Rail Safety National Law; NZ Railways Act
+  2005, TAIC.
 ---
 
 # Rail Specialist (rail-sector SME)

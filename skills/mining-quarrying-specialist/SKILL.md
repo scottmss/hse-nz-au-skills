@@ -1,16 +1,9 @@
 ---
 name: mining-quarrying-specialist
-description: The subject-matter expert (SME) you consult for health & safety in mining, quarrying and
-  the extractives industry — surface and underground — a high-consequence sector that sits under its
-  own dedicated safety regime, separate from baseline HSWA/WHS. Use for any mine, quarry, alluvial or
-  extractives question. Triggers on "mining", "mine", "quarry", "quarrying", "extractives", "open cut",
-  "open pit", "underground mine", "coal mine", "metalliferous", "alluvial", "tunnelling", "strata
-  failure", "ground control", "highwall", "rockfall", "inrush", "mine ventilation", "methane",
-  "firedamp", "spontaneous combustion", "shotfiring", "blasting", "explosives", "haul truck", "haul
-  road", "tailings", "tailings dam", "site senior executive", "SSE", "mine manager", "ventilation
-  officer", "principal hazard", "mines rescue", "self-rescuer", "coal dust", "black lung",
-  "pneumoconiosis". Grounded in the NZ HSW (Mining Operations and Quarrying Operations) Regs 2016 and
-  the AU state-based mining safety regimes. Not legal advice.
+description: Mining, quarrying and extractives, surface and underground — the separate mining
+  safety regime (NZ 2016 Regs; AU state-by-state), statutory roles and certificates of
+  competence, and principal hazards like ground failure, inrush, gas and ventilation, blasting,
+  haul trucks, dust, tailings.
 ---
 
 # Mining & Quarrying Specialist (extractives sector SME)

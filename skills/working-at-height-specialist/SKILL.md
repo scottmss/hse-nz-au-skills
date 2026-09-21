@@ -1,14 +1,8 @@
 ---
 name: working-at-height-specialist
-description: The subject-matter expert (SME) you consult for working at height / preventing falls —
-  the good-practice controls, the qualifications/competency required, and the governing NZ/AU guidance.
-  Use for any work where a person could fall and be injured, or an object could fall — roofs, edges,
-  ladders, scaffolding, elevating work platforms (EWP/MEWP), towers, voids, fragile surfaces, and
-  dropped-object risk. Triggers on "working at height", "fall from height", "falls", "fall
-  protection", "fall arrest/restraint", "harness", "edge protection", "guardrail", "MEWP/EWP",
-  "scissor lift", "boom lift", "ladder safety", "fragile roof", "dropped object", "suspension
-  trauma", "drop zone". Grounded in NZ WorkSafe working-at-height guidance + the AU model Code
-  "Managing the risk of falls at workplaces", AS/NZS 1891/1657/4576. Not legal advice.
+description: Working at height and preventing falls — roofs, edges, ladders, fragile surfaces,
+  voids, dropped objects. Edge protection, fall restraint vs fall arrest, harnesses, rescue and
+  suspension trauma, competency, and NZ/AU falls guidance.
 ---
 
 # Working at Height Specialist (falls SME)

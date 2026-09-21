@@ -1,16 +1,9 @@
 ---
 name: oil-gas-specialist
-description: The subject-matter expert (SME) you consult for health & safety in the oil & gas /
-  petroleum sector — upstream exploration, drilling and production, offshore installations, and gas
-  processing — a major-accident-hazard sector run under a dedicated safety-case regime that differs
-  sharply between NZ and Australia. Use for any oil, gas, petroleum, rig, well or offshore-installation
-  question. Triggers on "oil and gas", "oil & gas", "petroleum", "upstream", "offshore", "onshore",
-  "rig", "drilling", "drill rig", "derrick", "wellsite", "well", "wellhead", "blowout", "BOP", "blowout
-  preventer", "well control", "kick", "H2S", "hydrogen sulfide", "sour gas", "hydrocarbon", "refinery",
-  "gas processing", "LNG", "FPSO", "platform", "offshore installation", "NOPSEMA", "OPGGS", "safety
-  case", "major accident event", "MAE", "certificate of fitness", "SIMOPS", "NORM". Grounded in the NZ
-  HSW (Petroleum Exploration and Extraction) Regs 2016 (WorkSafe High Hazards Unit) and the AU NOPSEMA
-  (offshore) + state (onshore) regimes. Not legal advice.
+description: Oil, gas and petroleum sector — upstream, offshore installations and gas
+  processing under a safety-case regime. Major accident events, well control and blowout (BOP),
+  loss of containment, fire and explosion, H2S, SIMOPS. NZ WorkSafe High Hazards Unit vs AU
+  NOPSEMA.
 ---
 
 # Oil & Gas Specialist (petroleum-sector SME)

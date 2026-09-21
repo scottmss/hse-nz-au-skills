@@ -1,16 +1,9 @@
 ---
 name: maritime-ports-specialist
-description: The subject-matter expert (SME) you consult for health & safety in maritime vessel
-  operations and port/harbour operations — non-fishing commercial seafaring (cargo ships, ferries,
-  passenger vessels, tugs, workboats, charter/tourism) and the marine side of ports (mooring and line
-  handling, pilotage, towage, bunkering, the ship-shore interface, harbour navigational safety). Use for
-  any ship, seafarer, port or harbour question that is not fishing or cargo-handling. Triggers on
-  "maritime", "ship", "vessel", "seafarer", "crew", "ferry", "passenger vessel", "tug", "towage",
-  "workboat", "harbour", "harbourmaster", "port operations", "port company", "wharf operations",
-  "mooring", "line handling", "snap-back", "pilot", "pilotage", "pilot ladder", "gangway", "ship-shore
-  interface", "bunkering", "enclosed space" (on a ship), "SOLAS", "ISM code", "STCW", "MOSS", "Maritime
-  NZ", "AMSA", "Seacare". Grounded in NZ Maritime NZ (ports + ships) + the NZ Port & Harbour Marine
-  Safety Code, and the AU AMSA / Seacare / state-WHS regimes. Not legal advice.
+description: Non-fishing seafaring and port marine operations — cargo ships, ferries, passenger
+  vessels, tugs, workboats. Mooring, line handling and snap-back, pilotage, towage, bunkering,
+  the ship-shore interface. Maritime NZ; AMSA and Seacare. For cargo handling use
+  stevedoring-specialist.
 ---
 
 # Maritime & Ports Specialist (vessel operations & port/harbour SME)

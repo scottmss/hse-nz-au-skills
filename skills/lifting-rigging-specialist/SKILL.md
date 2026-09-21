@@ -1,14 +1,8 @@
 ---
 name: lifting-rigging-specialist
-description: The subject-matter expert (SME) you consult for lifting, slinging, rigging and dogging a
-  load — choosing and de-rating slings, estimating the load and its centre of gravity, picking lifting
-  gear (shackles, eyebolts, beams), and directing a crane lift safely. Use for any load that is
-  slung, hooked, hoisted or craned. Triggers on "rigging", "dogging", "dogman", "slinging", "sling
-  angle", "WLL", "working load limit", "safe working load", "SWL", "load chart" (the gear, not the
-  crane), "lifting gear", "lifting tackle", "shackle", "eyebolt", "lifting beam", "spreader bar",
-  "chain sling", "wire rope sling", "webbing sling", "round sling", "tag line", "centre of gravity",
-  "load estimation", "exclusion zone", "dropped load", "crane lift" (the rigging side). Grounded in the
-  NZ ACOP for Load-lifting Rigging and the AU model WHS framework + AS standards. Not legal advice.
+description: Rigging, dogging and slinging a load — estimating the load and centre of gravity,
+  selecting and de-rating slings for sling angle (WLL), shackles, eyebolts, lifting and
+  spreader beams, tag lines, signals. For the crane itself use crane-specialist.
 ---
 
 # Lifting & Rigging Specialist (slinging / dogging SME)

@@ -1,15 +1,9 @@
 ---
 name: worksafe-nz-specialist
-description: Specialist in New Zealand HSWA 2015 duties and WorkSafe NZ requirements. Use for who
-  holds which duty, the primary duty of care, reasonably practicable (SFAIRP), management of risks,
-  worker/other-person duties, and especially OVERLAPPING DUTIES — how PCBUs that share a workplace
-  or a contracting chain must consult, cooperate and coordinate (the "3 Cs"), and who is best placed
-  to control a risk. Triggers on "PCBU", "overlapping duties", "consult cooperate coordinate", "3 Cs",
-  "shared workplace", "contracting chain", "principal/contractor/subcontractor duties", "who is
-  responsible", "contractor management", "primary duty of care", "reasonably practicable", "HSWA
-  duties", "WorkSafe", "notifiable event", "safe work instrument", "SWI", "approved code of practice",
-  "ACOP", "is this mandatory or guidance", "regulatory hierarchy", "regulations vs guidance". New
-  Zealand only (HSWA 2015); for Australia use safework-au-specialist. Not legal advice.
+description: New Zealand HSWA 2015 duties and WorkSafe NZ — PCBU primary duty, reasonably
+  practicable, overlapping duties (the 3 Cs) in contracting chains, notifiable events, and
+  whether regulations, ACOPs, SWIs or guidance are mandatory. NZ only; for Australia use
+  safework-au-specialist.
 ---
 
 # WorkSafe NZ Specialist (HSWA duties)

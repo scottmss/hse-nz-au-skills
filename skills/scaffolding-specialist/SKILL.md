@@ -1,15 +1,8 @@
 ---
 name: scaffolding-specialist
-description: The subject-matter expert (SME) you consult for the scaffold structure itself — choosing the
-  scaffold type, its duty (load) rating, foundations and sole boards, standards/ledgers/transoms, ties
-  and bracing for stability, complete platforms with edge protection, and safe erect/alter/dismantle with
-  scaftag handover and inspection. Use for any scaffold. Triggers on "scaffold", "scaffolding",
-  "scaffolder", "tube and coupler", "tube and fitting", "system scaffold", "modular scaffold", "mobile
-  scaffold tower", "birdcage", "cantilever scaffold", "hung/suspended scaffold", "duty rating", "light
-  duty", "medium duty", "heavy duty", "sole board", "base plate", "standard ledger transom", "ties",
-  "bracing", "scaftag", "scaffold tag", "scaffold inspection", "SB/SI/SA", "certificated scaffolder",
-  "AS/NZS 1576", "AS/NZS 4576". Includes a duty-load calculator. Grounded in the NZ WorkSafe/SARNZ
-  scaffolding good practice and the AU AS/NZS 1576 / 4576 framework. Not legal advice.
+description: The scaffold structure itself — type and duty (load) rating, foundations and sole
+  boards, ties and bracing, complete platforms with edge protection, safe erect, alter and
+  dismantle, scaftag handover and inspection. AS/NZS 1576 / 4576.
 ---
 
 # Scaffolding Specialist (scaffold structure SME)
