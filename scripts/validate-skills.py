@@ -2,9 +2,16 @@
 """validate-skills.py — lint every SKILL.md before commit.
 
 Repo-level linter for the hse-nz-au-skills collection. Checks each skill's
-frontmatter and body, that internal cross-reference paths resolve, that no
-stray "(planned)" tags remain, and that .claude-plugin/marketplace.json is
-consistent with the skills on disk.
+frontmatter and body, that cross-references resolve, that no stray "(planned)"
+tags remain, and that the packs, bundles, marketplace.json, the hse-advisor
+orchestrator and the README all agree with the skills on disk.
+
+Layout it enforces:
+
+    packs/<pack>/.claude-plugin/plugin.json     one installable plugin per pack
+    packs/<pack>/skills/<skill>/SKILL.md        a skill lives in exactly one pack
+    bundles/<name>/.claude-plugin/plugin.json   no skills — only `dependencies` on packs
+    .claude-plugin/marketplace.json             one entry per pack and per bundle
 
 Pure standard library. No network, no writes. Run from anywhere:
 
@@ -20,12 +27,19 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKILLS_DIR = os.path.join(ROOT, "skills")
+PACKS_DIR = os.path.join(ROOT, "packs")
+BUNDLES_DIR = os.path.join(ROOT, "bundles")
 MARKETPLACE = os.path.join(ROOT, ".claude-plugin", "marketplace.json")
-PLUGIN_MANIFEST = os.path.join(ROOT, ".claude-plugin", "plugin.json")
+ROOT_PLUGIN_MANIFEST = os.path.join(ROOT, ".claude-plugin", "plugin.json")
+LEGACY_SKILLS_DIR = os.path.join(ROOT, "skills")
+PACK_PREFIX = "./packs/"
 # A bundle is a plugin with no skills of its own — only `dependencies` on packs — so
 # one install pulls in a curated set. Each lives in its own folder under bundles/.
 BUNDLE_PREFIX = "./bundles/"
+# Every specialist hands off into this pack (the orchestrator, the NZ/AU law skills,
+# critical risk...), so every other pack depends on it.
+CORE_PACK = "hse-core"
+ORCHESTRATOR = "hse-advisor"
 
 # Agent Skills spec (agentskills.io/specification): description is 1-1024 chars.
 # Claude Code tolerates more (it caps each listing entry at 1,536), but claude.ai /
@@ -41,26 +55,54 @@ PACK_BUDGET_CHARS = LISTING_BUDGET_CHARS // 2
 # Soft per-skill target. Descriptions stay short because the trigger vocabulary
 # lives in the orchestrator's routing map, which loads on demand and costs nothing.
 DESC_TARGET_CHARS = 300
-ORCHESTRATOR = "hse-advisor"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 # A backtick code-span whose entire content looks like an internal relative path.
 PATH_RE = re.compile(r"^(?:\.\.?/|references/|scripts/)[\w./-]+$")
+# A pointer at a file inside ANOTHER skill: `worksafe-nz-specialist:references/x.md`.
+# Packs install into separate folders, so a ../ path cannot cross from one pack to
+# another — this form names the skill and lets it resolve wherever that skill lives.
+SKILL_FILE_RE = re.compile(r"^([a-z0-9]+(?:-[a-z0-9]+)*):((?:references|scripts)/[\w./-]+|SKILL\.md)$")
+# A backtick span that is shaped like one of our skill names.
+SKILL_NAME_SHAPE_RE = re.compile(
+    r"^[a-z0-9]+(?:-[a-z0-9]+)*-(?:specialist|advisor|author|analyst|manager|investigator|reviewer)$")
 BACKTICK_RE = re.compile(r"`([^`]+)`")
 
 errors: list[str] = []
 warnings: list[str] = []
 desc_lengths: dict[str, int] = {}
-bundles: dict[str, list[str]] = {}   # bundle name -> pack names it installs
+skills: dict[str, tuple[str, str]] = {}   # skill name -> (pack name, skill dir)
+packs: dict[str, list[str]] = {}          # pack name -> skill names (from the folders)
+bundles: dict[str, list[str]] = {}        # bundle name -> pack names it installs
 
 
-def err(skill: str, msg: str) -> None:
-    errors.append(f"  [FAIL] {skill}: {msg}")
+def err(where: str, msg: str) -> None:
+    errors.append(f"  [FAIL] {where}: {msg}")
 
 
-def warn(skill: str, msg: str) -> None:
-    warnings.append(f"  [warn] {skill}: {msg}")
+def warn(where: str, msg: str) -> None:
+    warnings.append(f"  [warn] {where}: {msg}")
 
+
+def subdirs(path: str) -> list[str]:
+    if not os.path.isdir(path):
+        return []
+    return sorted(d for d in os.listdir(path)
+                  if os.path.isdir(os.path.join(path, d)) and not d.startswith("."))
+
+
+def load_json(path: str, where: str):
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return json.load(fh)
+    except FileNotFoundError:
+        err(where, f"missing {os.path.relpath(path, ROOT)}")
+    except json.JSONDecodeError as e:
+        err(where, f"{os.path.relpath(path, ROOT)} is invalid JSON: {e}")
+    return None
+
+
+# --------------------------------------------------------------------------- skills
 
 def split_frontmatter(text: str):
     """Return (frontmatter_str, body_str) or (None, text) if no frontmatter."""
@@ -107,18 +149,41 @@ def description_text(fm: str) -> str:
 
 
 def check_cross_refs(skill: str, md_path: str) -> None:
-    """Every backtick path-span in this file must resolve on disk."""
+    """Every backtick span that points somewhere must point at something real:
+    a relative path, a `skill:file` pointer, or another skill's name."""
     base = os.path.dirname(md_path)
+    rel = os.path.relpath(md_path, ROOT)
     with open(md_path, encoding="utf-8") as fh:
         content = fh.read()
     for span in BACKTICK_RE.findall(content):
         s = span.strip()
-        if "://" in s or " " in s or not PATH_RE.match(s):
+        if "://" in s or " " in s:
             continue
-        target = os.path.normpath(os.path.join(base, s.rstrip("/")))
-        if not os.path.exists(target):
-            rel = os.path.relpath(md_path, ROOT)
-            err(skill, f"unresolved reference `{s}` in {rel}")
+        if PATH_RE.match(s):
+            target = os.path.normpath(os.path.join(base, s.rstrip("/")))
+            if os.path.exists(target):
+                continue
+            # Name the usual cause: a ../ path aimed at a skill in another pack.
+            parts = target.split(os.sep)
+            other = parts[parts.index("skills") + 1] if "skills" in parts[:-1] else None
+            if other in skills and skills[other][0] != skills[skill][0]:
+                tail = "/".join(parts[parts.index("skills") + 2:])
+                fix = f"`{other}:{tail}`" if tail else f"`{other}`"
+                err(skill, f"`{s}` in {rel} reaches into another pack ({skills[other][0]}) — packs "
+                    f"install into separate folders, so write {fix} instead")
+            else:
+                err(skill, f"unresolved reference `{s}` in {rel}")
+            continue
+        m = SKILL_FILE_RE.match(s)
+        if m:
+            other, path = m.groups()
+            if other not in skills:
+                err(skill, f"`{s}` in {rel} names a skill that does not exist")
+            elif not os.path.exists(os.path.join(skills[other][1], path)):
+                err(skill, f"`{s}` in {rel}: no such file in {other}")
+            continue
+        if SKILL_NAME_SHAPE_RE.match(s) and s not in skills:
+            err(skill, f"`{s}` in {rel} looks like a skill hand-off, but no such skill exists")
 
 
 def check_planned_tags(skill: str, md_path: str) -> None:
@@ -163,7 +228,7 @@ def frontmatter_yaml_issues(fm: str) -> list[str]:
 
 
 def validate_skill(name: str) -> None:
-    skill_dir = os.path.join(SKILLS_DIR, name)
+    skill_dir = skills[name][1]
     skill_md = os.path.join(skill_dir, "SKILL.md")
     if not os.path.isfile(skill_md):
         err(name, "missing SKILL.md")
@@ -185,7 +250,6 @@ def validate_skill(name: str) -> None:
         if not has_key(fm, "description"):
             err(name, "frontmatter missing 'description'")
         else:
-            desc = frontmatter_value(fm, "description") or ""
             # description may be a YAML block scalar; approximate length from the FM region.
             desc_region = fm[fm.find("description:"):]
             if len(desc_region) < 80:
@@ -208,54 +272,105 @@ def validate_skill(name: str) -> None:
         check_planned_tags(name, md)
 
 
-def validate_bundle(label: str, entry: dict):
-    """A bundle = its own folder holding only .claude-plugin/plugin.json with a
-    `dependencies` list. Returns its version (or None)."""
-    folder = os.path.join(ROOT, entry["source"])
-    manifest = os.path.join(folder, ".claude-plugin", "plugin.json")
-    # If the folder had a skills/ dir — or the entry pointed at the repo root — the
-    # default scan would load skills under the bundle's name as well as the pack's.
-    if os.path.isdir(os.path.join(folder, "skills")) or entry.get("skills"):
-        err(label, "a bundle must not carry skills — it only lists packs in 'dependencies'")
+def discover_skills() -> None:
+    """Fill `packs` and `skills` from the folders. The folder a skill sits in IS its
+    pack — a plugin manager counts what is on disk, so nothing else may decide it."""
+    for pack in subdirs(PACKS_DIR):
+        packs[pack] = []
+        for name in subdirs(os.path.join(PACKS_DIR, pack, "skills")):
+            if name in skills:
+                err(name, f"exists in two packs ({skills[name][0]} and {pack}) — "
+                    "a skill belongs to exactly one")
+                continue
+            skills[name] = (pack, os.path.join(PACKS_DIR, pack, "skills", name))
+            packs[pack].append(name)
+        if not packs[pack]:
+            err(pack, "pack folder has no skills/")
+    # A skill added the v1/v2.0 way would be in no pack, and would never install.
+    for stray in subdirs(LEGACY_SKILLS_DIR):
+        err(stray, "is in the old top-level skills/ folder — move it to packs/<pack>/skills/")
+
+
+# ------------------------------------------------------------------ packs & bundles
+
+def validate_plugin_folder(label: str, entry: dict, folder: str):
+    """Checks shared by packs and bundles. Returns the parsed plugin.json, or None."""
     # plugin.json's version silently wins over the entry's, so keep it in one place.
     if entry.get("version"):
-        err(label, "set a bundle's 'version' in its plugin.json only, not on the marketplace entry")
-    if not os.path.isfile(manifest):
-        err(label, f"missing {os.path.relpath(manifest, ROOT)}")
-        return None
-    try:
-        with open(manifest, encoding="utf-8") as fh:
-            data = json.load(fh)
-    except json.JSONDecodeError as e:
-        err(label, f"plugin.json is invalid JSON: {e}")
+        err(label, "set 'version' in the plugin.json only, not on the marketplace entry")
+    data = load_json(os.path.join(folder, ".claude-plugin", "plugin.json"), label)
+    if data is None:
         return None
     if data.get("name") != label:
         err(label, f"plugin.json name '{data.get('name')}' != marketplace entry name '{label}'")
-    deps = [d if isinstance(d, str) else d.get("name") for d in data.get("dependencies", [])]
-    if not deps:
-        err(label, "plugin.json has no 'dependencies' — a bundle exists to install packs")
-    bundles[label] = deps
+    if not data.get("version"):
+        err(label, "plugin.json has no 'version' — installs are pinned by version, so users "
+            "would never receive an update")
     # The description sits in both places (the official validator wants it in
     # plugin.json; marketplace browsers read the entry) — keep them identical.
     if data.get("description") != entry.get("description"):
         err(label, "plugin.json 'description' differs from its marketplace.json entry")
-    if not data.get("version"):
-        err(label, "plugin.json has no 'version'")
+    return data
+
+
+def dependency_names(data: dict) -> list[str]:
+    return [d if isinstance(d, str) else d.get("name") for d in data.get("dependencies", [])]
+
+
+def validate_pack(label: str, entry: dict):
+    """A pack = packs/<name>/ with its own plugin.json and a skills/ folder, which
+    Claude Code scans. Returns its version (or None)."""
+    folder_name = entry["source"][len(PACK_PREFIX):].rstrip("/")
+    if folder_name != label:
+        err(label, f"source folder 'packs/{folder_name}' must be named after the plugin")
+    if label not in packs:
+        err(label, f"marketplace.json lists it but there is no packs/{folder_name}/ folder")
+        return None
+    # The skills/ folder is the list. A second list here could only disagree with it.
+    if "skills" in entry:
+        err(label, "remove 'skills' from the marketplace entry — the pack's skills/ folder is "
+            "scanned, and that folder is what decides membership")
+    if entry.get("strict") is False:
+        err(label, "remove \"strict\": false — the pack has its own plugin.json")
+    data = validate_plugin_folder(label, entry, os.path.join(PACKS_DIR, folder_name))
+    if data is None:
+        return None
+    if "skills" in data:
+        err(label, "remove 'skills' from plugin.json — the default skills/ folder is scanned")
+    deps = dependency_names(data)
+    if label != CORE_PACK and CORE_PACK not in deps:
+        err(label, f"plugin.json must list '{CORE_PACK}' in 'dependencies' — its skills hand "
+            "off to the orchestrator and the law/method skills there")
+    for dep in deps:
+        if dep not in packs:
+            err(label, f"depends on '{dep}', which is not a pack")
     return data.get("version")
 
 
-def validate_marketplace(disk_skills: set[str]) -> dict[str, list[str]]:
-    """Validate marketplace.json. Returns {pack name: [skill names]}."""
-    packs: dict[str, list[str]] = {}
-    if not os.path.isfile(MARKETPLACE):
-        err("marketplace.json", "file not found")
-        return packs
-    try:
-        with open(MARKETPLACE, encoding="utf-8") as fh:
-            data = json.load(fh)
-    except json.JSONDecodeError as e:
-        err("marketplace.json", f"invalid JSON: {e}")
-        return packs
+def validate_bundle(label: str, entry: dict):
+    """A bundle = its own folder holding only .claude-plugin/plugin.json with a
+    `dependencies` list. Returns its version (or None)."""
+    folder = os.path.join(ROOT, entry["source"])
+    # A skills/ folder here would load skills under the bundle's name as well.
+    if os.path.isdir(os.path.join(folder, "skills")) or entry.get("skills"):
+        err(label, "a bundle must not carry skills — it only lists packs in 'dependencies'")
+    data = validate_plugin_folder(label, entry, folder)
+    if data is None:
+        return None
+    deps = dependency_names(data)
+    if not deps:
+        err(label, "plugin.json has no 'dependencies' — a bundle exists to install packs")
+    for dep in deps:
+        if dep not in packs:
+            err(label, f"depends on '{dep}', which is not a pack")
+    bundles[label] = deps
+    return data.get("version")
+
+
+def validate_marketplace() -> None:
+    data = load_json(MARKETPLACE, "marketplace.json")
+    if data is None:
+        return
     if not data.get("name"):
         err("marketplace.json", "missing top-level 'name'")
 
@@ -274,60 +389,49 @@ def validate_marketplace(disk_skills: set[str]) -> dict[str, list[str]]:
     if not plugins:
         err("marketplace.json", "no plugins declared")
 
-    listed_paths: list[str] = []
-    by_source: dict[str, list[str]] = {}
+    seen: set[str] = set()
     versions: set[str] = set()
+    bundle_folders: set[str] = set()
     for i, plugin in enumerate(plugins):
         label = plugin.get("name") or f"#{i}"
         if not plugin.get("name"):
             err("marketplace.json", f"plugin #{i} is missing 'name'")
-        elif label in packs:
+        elif label in seen:
             err("marketplace.json", f"plugin name '{label}' is declared more than once")
-        # `source` is a required field on every plugin entry — omitting it makes
-        # `/plugin marketplace add` fail with "Failed to add marketplace".
-        if not plugin.get("source"):
-            err("marketplace.json", f"plugin '{label}' is missing required 'source' "
-                "(e.g. \"./\" when the plugin lives at the marketplace root)")
-        elif isinstance(plugin["source"], str):
-            by_source.setdefault(plugin["source"].rstrip("/") or ".", []).append(label)
-        # Without a displayName the /plugin UI shows the raw kebab-case name.
+        seen.add(label)
+        # Without a displayName the plugin manager shows the raw kebab-case name.
         if not plugin.get("displayName"):
             warn("marketplace.json", f"plugin '{label}' has no 'displayName'")
-        if str(plugin.get("source", "")).startswith(BUNDLE_PREFIX):
+        # `source` is a required field on every plugin entry — omitting it makes
+        # `/plugin marketplace add` fail with "Failed to add marketplace". Relative
+        # paths must start with "./" or the installer cannot resolve them.
+        source = plugin.get("source")
+        if not isinstance(source, str) or not source:
+            err("marketplace.json", f"plugin '{label}' is missing required 'source'")
+        elif source.startswith(PACK_PREFIX):
+            version = validate_pack(label, plugin)
+            if version:
+                versions.add(version)
+        elif source.startswith(BUNDLE_PREFIX):
+            bundle_folders.add(source[len(BUNDLE_PREFIX):].rstrip("/"))
             version = validate_bundle(label, plugin)
             if version:
                 versions.add(version)
-            continue
-        if not plugin.get("skills"):
-            err("marketplace.json", f"plugin '{label}' lists no skills")
-        if not plugin.get("version"):
-            err("marketplace.json", f"plugin '{label}' has no 'version' — installs are pinned "
-                "by version, so users would never receive an update")
         else:
-            versions.add(plugin["version"])
-        packs[label] = [s[len("./skills/"):] for s in plugin.get("skills", [])
-                        if s.startswith("./skills/")]
-        listed_paths.extend(plugin.get("skills", []))
+            # "./" would make the plugin the whole repo: it would carry every pack's
+            # skills on disk, and a plugin manager would count them all.
+            err("marketplace.json", f"plugin '{label}' source '{source}' must be "
+                f"'{PACK_PREFIX}<name>' or '{BUNDLE_PREFIX}<name>'")
 
-    # The packs are several plugins carved out of ONE folder (the flat skills/ tree
-    # stays whole so the ../<skill>/ cross-references resolve whichever packs a user
-    # installs). With a marketplace-root source, an entry's listed skill paths are the
-    # complete set for that pack. There is no plugin.json, so each entry must be
-    # "strict": false — the marketplace entry is then the pack's entire definition.
-    # (Same layout as github.com/anthropics/skills.)
-    for source, labels in by_source.items():
-        if len(labels) < 2:
-            continue
-        for plugin in plugins:
-            if plugin.get("name") in labels and plugin.get("strict") is not False:
-                err("marketplace.json", f"plugin '{plugin.get('name')}' shares source "
-                    f"'{source}' with {len(labels) - 1} other pack(s) and has no plugin.json, "
-                    "so it must set \"strict\": false (the entry is its whole definition)")
-        # A plugin.json at the shared root would stamp its name and version on every
-        # pack (plugin.json's version silently wins over the marketplace entry's).
-        if os.path.isfile(PLUGIN_MANIFEST):
-            err("plugin.json", f"must not exist while {len(labels)} packs share source "
-                f"'{source}' — put name/version/metadata in each marketplace.json entry")
+    for pack in packs:
+        if pack not in seen:
+            err("marketplace.json", f"packs/{pack}/ exists but has no marketplace entry")
+    for folder in subdirs(BUNDLES_DIR):
+        if folder not in bundle_folders:
+            err("marketplace.json", f"bundles/{folder}/ exists but has no marketplace entry")
+    if os.path.isfile(ROOT_PLUGIN_MANIFEST):
+        err("plugin.json", "a plugin.json at the repo root is not used — each pack and bundle "
+            "has its own")
 
     # One release number for the whole collection. If a pack changes but its version
     # doesn't, users keep the stale cached copy with no warning.
@@ -335,114 +439,67 @@ def validate_marketplace(disk_skills: set[str]) -> dict[str, list[str]]:
         err("marketplace.json", f"packs/bundles carry different versions {sorted(versions)} — "
             "run scripts/bump-version.py to set them all together")
 
-    for bundle, deps in bundles.items():
-        for dep in deps:
-            if dep not in packs:
-                err(bundle, f"depends on '{dep}', which is not a pack in marketplace.json")
 
-    # Component paths in a plugin manifest are relative paths and must start with
-    # "./" — without it the installer can't resolve them and the plugin fails to
-    # install. The skills live under "./skills/<name>".
-    listed = set()
-    seen_paths: set[str] = set()
-    for p in listed_paths:
-        if p in seen_paths:
-            err("marketplace.json", f"skill path '{p}' is listed more than once "
-                "(a skill belongs to exactly one pack)")
-        seen_paths.add(p)
-        if not p.startswith("./skills/"):
-            err("marketplace.json", f"skill path '{p}' must start with './skills/' "
-                "(relative manifest paths require the './' prefix)")
-            continue
-        listed.add(p[len("./skills/"):])
-        if not os.path.isdir(os.path.join(ROOT, p)):
-            err("marketplace.json", f"listed skill '{p}' has no directory on disk")
-    for missing in sorted(disk_skills - listed):
-        err("marketplace.json", f"skill '{missing}' exists on disk but is not in any pack")
-    return packs
+# ------------------------------------------------------------- orchestrator & README
 
-
-def validate_plugin_manifest() -> None:
-    """Optional plugin.json (single-plugin layouts only): must be valid JSON, have a
-    name that matches the marketplace entry, and agree with it on version."""
-    if not os.path.isfile(PLUGIN_MANIFEST):
-        return
-    try:
-        with open(PLUGIN_MANIFEST, encoding="utf-8") as fh:
-            data = json.load(fh)
-    except json.JSONDecodeError as e:
-        err("plugin.json", f"invalid JSON: {e}")
-        return
-    if not data.get("name"):
-        err("plugin.json", "missing 'name'")
-    if os.path.isfile(MARKETPLACE):
-        try:
-            with open(MARKETPLACE, encoding="utf-8") as fh:
-                entries = {p.get("name"): p for p in json.load(fh).get("plugins", [])}
-        except json.JSONDecodeError:
-            entries = {}
-        if data.get("name") and entries and data["name"] not in entries:
-            err("plugin.json", f"name '{data['name']}' is not a plugin in marketplace.json "
-                f"{sorted(n for n in entries if n)}")
-        entry = entries.get(data.get("name")) or {}
-        # When both set a version, Claude Code silently uses plugin.json's. If they
-        # drift, users stay pinned to the stale one and never receive the release.
-        if entry.get("version") and data.get("version") and entry["version"] != data["version"]:
-            err("plugin.json", f"version '{data['version']}' != marketplace.json entry "
-                f"version '{entry['version']}' — bump both together")
-
-
-def validate_orchestrator(disk_skills: set[str], packs: dict[str, list[str]]) -> None:
+def validate_orchestrator() -> None:
     """hse-advisor is the router, and since descriptions are kept short it carries the
     trigger vocabulary for every specialist. Two ways it silently drifts:
-    a specialist with no routing row, and a pack table that disagrees with
-    marketplace.json (it tells users which pack to install)."""
-    path = os.path.join(SKILLS_DIR, ORCHESTRATOR, "SKILL.md")
-    if not os.path.isfile(path):
+    a specialist with no routing row, and a pack table that disagrees with the
+    folders (it tells users which pack to install)."""
+    if ORCHESTRATOR not in skills:
+        err(ORCHESTRATOR, "the orchestrator skill is missing")
         return
-    with open(path, encoding="utf-8") as fh:
+    with open(os.path.join(skills[ORCHESTRATOR][1], "SKILL.md"), encoding="utf-8") as fh:
         text = fh.read()
-    for name in sorted(disk_skills - {ORCHESTRATOR}):
+    for name in sorted(set(skills) - {ORCHESTRATOR}):
         if f"**{name}**" not in text:
             err(ORCHESTRATOR, f"routing map has no row for **{name}** — it can't be routed to")
-    for pack, skills in packs.items():
+    for pack, names in packs.items():
         row = next((ln for ln in text.split("\n") if ln.startswith(f"| `{pack}` |")), None)
         if row is None:
             err(ORCHESTRATOR, f"pack table has no row for `{pack}`")
             continue
         cells = {c.strip() for c in row.split("|")[2].split(",")}
-        for name in skills:
+        for name in names:
             short = name[:-len("-specialist")] if name.endswith("-specialist") else name
             if name not in cells and short not in cells:
                 err(ORCHESTRATOR, f"pack table row `{pack}` is missing '{short}' "
-                    "(marketplace.json lists it in that pack)")
+                    f"(it is in packs/{pack}/skills/)")
+        for cell in cells:
+            full = cell if cell in skills else f"{cell}-specialist"
+            if full in skills and skills[full][0] != pack:
+                err(ORCHESTRATOR, f"pack table row `{pack}` lists '{cell}', which is in "
+                    f"{skills[full][0]}")
 
 
-def validate_readme(disk_skills: set[str], packs: dict[str, list[str]]) -> None:
+def validate_readme() -> None:
     """The README roster and install table are what users read before installing."""
     path = os.path.join(ROOT, "README.md")
     if not os.path.isfile(path):
         return
     with open(path, encoding="utf-8") as fh:
         text = fh.read()
-    for name in sorted(disk_skills):
+    for name in sorted(skills):
         if f"**{name}**" not in text:
             err("README.md", f"skills roster has no row for **{name}**")
+        elif f"| **{name}** | `{skills[name][0]}` |" not in text:
+            err("README.md", f"roster row for **{name}** should show pack `{skills[name][0]}`")
     for name in list(packs) + list(bundles):
         if f"`{name}`" not in text:
             err("README.md", f"install section does not mention `{name}`")
 
 
-def check_listing_budget(packs: dict[str, list[str]]) -> list[str]:
+def check_listing_budget() -> list[str]:
     """Warn on oversize descriptions/packs; return the per-pack size report."""
     for name, n in sorted(desc_lengths.items()):
         if DESC_TARGET_CHARS < n <= DESC_MAX_CHARS:
             warn(name, f"description is {n} chars — keep it under {DESC_TARGET_CHARS}; put the "
                  f"trigger keywords in the {ORCHESTRATOR} routing map instead")
     report = []
-    for pack, skills in packs.items():
-        size = sum(desc_lengths.get(s, 0) for s in skills)
-        report.append(f"  {pack:32s} {len(skills):3d} skills  {size:6,} chars")
+    for pack, names in packs.items():
+        size = sum(desc_lengths.get(s, 0) for s in names)
+        report.append(f"  {pack:32s} {len(names):3d} skills  {size:6,} chars")
         if size > PACK_BUDGET_CHARS:
             warn(pack, f"descriptions total {size:,} chars — over {PACK_BUDGET_CHARS:,} "
                  f"(half Claude Code's ~{LISTING_BUDGET_CHARS:,}-char listing budget, which is "
@@ -458,22 +515,18 @@ def check_listing_budget(packs: dict[str, list[str]]) -> list[str]:
 
 
 def main() -> int:
-    if not os.path.isdir(SKILLS_DIR):
-        print(f"No skills/ directory at {SKILLS_DIR}")
+    if not os.path.isdir(PACKS_DIR):
+        print(f"No packs/ directory at {PACKS_DIR}")
         return 1
-    disk_skills = {
-        d for d in os.listdir(SKILLS_DIR)
-        if os.path.isdir(os.path.join(SKILLS_DIR, d)) and not d.startswith(".")
-    }
-    for name in sorted(disk_skills):
+    discover_skills()
+    for name in sorted(skills):
         validate_skill(name)
-    packs = validate_marketplace(disk_skills)
-    validate_plugin_manifest()
-    validate_orchestrator(disk_skills, packs)
-    validate_readme(disk_skills, packs)
-    budget_report = check_listing_budget(packs)
+    validate_marketplace()
+    validate_orchestrator()
+    validate_readme()
+    budget_report = check_listing_budget()
 
-    print(f"Validated {len(disk_skills)} skills in {len(packs)} pack(s).\n")
+    print(f"Validated {len(skills)} skills in {len(packs)} pack(s), {len(bundles)} bundle(s).\n")
     print("Skill-listing cost (description chars loaded into context every turn):")
     print("\n".join(budget_report) + "\n")
     for w in warnings:

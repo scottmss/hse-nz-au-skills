@@ -5,175 +5,95 @@
     "name": "scottmss",
     "url": "https://github.com/scottmss"
   },
-  "description": "NZ/AU workplace health & safety Claude Agent Skills — a core pack plus optional hazard, plant and sector packs",
+  "description": "NZ/AU workplace health & safety Claude Agent Skills — one-step industry bundles built from a core pack plus hazard, plant and sector packs",
   "plugins": [
     {
       "name": "hse-core",
       "displayName": "HSE Core (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-core",
       "description": "Start here. The hse-advisor orchestrator plus the cross-cutting specialists — critical risk and bow ties, energy-based safety, officer governance, NZ and AU duties, high-risk work licensing, investigation, SOPs, task analysis, plain language and prosecution learning.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "health-and-safety", "HSWA", "WHS", "New Zealand", "Australia", "risk", "bow-tie", "WorkSafe", "SafeWork"],
-      "strict": false,
-      "skills": [
-        "./skills/hse-advisor",
-        "./skills/critical-risk-manager",
-        "./skills/energy-based-safety-specialist",
-        "./skills/officer-governance-advisor",
-        "./skills/worksafe-nz-specialist",
-        "./skills/safework-au-specialist",
-        "./skills/high-risk-work-specialist",
-        "./skills/incident-investigator",
-        "./skills/complex-problem-analyst",
-        "./skills/sop-author",
-        "./skills/task-analysis-author",
-        "./skills/plain-language-reviewer",
-        "./skills/prosecution-analyst"
-      ]
+      "keywords": ["HSE", "health-and-safety", "HSWA", "WHS", "New Zealand", "Australia", "risk", "bow-tie", "WorkSafe", "SafeWork"]
     },
     {
       "name": "hse-hazards",
       "displayName": "HSE Hazard Specialists (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-hazards",
       "description": "Subject-matter experts for the recurring fatal and serious-harm hazards — working at height, excavation, confined space, machinery, mobile plant and traffic, hazardous substances and asbestos, electrical, water, psychosocial risk, and violence and aggression.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "hazards", "working-at-height", "confined-space", "excavation", "machinery", "hazardous-substances", "electrical", "psychosocial"],
-      "strict": false,
-      "skills": [
-        "./skills/working-at-height-specialist",
-        "./skills/excavation-specialist",
-        "./skills/confined-space-specialist",
-        "./skills/machinery-safety-specialist",
-        "./skills/mobile-plant-traffic-specialist",
-        "./skills/hazardous-substances-specialist",
-        "./skills/electrical-energy-specialist",
-        "./skills/water-safety-specialist",
-        "./skills/psychosocial-risk-specialist",
-        "./skills/violence-aggression-specialist"
-      ]
+      "keywords": ["HSE", "hazards", "working-at-height", "confined-space", "excavation", "machinery", "hazardous-substances", "electrical", "psychosocial"]
     },
     {
       "name": "hse-plant",
       "displayName": "HSE Plant & Lifting Specialists (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-plant",
       "description": "Subject-matter experts for the equipment itself — cranes, lifting and rigging, forklifts, elevating work platforms, scaffolding and pressure equipment — each with its capacity or load calculator.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "cranes", "rigging", "forklift", "EWP", "MEWP", "scaffolding", "pressure-equipment"],
-      "strict": false,
-      "skills": [
-        "./skills/crane-specialist",
-        "./skills/lifting-rigging-specialist",
-        "./skills/forklift-specialist",
-        "./skills/ewp-specialist",
-        "./skills/scaffolding-specialist",
-        "./skills/pressure-equipment-specialist"
-      ]
+      "keywords": ["HSE", "cranes", "rigging", "forklift", "EWP", "MEWP", "scaffolding", "pressure-equipment"]
     },
     {
       "name": "hse-sector-primary",
       "displayName": "HSE Sectors — Primary Industries (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-sector-primary",
       "description": "Sector specialists for agriculture, horticulture, forestry, and commercial fishing and aquaculture.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "agriculture", "farming", "horticulture", "forestry", "fishing", "aquaculture"],
-      "strict": false,
-      "skills": [
-        "./skills/agriculture-specialist",
-        "./skills/horticulture-specialist",
-        "./skills/forestry-specialist",
-        "./skills/fishing-aquaculture-specialist"
-      ]
+      "keywords": ["HSE", "agriculture", "farming", "horticulture", "forestry", "fishing", "aquaculture"]
     },
     {
       "name": "hse-sector-industrial",
       "displayName": "HSE Sectors — Construction & Industrial (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-sector-industrial",
       "description": "Sector specialists for construction, manufacturing, food and meat processing, and waste and recycling.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "construction", "manufacturing", "food-processing", "waste", "recycling"],
-      "strict": false,
-      "skills": [
-        "./skills/construction-specialist",
-        "./skills/manufacturing-specialist",
-        "./skills/food-processing-specialist",
-        "./skills/waste-recycling-specialist"
-      ]
+      "keywords": ["HSE", "construction", "manufacturing", "food-processing", "waste", "recycling"]
     },
     {
       "name": "hse-sector-transport",
       "displayName": "HSE Sectors — Transport, Ports & Rail (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-sector-transport",
       "description": "Sector specialists for road transport and logistics, stevedoring, maritime and ports, and rail.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "transport", "logistics", "chain-of-responsibility", "stevedoring", "maritime", "ports", "rail"],
-      "strict": false,
-      "skills": [
-        "./skills/transport-logistics-specialist",
-        "./skills/stevedoring-specialist",
-        "./skills/maritime-ports-specialist",
-        "./skills/rail-specialist"
-      ]
+      "keywords": ["HSE", "transport", "logistics", "chain-of-responsibility", "stevedoring", "maritime", "ports", "rail"]
     },
     {
       "name": "hse-sector-energy-resources",
       "displayName": "HSE Sectors — Energy & Resources (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-sector-energy-resources",
       "description": "Sector specialists for electricity supply, geothermal, oil and gas, mining and quarrying, and drilling.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "electricity-supply", "geothermal", "oil-and-gas", "mining", "quarrying", "drilling"],
-      "strict": false,
-      "skills": [
-        "./skills/electricity-supply-specialist",
-        "./skills/geothermal-specialist",
-        "./skills/oil-gas-specialist",
-        "./skills/mining-quarrying-specialist",
-        "./skills/drilling-specialist"
-      ]
+      "keywords": ["HSE", "electricity-supply", "geothermal", "oil-and-gas", "mining", "quarrying", "drilling"]
     },
     {
       "name": "hse-sector-care-hospitality",
       "displayName": "HSE Sectors — Care & Hospitality (NZ/AU)",
-      "source": "./",
+      "source": "./packs/hse-sector-care-hospitality",
       "description": "Sector specialists for healthcare, aged and disability care, and hospitality.",
-      "version": "2.0.0",
       "author": { "name": "Scott McLeod", "url": "https://github.com/scottmss" },
       "homepage": "https://github.com/scottmss/hse-nz-au-skills",
       "repository": "https://github.com/scottmss/hse-nz-au-skills",
       "license": "Apache-2.0",
-      "keywords": ["HSE", "healthcare", "aged-care", "disability-care", "hospitality"],
-      "strict": false,
-      "skills": [
-        "./skills/healthcare-specialist",
-        "./skills/hospitality-specialist"
-      ]
+      "keywords": ["HSE", "healthcare", "aged-care", "disability-care", "hospitality"]
     },
     {
       "name": "hse-for-construction-industrial",

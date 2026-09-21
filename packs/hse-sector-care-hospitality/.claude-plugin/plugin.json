@@ -1,0 +1,22 @@
+{
+  "name": "hse-sector-care-hospitality",
+  "version": "2.1.0",
+  "description": "Sector specialists for healthcare, aged and disability care, and hospitality.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "healthcare",
+    "aged-care",
+    "disability-care",
+    "hospitality"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

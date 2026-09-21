@@ -1,6 +1,6 @@
 {
   "name": "hse-everything",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Every pack in one install — all 48 skills. Best on large-context models; on a 200k-context model this exceeds Claude's skill-listing budget, so the least-used skills list by name only. Prefer an industry bundle if one fits.",
   "author": {
     "name": "Scott McLeod",

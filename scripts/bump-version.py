@@ -3,10 +3,11 @@
 
 Installs are pinned by version: a pack or bundle whose version doesn't change never
 updates for people who already have it. So the whole collection carries ONE version,
-bumped together. It lives in two kinds of place:
+bumped together. It lives in each plugin's own manifest (never on the marketplace
+entry as well — plugin.json silently wins):
 
-- each pack's entry in .claude-plugin/marketplace.json
-- each bundle's bundles/<name>/.claude-plugin/plugin.json
+- each pack's    packs/<name>/.claude-plugin/plugin.json
+- each bundle's  bundles/<name>/.claude-plugin/plugin.json
 
 Pure standard library. Edits text in place so the manifests keep their formatting.
 
@@ -23,15 +24,15 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MARKETPLACE = os.path.join(ROOT, ".claude-plugin", "marketplace.json")
-BUNDLE_MANIFESTS = os.path.join(ROOT, "bundles", "*", ".claude-plugin", "plugin.json")
+MANIFESTS = [os.path.join(ROOT, kind, "*", ".claude-plugin", "plugin.json")
+             for kind in ("packs", "bundles")]
 
 VERSION_RE = re.compile(r'("version"\s*:\s*")([^"]*)(")')
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
 
 
 def targets() -> list[str]:
-    return [MARKETPLACE] + sorted(glob.glob(BUNDLE_MANIFESTS))
+    return [f for pattern in MANIFESTS for f in sorted(glob.glob(pattern))]
 
 
 def main() -> int:

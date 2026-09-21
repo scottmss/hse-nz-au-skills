@@ -1,0 +1,26 @@
+{
+  "name": "hse-hazards",
+  "version": "2.1.0",
+  "description": "Subject-matter experts for the recurring fatal and serious-harm hazards — working at height, excavation, confined space, machinery, mobile plant and traffic, hazardous substances and asbestos, electrical, water, psychosocial risk, and violence and aggression.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "hazards",
+    "working-at-height",
+    "confined-space",
+    "excavation",
+    "machinery",
+    "hazardous-substances",
+    "electrical",
+    "psychosocial"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}

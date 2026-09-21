@@ -21,8 +21,8 @@ jobs:
       - name: Build the release zips (fails if the collection zip lacks anything its manifest points at)
         run: python3 scripts/bundle.py
       - name: Run risk_matrix_scorer self-test
-        run: python3 skills/critical-risk-manager/scripts/risk_matrix_scorer.py --selftest
+        run: python3 packs/hse-core/skills/critical-risk-manager/scripts/risk_matrix_scorer.py --selftest
       - name: Run energy_calculator self-test
-        run: python3 skills/energy-based-safety-specialist/scripts/energy_calculator.py --selftest
+        run: python3 packs/hse-core/skills/energy-based-safety-specialist/scripts/energy_calculator.py --selftest
       - name: Run readability_check self-test
-        run: python3 skills/plain-language-reviewer/scripts/readability_check.py --selftest
+        run: python3 packs/hse-core/skills/plain-language-reviewer/scripts/readability_check.py --selftest

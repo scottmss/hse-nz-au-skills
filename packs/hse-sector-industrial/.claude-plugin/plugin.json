@@ -1,0 +1,23 @@
+{
+  "name": "hse-sector-industrial",
+  "version": "2.1.0",
+  "description": "Sector specialists for construction, manufacturing, food and meat processing, and waste and recycling.",
+  "author": {
+    "name": "Scott McLeod",
+    "url": "https://github.com/scottmss"
+  },
+  "homepage": "https://github.com/scottmss/hse-nz-au-skills",
+  "repository": "https://github.com/scottmss/hse-nz-au-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "HSE",
+    "construction",
+    "manufacturing",
+    "food-processing",
+    "waste",
+    "recycling"
+  ],
+  "dependencies": [
+    "hse-core"
+  ]
+}
