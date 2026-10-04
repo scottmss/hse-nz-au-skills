@@ -2,7 +2,8 @@
 name: agriculture-specialist
 description: Farm and agriculture safety — quad bikes, side-by-sides and tractors (rollover,
   CPD/OPD, PTO), livestock and cattle yards, working alone, children and visitors on farm,
-  agrichemicals and farm fuel storage. WorkSafe NZ Safer Farms; AU quad bike standard.
+  agrichemicals and fuel, farmer/contractor roles. WorkSafe NZ farm ACOPs, Safer Farms; AU quad
+  bike standard.
 ---
 
 # Agriculture Specialist (farm safety SME)
@@ -20,6 +21,9 @@ the specific hazards to the relevant SME.
 - **Farm vehicles** — choosing and using **quad bikes, side-by-sides (SSV/ROV/UTV), tractors,
   two-wheel farm bikes**; rollover protection (**CPD/OPD**), helmets, no-passengers, terrain.
 - **Livestock handling, working alone/remotely, child & visitor safety** on farms.
+- **Who does what on a farm (NZ)**: farmer, landowner, farm manager, sharemilker, contractor,
+  supplier/installer. Overlapping duties, and cooperation between farmers and contractors under the
+  WorkSafe **Roles and responsibilities in agriculture** ACOP → `references/nz-acops.md`.
 - Pulling the farm risk picture together and **routing each hazard** to the right specialist.
 
 ## When NOT to use
@@ -64,22 +68,28 @@ The first control is often **"is a quad bike even the right vehicle for this tas
 **side-by-side (SSV/ROV) with ROPS and a worn seatbelt** is inherently safer for many farm jobs.
 
 - **Quad bikes:** fit a professionally designed **crush/operator protection device** (NZ: WorkSafe
-  *strongly recommends* CPDs; **AU: an OPD is mandatory on new general-use quads since 11 Oct 2021**
-  under the ACCC standard); **wear an approved helmet**; **no passengers** on a single-rider quad and
-  **no children on adult-sized quads**; rider training, active riding, controlled speed, and care with
+  *strongly recommends* CPDs, but the CPD is a recommendation and not a required ACOP action; **AU: an OPD is mandatory on new general-use quads since 11 Oct 2021**
+  under the ACCC standard); **wear an approved helmet** (NZ ACOP: provide it and require it to be worn, to NZS 5430 or
+  NZS 8600); **no passengers** on a single-rider quad and
+  **no one under 16 on an adult-sized quad** (NZ ACOP); rider training, active riding, controlled speed, and care with
   load/towing (both raise the rollover risk); the leading crash is a **rollover on a side-slope or into
   a ditch**.
 - **Side-by-sides (SSV/ROV/UTV):** ROPS + **seatbelt worn** (the belt is what makes the ROPS work),
-  doors/nets, rated occupants only, no overloading.
+  doors/nets, passengers only in fitted belted seats, no overloading. NZ ACOP adds **helmets for
+  driver and passengers** and **no operator under 16**.
 - **Tractors:** **ROPS/FOPS + seatbelt**, safe hitching (tow from the drawbar to avoid rearward
   rollover), no passengers/run-over, **PTO guarding** → `machinery-safety-specialist`.
 
 Full detail, including child safety and the NZ/AU regulatory position, in
-`references/quad-bikes-and-vehicles.md`.
+`references/quad-bikes-and-vehicles.md`. **NZ:** the WorkSafe **Safe farm vehicle operation** ACOP
+(in effect 1 April 2027) sets the actions for each vehicle type, plus the young-worker age rules
+(under 15 / under 12 / 12–14 for tractors) → `references/nz-acops.md`.
 
 ## Method
 
-1. **Set the jurisdiction** (NZ/AU) and the farm context.
+1. **Set the jurisdiction** (NZ/AU) and the farm context. **NZ:** identify each party's role and
+   whether each PCBU is small (<20 workers) or large, then check the two agriculture ACOPs. Their
+   actions are the benchmark (`references/nz-acops.md`).
 2. **Screen against the farm fatal risks** above; identify which apply to the task/operation.
 3. **For vehicles**, apply the flagship controls (right vehicle → protection device + helmet/seatbelt →
    no passengers/kids → training → terrain/speed/load).
@@ -91,7 +101,10 @@ Full detail, including child safety and the NZ/AU regulatory position, in
 
 ## Jurisdiction note
 
-**NZ:** WorkSafe's **agriculture** guidance and the industry-led **Safer Farms / Farm Without Harm**
+**NZ:** WorkSafe's two agriculture **ACOPs**, *Roles and responsibilities in agriculture* and *Safe
+farm vehicle operation* (approved Aug/Sep 2026, in effect **1 April 2027**). They are evidence of
+compliance until WorkSafe reapproves them with **safe-harbour** status under the HSW Amendment Act
+2026 → `references/nz-acops.md`. Also WorkSafe's **agriculture** guidance and the industry-led **Safer Farms / Farm Without Harm**
 programme; WorkSafe's **policy clarification on crush protection devices** (strongly recommends
 professionally designed/manufactured CPDs). HSWA 2015 applies — a farm is a workplace. **AU:** the WHS
 framework plus the **ACCC mandatory quad bike safety standard** (a consumer-product standard: lateral

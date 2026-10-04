@@ -1,6 +1,6 @@
 {
   "name": "hse-sector-energy-resources",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Sector specialists for electricity supply, geothermal, oil and gas, mining and quarrying, and drilling.",
   "author": {
     "name": "Scott McLeod",

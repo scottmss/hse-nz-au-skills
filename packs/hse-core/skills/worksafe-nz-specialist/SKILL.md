@@ -73,14 +73,39 @@ mandatory requirement is not a "cost/benefit" choice. The NZ stack, from binding
    **General Risk & Workplace Management**, **Pipelines** (2023), and **Mining & Quarrying Operations**
    (competency — see `mining-quarrying-specialist`). A SWI can therefore carry a **mandatory** limit
    or competency requirement, not mere guidance — check whether one applies before relying on a GPG.
-4. **Approved Codes of Practice (ACOPs)** — approved under HSWA; **not binding in themselves** but
-   **admissible as evidence** of what is reasonably practicable, and courts treat compliance as strong
-   evidence of meeting the duty (e.g. the Cranes ACOP).
+4. **Approved Codes of Practice (ACOPs)**: approved under **HSWA s 222**. They are **never
+   mandatory**, and their legal weight depends on the date:
+   - **Until 31 March 2027:** **admissible as evidence** of what is reasonably practicable. Courts
+     treat compliance as strong evidence of meeting the duty (e.g. the Cranes ACOP).
+   - **From 1 April 2027 (HSW Amendment Act 2026, amended s 226, "safe harbour"):** a PCBU that
+     follows **all the actions in an applicable ACOP relevant to its circumstances** is **treated as
+     having met** the stated duty (s 226(2)). Safe harbour attaches only to ACOPs **approved under the
+     amended regime**, and to existing ACOPs the Amendment Act names. Reports say these include the
+     2025 forestry & harvesting ACOP and the 2024 port cargo loading/unloading ACOP; confirm against
+     the Act. Every other existing ACOP stays evidence-only.
+   - **Timing trap:** ACOPs approved in 2026 but written for safe harbour, such as WorkSafe's two
+     agriculture ACOPs (→ `agriculture-specialist:references/nz-acops.md`), **lack safe harbour until
+     reapproved after 1 April 2027**. Before you say "safe harbour", check the approval date and the
+     reapproval status.
 5. **Good Practice Guidelines (GPG) / WorkSafe guidance** — persuasive, **not legally binding**; useful
    evidence of good practice but always secondary to the binding tiers above.
 
 **When answering "must we?" vs "should we?"** locate the requirement in this stack: Act/Regs/SWI = must;
-ACOP/GPG = strong/reasonable expectation. **AU has no "Safe Work Instrument" equivalent** (its stack is
+ACOP = the recognised way to comply (safe harbour where it applies); GPG = a reasonable expectation.
+
+**HSW Amendment Act 2026: most changes commence 1 April 2027.** Before applying any of these, check
+whether the date in question falls before or after commencement:
+- **Purpose:** re-centred on **critical risks**. These are risks likely to cause death or a notifiable
+  injury, illness, incident or occupational disease, or hazards in Schedule 1A.
+- **Small/large PCBU split:** fewer than 20 workers vs 20 or more. It narrows the duties of small
+  PCBUs → `references/overlapping-duties.md`.
+- **ACOP safe harbour:** see tier 4 above.
+- **Officer duties (s 44):** narrowed to governance, not day-to-day management →
+  `officer-governance-advisor`.
+- **Notification and recreational land:** clearer tests for notifiable events, and clearer landowner
+  duties for recreational land.
+
+Section numbers in the amended Act are verify-pointers. Confirm the commenced text. **AU has no "Safe Work Instrument" equivalent** (its stack is
 Act → Regulations → approved Codes of Practice) — route AU to `safework-au-specialist`.
 
 ## Who is the regulator — WorkSafe and designated agencies

@@ -10,7 +10,10 @@ CC BY-NC 3.0 NZ) — confirm the current edition before relying on it.
 > **Not legal advice.** Following the actions in this reference that are relevant to your
 > circumstances gives you **"safe harbour"** under **HSWA s 226(2)** — you're treated as having met
 > the stated duty. Following the ACOP is **not mandatory**; you can meet the same duty another way, as
-> long as it achieves an equal or better standard.
+> long as it achieves an equal or better standard. **Timing:** amended s 226 and the small/large PCBU
+> split commence on **1 April 2027**. Safe harbour needs an ACOP approved, or reapproved, under the
+> amended regime. Until then, following it is evidence of compliance →
+> `worksafe-nz-specialist` (law hierarchy, tier 4).
 
 ---
 

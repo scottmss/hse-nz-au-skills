@@ -3,7 +3,9 @@
 Flagship reference for `agriculture-specialist`. Farm vehicles are the **leading cause of on-farm
 death** in both NZ and Australia, and **quad bike rollovers** dominate. Grounded in WorkSafe NZ
 guidance / Safer Farms and the AU WHS + **ACCC quad bike standard**. Confirm current rules — the
-CPD/OPD and vehicle requirements have changed recently and continue to evolve.
+CPD/OPD and vehicle requirements have changed recently and continue to evolve. **NZ:** the WorkSafe
+*Safe farm vehicle operation* ACOP (in effect 1 April 2027) now sets the benchmark actions →
+`nz-acops.md`.
 
 > **Not legal advice.** Validate vehicle choice and controls against the actual task, terrain, load and
 > rider. Confirm the **current** CPD/OPD, helmet and age rules with WorkSafe / Safe Work / the ACCC.
@@ -37,14 +39,17 @@ rider is then **pinned and crushed/suffocated** under the machine.
 - **Crush / Operator Protection Device (CPD/OPD):** a professionally designed device that creates a
   survival space or lets the bike roll off the rider.
   - **NZ:** WorkSafe **strongly recommends** professionally designed and manufactured CPDs on
-    work quad bikes (per its policy clarification), alongside the other controls.
+    work quad bikes (per its policy clarification), alongside the other controls. The 2027 ACOP
+    keeps this as a **recommendation** and does not make it a required action.
   - **AU:** an **Operator Protection Device (OPD) is mandatory on new general-use quad bikes from 11
     October 2021** under the ACCC mandatory standard; since **October 2020** new quads must also meet a
     US/EU stability standard and carry a **lateral-stability hang-tag** and rollover warning label.
-- **Helmet:** wear an **approved helmet** sized and fastened correctly, every ride.
+- **Helmet:** wear an **approved helmet** sized and fastened correctly, every ride. **NZ ACOP:** the
+  PCBU provides it and requires it to be worn: motorbike helmet to **NZS 5430**, or off-road
+  ATV helmet to **NZS 8600:2002** (or equivalent).
 - **No passengers** on a single-rider quad (it destroys the rider's ability to shift weight and changes
-  stability). **No children on adult-sized quads** — observe age/engine-size limits; children must not
-  ride or be carried.
+  stability). **No children on adult-sized quads**. **NZ ACOP: no one under 16** on an adult-sized quad.
+  Observe age/engine-size limits. Children must not ride as passengers or be carried.
 - **Rider training & capability:** trained, fit, not fatigued/impaired; **active riding** (shifting body
   weight); ride to the conditions.
 - **Speed & terrain:** slow for slopes, wet ground, unfamiliar or hidden hazards; avoid steep
@@ -60,7 +65,8 @@ rider is then **pinned and crushed/suffocated** under the machine.
 
 - **ROPS + seatbelt — and the seatbelt must be worn**: the rollover structure only protects an occupant
   who stays inside it. Fit and use **doors/nets/hip restraints**.
-- **Rated occupants only**, each belted; **no overloading** the tray (raises CoG, affects braking and
+- **Passengers only in fitted seats with seatbelts**, each belted. **NZ ACOP:** approved helmets
+  for driver and passengers, and **no operator under 16**; **no overloading** the tray (raises CoG, affects braking and
   stability on slopes).
 - Still rolls if driven beyond its limits on steep ground — match the machine and route to the task.
 
@@ -92,6 +98,9 @@ rider is then **pinned and crushed/suffocated** under the machine.
 
 - **No children on adult quads or two-wheelers**, not as riders or passengers; respect age/engine-size
   limits for any youth vehicle.
+- **NZ young-worker rules** (GRWM regs 46–47, restated in the ACOP): under 15 → drive no vehicle and
+  work at no machinery; under 12 → no tractors at all; 12–14 → a tractor only from a fitted seat,
+  trained or being trained, with a suitable task and terrain. Detail → `nz-acops.md`.
 - Keep children **clear of all vehicle and machinery work areas** (tractors, PTO, augers, reversing) —
   designated **safe play areas** away from the work zone, with active adult supervision.
 
