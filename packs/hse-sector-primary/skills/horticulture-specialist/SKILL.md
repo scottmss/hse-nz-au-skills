@@ -93,6 +93,11 @@ Full detail in `references/orchard-and-packhouse.md`.
 
 **NZ:** WorkSafe's **horticulture** and **working-at-height / MEWP** guidance, and its **overhead
 power line** guidance for orchard MEWPs; HSWA 2015 applies (an orchard/packhouse is a workplace).
+WorkSafe's two agriculture **ACOPs** (in effect 1 April 2027) also cover **horticulture and
+viticulture**. *Roles and responsibilities in agriculture* covers grower, contractor and
+supplier cooperation, and includes an orchard example with several PCBUs. *Safe farm vehicle
+operation* covers quads, side-by-sides and tractors, and the young-worker age rules →
+`agriculture-specialist:references/nz-acops.md`.
 **AU:** the WHS framework with the model Codes most relevant to horticulture — **_Managing the risk of
 falls at workplaces_** and **elevating work platforms** guidance (orchard MEWPs), **_Confined spaces_**
 (CA coolstores), **_Managing risks of hazardous chemicals_** + **_Labelling of workplace hazardous

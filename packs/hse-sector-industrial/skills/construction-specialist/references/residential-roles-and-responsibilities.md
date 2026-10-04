@@ -10,7 +10,10 @@ CC BY-NC 3.0 NZ) — confirm the current edition before relying on it.
 > **Not legal advice.** Following the actions in this reference that are relevant to your
 > circumstances gives you **"safe harbour"** under **HSWA s 226(2)** — you're treated as having met
 > the stated duty. Following the ACOP is **not mandatory**; you can meet the same duty another way, as
-> long as it achieves an equal or better standard.
+> long as it achieves an equal or better standard. **Timing:** amended s 226 and the small/large PCBU
+> split commence on **1 April 2027**. Safe harbour needs an ACOP approved, or reapproved, under the
+> amended regime. Until then, following it is evidence of compliance →
+> `worksafe-nz-specialist` (law hierarchy, tier 4).
 
 ---
 
@@ -32,7 +35,7 @@ hold more than one at once:
 | **Principal contractor** | The PCBU with overall management/control of the site — coordinates safety across trades where more than one trade's safety is affected. Is about **control and coordination**, not doing all the work. | Set up, manage and coordinate a safe site for everyone. |
 | **Contractor** | A PCBU (business or sole trader) hired to carry out part of the work — usually by the principal contractor, sometimes directly by the client. | Manage the risks from their own work and protect themselves and others. |
 | **Subcontractor** | A PCBU hired by a contractor (or the principal contractor) to carry out part of the work. | Same as contractor. |
-| **Officer** | A person who can significantly affect how a PCBU operates (director, partner, board member). An officer's duty **does not extend to activities they perform in another role for the same PCBU** (e.g. as a worker) → `officer-governance-advisor`. | Make sure the PCBU has the systems, resources and oversight to manage health and safety well. |
+| **Officer** | A person who can significantly affect how a PCBU operates (director, partner, board member). From 1 April 2027, an officer's duty **does not extend to activities they perform in another role for the same PCBU** (e.g. as a worker) → `officer-governance-advisor`. | Make sure the PCBU has the systems, resources and oversight to manage health and safety well. |
 | **Worker** | Anyone carrying out work on site — employees, labour-hire, subcontractors' staff, apprentices, anyone "on the tools", including a sole trader working on their own PCBU's job. | Work safely and follow reasonable instructions. |
 | **Other person on site** | Present at the workplace but not working — visitors, neighbours, family, tenants not doing/commissioning the work. | Take reasonable care of their own safety, don't put workers at risk, follow reasonable instructions. |
 

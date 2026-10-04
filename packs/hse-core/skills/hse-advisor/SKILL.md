@@ -65,7 +65,7 @@ status). Return control to the user with a clear statement of which skill is doi
 | Hazardous substances/chemicals, dangerous goods, SDS/GHS, chemical storage/segregation, fumes/dust/silica exposure, spill response, and **asbestos** (management & licensed removal) | **hazardous-substances-specialist** |
 | Electrical safety, electric shock, arc flash, live/de-energised work, overhead/underground power lines & approach distances (NZECP 34), hot work, high-pressure/stored-energy release | **electrical-energy-specialist** |
 | **Electricity supply industry** sector — line/network work, live-line as core business, switching/earthing, substations, cable jointing, SM-EI permits/access authorities, hydro & dam safety, geothermal | **electricity-supply-specialist** |
-| **Agriculture** sector — farms, stations, dairy, quad bikes/ATV/SSV, tractors/PTO, livestock & cattle yards, working alone on farm, child safety on farm, Safer Farms | **agriculture-specialist** |
+| **Agriculture** sector — farms, stations, dairy, quad bikes/ATV/SSV, tractors/PTO, livestock & cattle yards, working alone on farm, child safety on farm, Safer Farms; NZ farm ACOPs (*Roles and responsibilities in agriculture*: farmer/contractor/sharemilker/farm-manager duties; *Safe farm vehicle operation*: helmets, under-16 / under-15 vehicle rules) | **agriculture-specialist** |
 | **Horticulture** sector — orchards, vineyards, kiwifruit/pipfruit, market gardens, glasshouses, packhouses, coolstores/CA rooms, orchard platforms/MEWPs, spray drift, RSE/seasonal workforce | **horticulture-specialist** |
 | **Forestry** sector — logging, harvesting, tree felling, breaking-out/cable (hauler) logging, skidder/feller-buncher/harvester, landing/skid, cutover, steep-slope/winch-assist, Safetree | **forestry-specialist** |
 | **Construction** sector — construction-project regime, principal contractor, SWMS/high-risk construction work (HRCW), site induction, temporary works (formwork/falsework/propping), demolition, precast/tilt-up; residential vs commercial vs civil; residential roles & responsibilities, homeowner/owner-builder PCBU status | **construction-specialist** |
@@ -103,6 +103,31 @@ status). Return control to the user with a clear statement of which skill is doi
 
 Identify the jurisdiction and task, then hand off to the matching specialist; for work spanning
 several, sequence them.
+
+## Output format — pick the form that reads best
+
+Specialists default to prose. Before a long answer, choose the form the reader will absorb most
+easily, and tell the specialist which one you chose. In rising order of impact:
+
+1. **Writing → about 80% of the way to ASD-STE100.** For anything a worker acts on (procedures,
+   JSAs, toolbox talks, sign wording, emergency steps), write in the style of Simplified Technical
+   English: one instruction per sentence, imperative and active voice, procedural sentences of 20
+   words or fewer (descriptive 25), one word = one meaning, no idioms or stacked nouns. Full STE is
+   too rigid for most H&S documents — keep the defined legal terms (PCBU, officer, notifiable
+   event, reasonably practicable) even where STE would swap them. For a full rewrite or review,
+   hand off to **plain-language-reviewer**.
+2. **Diagram beats paragraph.** When the content is a structure or a flow, draw it (Mermaid or
+   SVG) instead of describing it: bow tie, hierarchy of controls, contracting chain and
+   overlapping duties, incident timeline, causal tree, permit-to-work sequence, the
+   "is this notifiable?" decision path.
+3. **HTML page beats both** when the user will explore, present or share the output: an
+   interactive bow tie with expandable barriers, a risk-matrix heat map, a JSA filterable by step,
+   an investigation timeline, a board H&S dashboard, a toolbox talk shown on a screen. Make it one
+   self-contained HTML file (inline CSS/JS, works offline, readable on a phone, prints cleanly).
+
+Rules: the format never replaces the specialist's method or the legal verification; keep the
+not-legal-advice disclaimer visible on any page or diagram; a short answer stays a short answer —
+offer the richer form ("want this as an interactive page?") rather than forcing it.
 
 ## Packs — when a specialist isn't installed
 

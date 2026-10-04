@@ -21,9 +21,27 @@ exercise **due diligence** to ensure the PCBU complies with that duty.
 - It is **not enough to rely on what you are told.** Officers must be proactive and curious — ask
   questions, confirm understanding, and seek to validate information received.
 
-## Scope: the officer duty doesn't follow you into another role
+## Two regimes: before and from 1 April 2027
 
-Since the 2026 HSWA amendment, s 44 makes explicit that **an officer's due-diligence duty does not
+The **HSW Amendment Act 2026** (Royal Assent 9 July 2026) amends s 44, but the change **commences on
+1 April 2027**. Before you answer, check which date the question is about:
+
+| | **Until 31 March 2027** (current s 44) | **From 1 April 2027** (amended s 44) |
+|---|---|---|
+| **Steps** | The six s 44(4) steps below. The list is **inclusive**: the floor, not the ceiling. | Restated around **understand, ensure, verify**. Understand the risks and the relevant H&S matters. Ensure the PCBU has resources and processes to manage them. Verify that it uses them. Commentary on the Bill described an **exhaustive** list replacing the open-ended one, which may narrow what can be expected of officers. Confirm the enacted wording. |
+| **Officer acting in another role** | No express carve-out. *Sarginson v Civil Aviation Authority* (2020) assessed an officer's operational conduct (flying as the pilot) under the officer duty. | Due diligence applies **only to conduct in the officer capacity** (see the next section). This effectively reverses the *Sarginson* approach. |
+| **Who is an officer** | Directors, partners, board members, and others with significant influence over management. | **Unchanged.** |
+
+**Gibson still matters after 1 April 2027.** In *Gibson v Maritime New Zealand* [2026] NZHC 813 (31
+March 2026), the High Court upheld the s 44 conviction of the former Ports of Auckland CEO. Officers
+of large organisations must still personally take reasonable steps to make sure safety systems are
+implemented and **verified against work as done**. They cannot rely passively on others, and they
+must act on critical risks they know about. Commentators expect these principles to survive the
+amendment, because "verify" stays a core limb.
+
+## Scope: the officer duty doesn't follow you into another role (from 1 April 2027)
+
+From **1 April 2027**, amended s 44 makes explicit that **an officer's due-diligence duty does not
 extend to activities the officer performs in another role for the same PCBU** — most commonly where
 an officer also works "on the tools" as a worker (e.g. a director of a small building company who
 also frames houses on site, or a sole-director owner-operator who is also the only worker).
@@ -35,8 +53,11 @@ also frames houses on site, or a sole-director owner-operator who is also the on
   both duties at different moments; assess their conduct against **whichever duty matches what they
   were actually doing at the time**, not their job title.
 - This matters most for **small PCBUs and owner-operator businesses** (the norm on a residential
-  construction site — see `../../construction-specialist/references/residential-roles-and-
-  responsibilities.md`), where the sole director is often the only worker too.
+  construction site — see
+  `construction-specialist:references/residential-roles-and-responsibilities.md`), where the sole
+  director is often the only worker too.
+- **Before 1 April 2027** there is no express carve-out. Expect a court to look at the officer's
+  whole conduct, as *Sarginson* did.
 - This scope limit does **not** reduce the officer's due-diligence obligation itself — a business of
   one still requires full personal due diligence over the systems, resourcing and oversight of that
   business. It only clarifies that carelessness **doing the work** is a worker-duty question, and
@@ -57,7 +78,11 @@ Statutory "reasonable steps" to take, grouped by the IoD/WorkSafe guide into **E
 | **Assuring** | 5 | Ensure the PCBU has, and implements, **processes for complying with its duties** under the Act. |
 | | 6 | **Verify** that the resources and processes in steps 3–5 are **in place and being used**. |
 
-Due diligence is **not limited** to these six — they are the floor, not the ceiling.
+Until 31 March 2027, due diligence is **not limited** to these six. They are the floor, not the
+ceiling. From 1 April 2027, the amended s 44 restates the duty around **understand, ensure, verify**
+(see the table above). The six steps map onto it closely: steps 1–2 = understand, steps 3–5 =
+ensure, step 6 = verify. So keep using them as the working structure for a review, and confirm the
+enacted wording.
 
 ## The "reasonable officer" test
 

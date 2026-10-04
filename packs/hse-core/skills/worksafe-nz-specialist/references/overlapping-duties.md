@@ -18,23 +18,33 @@ other PCBUs who have a duty in relation to that same matter.
   penalties: a fine up to **$20,000** for an individual / up to **$100,000** for any other person such
   as a company — verify current figures).
 
-## Cooperation now scales with PCBU size
+## Cooperation scales with PCBU size (from 1 April 2027)
 
-HSWA 2015 was amended to make the **cooperate** limb of s 34 proportionate to the size of the PCBU:
+The **HSW Amendment Act 2026** (Royal Assent 9 July 2026) makes the **cooperate** limb of s 34
+proportionate to the size of the PCBU. **It commences on 1 April 2027.** Before that date, every PCBU
+must consult, cooperate and coordinate on all relevant risks. Say which regime applies to the date
+in question.
 
-- **Large PCBU (20 or more workers)** — must consult, cooperate and coordinate with other PCBUs
-  holding the same duty **on all relevant risks**, as before.
-- **Small PCBU (fewer than 20 workers)** — is only **required** to cooperate with other PCBUs on
-  **critical risks** (defined below). Cooperation on other, non-critical relevant risks becomes
-  **discretionary** for a small PCBU — it may still choose to cooperate more broadly, and a contract
-  between PCBUs of different sizes can require broader cooperation, provided the contract doesn't
-  limit or remove any HSWA duty.
-- The **consult** and **coordinate** limbs, and the underlying primary duty (s 36), are **unaffected**
-  by size — every PCBU still holds its full duty for its own work; only the *scope of the
-  cooperate-with-others* obligation narrows for small PCBUs on non-critical risks.
-- Practical sequence: (1) work out whether each PCBU is small or large **by headcount**, not turnover
-  or influence; (2) identify which of the shared risks are **critical risks**; (3) cooperate on those
-  regardless of size, and treat cooperation on everything else as best practice rather than a floor.
+- **Large PCBU (20 or more workers)**: consults, cooperates and coordinates with other PCBUs that
+  hold the same duty **on all relevant risks**, as before.
+- **Small PCBU (fewer than 20 workers)**: is only **required** to cooperate on **critical risks**
+  (defined below). It may choose to cooperate on other risks. A contract between PCBUs of different
+  sizes can require broader cooperation, as long as the contract doesn't limit or remove any HSWA
+  duty.
+- **How to count workers.** WorkSafe guidance counts every worker in any capacity, including
+  contractors, labour hire, apprentices and regular volunteers (not casual volunteers). If headcount
+  fluctuates, a PCBU is small if it reasonably expects fewer than 20 workers for at least 9 months of
+  the year.
+- **The size split goes beyond s 34.** WorkSafe's guidance says a small PCBU's **main HSWA duties are
+  limited to managing critical risks**, though it may choose to manage others. A large PCBU must
+  manage **all** risks and **prioritise** critical ones. So don't tell a small PCBU that only its
+  cooperation duty narrows. Confirm the exact effect on s 36 against the amended Act.
+- **Practical sequence:**
+  1. Work out whether each PCBU is small or large **by headcount**, not by turnover or influence.
+  2. Identify which shared risks are **critical risks**.
+  3. Cooperate on those whatever the size.
+  4. Treat cooperation on everything else as good practice for a small PCBU, and as a duty for a
+     large one.
 
 ### What counts as a "critical risk" (statutory definition)
 
