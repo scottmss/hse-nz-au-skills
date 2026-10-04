@@ -22,8 +22,9 @@ WorkSafe NZ guidance, and it is not legal advice.
   knowledge; understand operations and their hazards/risks; ensure appropriate resources and
   processes to eliminate or minimise risk; ensure processes for receiving and acting on incident/
   hazard/risk information; ensure processes for complying with duties; verify the above are in
-  place and used). The duty **does not extend to activities the officer performs in another role**
-  for the same PCBU (e.g. also acting as a worker) — route to `officer-governance-advisor`.
+  place and used). **From 1 April 2027** (HSW Amendment Act 2026), the duty is restated as understand, ensure,
+  verify, and **does not extend to activities the officer performs in another role** for the same
+  PCBU (e.g. also acting as a worker). Route to `officer-governance-advisor`.
 - **Workers** (**s 45**) — take reasonable care for their own and others' safety; comply with
   reasonable instructions and policies.
 - **Other persons at a workplace** (**s 46**) — e.g. visitors; take reasonable care and follow

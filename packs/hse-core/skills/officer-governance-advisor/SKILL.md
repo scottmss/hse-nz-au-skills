@@ -85,7 +85,11 @@ curiously sceptical when the indicators are always green?").
 ## Jurisdiction note
 
 The legal anchor is **New Zealand: HSWA 2015 s 44** (officer due diligence), with the six steps in
-**s 44(4)**. The IoD/WorkSafe governance model is NZ-authored but the **governance principles
+**s 44(4)**. **From 1 April 2027** (HSW Amendment Act 2026), s 44 is restated around **understand,
+ensure, verify**. The duty then covers only conduct **in the officer capacity**, which reverses the
+*Sarginson* approach. *Gibson v Maritime NZ* [2026] NZHC 813 still requires officers to verify
+work as done. Date-qualify every answer → `references/officer-due-diligence.md`. The IoD/WorkSafe
+governance model is NZ-authored but the **governance principles
 transfer** to Australia, where the equivalent officer due-diligence duty is **model WHS Act s 27**
 (closely aligned — both jurisdictions drew on the same model; Victoria's OHS Act 2004 differs).
 Treat section numbers as **verify-pointers, not quotes**, and confirm the current text. Default to

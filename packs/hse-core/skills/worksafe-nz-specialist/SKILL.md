@@ -100,10 +100,16 @@ whether the date in question falls before or after commencement:
 - **Small/large PCBU split:** fewer than 20 workers vs 20 or more. It narrows the duties of small
   PCBUs → `references/overlapping-duties.md`.
 - **ACOP safe harbour:** see tier 4 above.
-- **Officer duties (s 44):** narrowed to governance, not day-to-day management →
+- **Officer duties (s 44):** restated as understand, ensure, verify, and limited to conduct in the
+  officer capacity, which reverses *Sarginson*. The definition of officer is unchanged →
   `officer-governance-advisor`.
-- **Notification and recreational land:** clearer tests for notifiable events, and clearer landowner
-  duties for recreational land.
+- **Notification:** clearer definitions of notifiable injuries and illnesses, with examples. No
+  timing change has been reported → `references/notifiable-events.md`.
+- **Overlapping regimes (s 35):** compliance with another enactment that manages the same risk is
+  deemed compliance. Examples: Building Act 2004, Maritime Transport Act 1994, Land Transport Act
+  1998.
+- **Recreational land:** no duty to lawful recreational users, unless the activity is connected to
+  the business or work is happening at the same time and place.
 
 Section numbers in the amended Act are verify-pointers. Confirm the commenced text. **AU has no "Safe Work Instrument" equivalent** (its stack is
 Act → Regulations → approved Codes of Practice) — route AU to `safework-au-specialist`.

@@ -5,6 +5,14 @@ site**, and **keep records**. Based on WorkSafe NZ's "What events need to be not
 HSWA 2015. **Not legal advice** — section numbers and lists are verify-pointers; confirm against the
 current WorkSafe guidance and the Act, which are the authority for a real event.
 
+> **From 1 April 2027 (HSW Amendment Act 2026):** the Act clarifies which injuries and illnesses
+> are notifiable. Commentary on the Bill described added definitions and examples, such as serious
+> head, eye, burn and spinal injuries, to make the threshold clearer. No change to the duty to notify
+> (s 56), to preserve the site (s 55) or to keep records (s 57) has been reported. **The lists
+> below reflect the current Act.** For an event on or after 1 April 2027, check them against the
+> amended ss 23–24 / Schedule and WorkSafe's updated "what to notify" guidance before relying on
+> them. If in doubt, call WorkSafe and ask. Failing to notify a notifiable event is an offence.
+
 ## What is a notifiable event? (s 25)
 
 A **notifiable event** is one of the following, arising from work:
