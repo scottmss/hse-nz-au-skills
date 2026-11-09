@@ -37,12 +37,14 @@ Potential energy released as something (or someone) descends.
   lifting operations. Materials, tools and debris that can fall onto people below. Unstable ground,
   excavation faces and stockpiles that can collapse or engulf.
 - **Direct controls look like.** The work relocated to ground level; a physical guardrail or a
-  covered and secured penetration; a working platform with edge protection; a designed exclusion
-  zone under a suspended load, physically demarcated; shoring, benching or battering that holds the
-  face regardless of who walks near it.
-- **Commonly miscounted as direct.** A harness and lanyard (depends on correct clipping every
-  time — see `direct-controls.md` on why fall arrest is usually *alternate*), tool lanyards,
-  "keep out of the drop zone" briefings, hard hats.
+  covered and secured penetration; a working platform with edge protection; hard barricades that
+  keep everyone out of the drop zone under a suspended load; shoring, benching or battering that
+  holds the face regardless of who walks near it; a properly designed fall-arrest system with the
+  worker verified as connected throughout. Fall arrest counts only as a *mitigating* direct control
+  (see `direct-controls.md`).
+- **Commonly miscounted as direct.** A harness that isn't connected throughout, or not to a rated
+  anchor; cones or tape around a drop zone (a physical obstacle, which is alternate); tool
+  lanyards; "keep out of the drop zone" briefings; hard hats.
 
 ### 2. Mechanical — *rotation, vibration, tension or compression*
 Energy stored or transmitted in machinery and in loaded components.
@@ -68,7 +70,9 @@ Kinetic energy of things already moving. Distinct from gravity (falling) and mec
   engineered traffic separation rather than a plan on paper; interlocks that prevent movement while
   a person is in the zone.
 - **Commonly miscounted as direct.** Spotters, hi-vis, reversing beepers, cameras and proximity
-  sensors, traffic management plans, speed limits, "make eye contact with the operator".
+  sensors, traffic management plans, speed limits, "make eye contact with the operator". A
+  dedicated spotter or proximity detection can count as *dedicated monitoring* within an
+  alternative control system (`rr-ebra.md`), but never as a direct control.
 
 ### 4. Sound — *audible vibration from objects in contact*
 The one category most often skipped, because its harm is usually chronic.

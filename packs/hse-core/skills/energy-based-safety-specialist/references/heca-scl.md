@@ -4,10 +4,11 @@
 **leading measure**. Used at step 8 of the method in `../SKILL.md`, and whenever the question is
 "how do we measure this at scale?" or "why shouldn't we use TRIR/LTIFR?".
 
-> **Sources last verified: 2026-09-03.** After Erkal & Hallowell, *Moving Beyond TRIR — Measuring
+> **Sources last verified: 2026-11-09.** After Erkal & Hallowell, *Moving Beyond TRIR — Measuring
 > and Monitoring Safety Performance With High-Energy Control Assessments*, Professional Safety
-> 68(05) 2023, and the EEI **Safety Classification and Learning (SCL) Model** (2020). Verify-pointers
-> — summarised, not reproduced. **Not legal advice.**
+> 68(05) 2023; the EEI **Safety Classification and Learning (SCL) Model** (2020, revised September
+> 2024); and CSRA, *Energy-Based Risk Assessment* (2026). Verify-pointers, summarised, not
+> reproduced. **Not legal advice.**
 
 ## The problem it solves
 
@@ -42,6 +43,14 @@ HECA  =  ───────────────────────�
 
 The score is **the percentage of life-threatening hazards that are properly controlled**. It is
 computed per crew, per task, at a point in time.
+
+**The evidence.** Bayona et al. (2026, Journal of Safety Research 98) found that higher HECA scores
+went with lower SIF rates over extended periods. Over shorter periods, better pre-job safety briefs
+went with better HECA scores.
+
+**The yes/no is deliberate.** HECA gives no partial credit, and that keeps observers consistent.
+When you need to tell an alternative control system from a lone sign, or to assess work before it
+starts, add Risk Remaining and EBRA (`rr-ebra.md`). Use them alongside HECA, never instead of it.
 
 **If no high-energy hazards were observed, do not compute a score.** Recording it as zero is the
 most common corruption of the metric — an absence of high energy is not a failure, and a zero will

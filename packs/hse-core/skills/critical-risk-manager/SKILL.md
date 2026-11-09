@@ -62,7 +62,9 @@ Load `references/bowtie-methodology.md` for the full method. In brief:
    *verified*? Load `references/control-assurance.md`.
 10. **Score residual risk** — using the matrix in `references/critical-risk-definitions.md`.
     For deterministic, repeatable scoring run `scripts/risk_matrix_scorer.py` rather than scoring
-    by eye.
+    by eye. For a high-energy hazard with no feasible direct control, also give its Risk
+    Remaining rating (`../energy-based-safety-specialist/references/rr-ebra.md`). A 5×5 score
+    cannot tell an alternative control system from a lone sign.
 
 Apply the **hierarchy of controls** throughout and challenge administrative/PPE-only lines — a
 critical risk carried only by "be careful" and a hi-vis vest is a red flag. Sweep the **6M
