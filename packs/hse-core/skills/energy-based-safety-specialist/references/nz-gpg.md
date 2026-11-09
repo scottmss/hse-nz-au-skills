@@ -9,7 +9,7 @@ what legal weight it does and does not carry**.
 > the current edition before relying on it. Deep statutory duty detail lives in
 > `worksafe-nz-specialist` (NZ) and `safework-au-specialist` (AU).
 >
-> **Sources last verified: 2026-09-03.**
+> **Sources last verified: 2026-09-03** (CHASNZ material); **2026-11-09** (CSRA 2026 research).
 
 ## The NZ frame — good practice, not law
 
@@ -65,13 +65,23 @@ Alliance**, University of Colorado):
 - **Erkal, E. D. O., & Hallowell, M. (2023).** *Moving Beyond TRIR — Measuring & Monitoring Safety
   Performance With High-Energy Control Assessments.* Professional Safety, 68(05), 26–35. CHASNZ
   hosts a copy at https://cms.chasnz.org/wp-content/uploads/2024/07/PSJ-Energy-Wheel.pdf
-- **EEI Safety Classification and Learning (SCL) Model** (2020) and **High-Energy Control
-  Assessments (HECA)** — the North American utility-sector implementation, source of the
-  high-energy icons and the HECA rulebook. https://www.eei.org
+- **EEI Safety Classification and Learning (SCL) Model** (2020, revised September 2024) and
+  **High-Energy Control Assessments (HECA)** — the North American utility-sector implementation,
+  source of the high-energy icons and the HECA rulebook. https://www.eei.org
+- **CSRA, *Energy-Based Risk Assessment (EBRA)* report (2026)** and the **Risk Reduction Model**
+  v1.5. These add Risk Remaining values for each control configuration and the EBRA index (risk
+  remaining × exposure time × workers exposed), all built on HECA.
+  https://www.csra.colorado.edu/projects/energy-based-risk-assessment/ (see `rr-ebra.md`)
+- **Raheemy, Y., Sherratt, F., & Hallowell, M. R. (2026).** *What makes a safety control "enough"
+  for high-energy hazards?* Journal of Safety Research, 98, 376–389. This paper sets the rules for
+  acceptable alternative controls.
 
 **Caveat on the research base.** The underlying injury study did not cover every energy source, and
 the guide extends the thresholds to all physical hazards by assumption. CHASNZ notes that research
-on **alternate controls** was still in progress when v2.0 was published. Treat the framework as
+on **alternate controls** was still in progress when v2.0 was published. That research has since
+been published (Raheemy et al. 2026) and built into CSRA's Risk Remaining model. CHASNZ's v2.0
+predates both, so check whether a later edition adopts them. Its Risk Remaining values are
+expert consensus from a 21-person Delphi panel, not measured injury rates. Treat the framework as
 strong and well-evidenced on the gravity/motion side and more assumption-driven at the edges.
 
 ## Why NZ construction adopted it
@@ -125,7 +135,13 @@ the construction-project regime, `construction-specialist`.
 - **S.T.C.K.Y** ("stuff that can kill you") in the CHASNZ guide appears as **STKY** ("stuff that
   kills you") in the EEI material. Same concept.
 - **"Alternate controls"** (CHASNZ) vs **"indirect"** or **"other controls"** in some corporate
-  adaptations. Same concept — but check the local definition has not been quietly widened.
+  adaptations. Same concept, but check the local definition has not been quietly widened.
+- **"Alternate controls"** (CHASNZ) vs **"Alternative Controls"** (CSRA 2026). These are **not** the
+  same set. CHASNZ's term covers anything that isn't a direct control. CSRA's covers only physical
+  obstacles, dedicated monitoring and visual reminders, under defined rules. This skill keeps
+  CHASNZ's broad term and calls CSRA's three **qualifying alternate controls**.
 - **"Direct control"** is the term most at risk of local dilution. If an organisation's register
-  counts harnesses, spotters or permits as direct controls, it has adopted the vocabulary without
-  the method, and its HECA-equivalent score means nothing. See `heca-scl.md` on definition drift.
+  counts spotters, permits or taped exclusion zones as direct controls, it has adopted the
+  vocabulary without the method, and its HECA-equivalent score means nothing. A fall-arrest system
+  is the case to check: CSRA rates it a mitigating direct control only when it is properly designed
+  and the worker is verified as connected. See `heca-scl.md` on definition drift.

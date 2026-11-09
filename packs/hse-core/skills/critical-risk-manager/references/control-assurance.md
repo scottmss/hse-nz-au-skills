@@ -34,7 +34,10 @@ Rank each critical control by how much it depends on human behaviour in the mome
 
 A critical risk whose only critical control is **weak or weakest** is a defensibility and safety
 problem — recommend a stronger control where reasonably practicable, or strong escalation-factor
-controls and verification around the weak one.
+controls and verification around the weak one. For high-energy hazards, CSRA's Risk Remaining
+ladder grades these weaker lines more finely. It sets out when a physical obstacle and dedicated
+monitoring together count as a system, and what a lone sign is worth. See
+`../../energy-based-safety-specialist/references/rr-ebra.md`.
 
 ## Verification — turning controls into evidence
 
